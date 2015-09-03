@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>gridhtml</name>
+	<displayName><![CDATA[Visualitzaci&oacute; simple taula HTML]]></displayName>
+	<version><![CDATA[1.2.2]]></version>
+	<description><![CDATA[Permet que el sistema d&#039;estad&iacute;stiques mostri les dades en una quadr&iacute;cula.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

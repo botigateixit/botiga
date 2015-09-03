@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>trackingfront</name>
+	<displayName><![CDATA[Seguiment - Tauler del web p&uacute;blic]]></displayName>
+	<version><![CDATA[1.8.3]]></version>
+	<description><![CDATA[Permeteu als vostres afiliats accedir a les seves estad&iacute;stiques. Veieu Estad&iacute;stiques/Refer&egrave;ncies.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

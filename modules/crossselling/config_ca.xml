@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>crossselling</name>
+	<displayName><![CDATA[Venda creuada]]></displayName>
+	<version><![CDATA[1.1.0]]></version>
+	<description><![CDATA[Afegeix una secci&oacute; a la p&agrave;gina del producte en la qual diu &quot;Clients que han comprat aquest producte tamb&eacute; han adquirit...&quot;.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

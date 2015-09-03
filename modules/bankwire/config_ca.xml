@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bankwire</name>
+	<displayName><![CDATA[Transfer&egrave;ncia banc&agrave;ria]]></displayName>
+	<version><![CDATA[1.1.0]]></version>
+	<description><![CDATA[Acceptar pagaments pels vostres productes mitjan&ccedil;ant transfer&egrave;ncia banc&agrave;ria.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[N'esteu segurs que voleu esborrar aquestes dades?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
