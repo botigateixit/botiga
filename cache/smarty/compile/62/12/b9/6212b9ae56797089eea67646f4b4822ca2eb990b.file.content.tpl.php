@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-09-03 18:53:38
+<?php /* Smarty version Smarty-3.1.19, created on 2015-09-10 18:59:00
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/login/content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:41906259955e87b12bfb433-00535705%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:44714087655f1b6d4ad49b9-81885802%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6212b9ae56797089eea67646f4b4822ca2eb990b' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/login/content.tpl',
-      1 => 1441298341,
+      1 => 1441303312,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '41906259955e87b12bfb433-00535705',
+  'nocache_hash' => '44714087655f1b6d4ad49b9-81885802',
   'function' => 
   array (
   ),
@@ -34,9 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55e87b12c762f9_58929448',
+  'unifunc' => 'content_55f1b6d4be6c06_40407706',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55e87b12c762f9_58929448')) {function content_55e87b12c762f9_58929448($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_55f1b6d4be6c06_40407706')) {function content_55f1b6d4be6c06_40407706($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.date_format.php';
 ?>
 <div id="login-panel">
 	<div id="login-header">

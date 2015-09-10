@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-09-03 16:41:20
+<?php /* Smarty version Smarty-3.1.19, created on 2015-09-10 18:54:43
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/authentication.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:183493562955e87830e1e734-24617051%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12235115755f1b5d37fb3a2-76344207%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '111366a469b4572dab97dbc844bf44c825c783ad' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/authentication.tpl',
-      1 => 1441298341,
+      1 => 1441904031,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '183493562955e87830e1e734-24617051',
+  'nocache_hash' => '12235115755f1b5d37fb3a2-76344207',
   'function' => 
   array (
   ),
@@ -60,9 +60,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55e87831b4ebf1_30270377',
+  'unifunc' => 'content_55f1b5d3e57278_16981245',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55e87831b4ebf1_30270377')) {function content_55e87831b4ebf1_30270377($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_55f1b5d3e57278_16981245')) {function content_55f1b5d3e57278_16981245($_smarty_tpl) {?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?>
 	<?php if (!isset($_smarty_tpl->tpl_vars['email_create']->value)) {?><?php echo smartyTranslate(array('s'=>'Authentication'),$_smarty_tpl);?>
 <?php } else { ?>
@@ -94,7 +94,7 @@ if (!empty($_capture_buffer)) {
 	<!--<?php if (isset($_smarty_tpl->tpl_vars['authentification_error']->value)) {?>
 	<div class="alert alert-danger">
 		<?php ob_start();?><?php echo count($_smarty_tpl->tpl_vars['authentification_error']->value);?>
-<?php $_tmp3=ob_get_clean();?><?php if ($_tmp3==1) {?>
+<?php $_tmp7=ob_get_clean();?><?php if ($_tmp7==1) {?>
 			<p><?php echo smartyTranslate(array('s'=>'There\'s at least one error'),$_smarty_tpl);?>
  :</p>
 			<?php } else { ?>
@@ -114,37 +114,6 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 	</div>
 	<?php }?>-->
 	<div class="row">
-		<div class="col-xs-12 col-sm-6">
-			<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('authentication',true), ENT_QUOTES, 'UTF-8', true);?>
-" method="post" id="create-account_form" class="box">
-				<h3 class="page-subheading"><?php echo smartyTranslate(array('s'=>'Create an account'),$_smarty_tpl);?>
-</h3>
-				<div class="form_content clearfix">
-					<p><?php echo smartyTranslate(array('s'=>'Please enter your email address to create an account.'),$_smarty_tpl);?>
-</p>
-					<div class="alert alert-danger" id="create_account_error" style="display:none"></div>
-					<div class="form-group">
-						<label for="email_create"><?php echo smartyTranslate(array('s'=>'Email address'),$_smarty_tpl);?>
-</label>
-						<input type="email" class="is_required validate account_input form-control" data-validate="isEmail" id="email_create" name="email_create" value="<?php if (isset($_POST['email_create'])) {?><?php echo stripslashes($_POST['email_create']);?>
-<?php }?>" />
-					</div>
-					<div class="submit">
-						<?php if (isset($_smarty_tpl->tpl_vars['back']->value)) {?><input type="hidden" class="hidden" name="back" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['back']->value, ENT_QUOTES, 'UTF-8', true);?>
-" /><?php }?>
-						<button class="btn btn-default button button-medium exclusive" type="submit" id="SubmitCreate" name="SubmitCreate">
-							<span>
-								<i class="icon-user left"></i>
-								<?php echo smartyTranslate(array('s'=>'Create an account'),$_smarty_tpl);?>
-
-							</span>
-						</button>
-						<input type="hidden" class="hidden" name="SubmitCreate" value="<?php echo smartyTranslate(array('s'=>'Create an account'),$_smarty_tpl);?>
-" />
-					</div>
-				</div>
-			</form>
-		</div>
 		<div class="col-xs-12 col-sm-6">
 			<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('authentication',true), ENT_QUOTES, 'UTF-8', true);?>
 " method="post" id="login_form" class="box">
@@ -612,7 +581,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 	<!--<?php if (isset($_smarty_tpl->tpl_vars['account_error']->value)) {?>
 	<div class="error">
 		<?php ob_start();?><?php echo count($_smarty_tpl->tpl_vars['account_error']->value);?>
-<?php $_tmp4=ob_get_clean();?><?php if ($_tmp4==1) {?>
+<?php $_tmp8=ob_get_clean();?><?php if ($_tmp8==1) {?>
 			<p><?php echo smartyTranslate(array('s'=>'There\'s at least one error'),$_smarty_tpl);?>
  :</p>
 			<?php } else { ?>
