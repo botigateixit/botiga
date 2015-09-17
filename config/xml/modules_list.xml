@@ -158,7 +158,6 @@
 		<module name="mobfirst"/>
 		<module name="mondialrelay"/>
 		<module name="moneybookers"/>
-		<module name="netreviews"/>
 		<module name="nostotagging"/>
 		<module name="nimblepayment"/>
 		<module name="ogone"/>
