@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-09-11 00:22:44
+<?php /* Smarty version Smarty-3.1.19, created on 2015-09-17 23:01:42
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/dashproducts/views/templates/hook/dashboard_zone_two.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:29381931455f202b4b8e531-19427483%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8f69a10fe2db4b99d6e2b6d417669a47c839d0e7' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/dashproducts/views/templates/hook/dashboard_zone_two.tpl',
-      1 => 1441907075,
+      1 => 1442509895,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_55f202b4c61755_77451474',
   'variables' => 
   array (
     'allow_push' => 0,
@@ -26,8 +28,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'DASHPRODUCT_NBR_SHOW_TOP_SEARCH' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55f202b4c61755_77451474',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_55f202b4c61755_77451474')) {function content_55f202b4c61755_77451474($_smarty_tpl) {?>
 
