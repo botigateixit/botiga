@@ -1,9 +1,15 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-10-01 00:25:29
-         compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/form/form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:53648564155f1b64ba6a792-88082098%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.19, created on 2015-10-13 18:06:26
+         compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/cronjobs/views/templates/admin/_configure/helpers/form/form.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1357761190561d2c026fb812-17155669%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
+    '87df5b246fa0942ff57b92fd67f39bb97644107c' => 
+    array (
+      0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/cronjobs/views/templates/admin/_configure/helpers/form/form.tpl',
+      1 => 1443048659,
+      2 => 'file',
+    ),
     'bce125f339e541ba102943331102350ff30f2ba6' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/form/form.tpl',
@@ -17,12 +23,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '53648564155f1b64ba6a792-88082098',
+  'nocache_hash' => '1357761190561d2c026fb812-17155669',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55f1b64c78ef15_79990427',
   'variables' => 
   array (
     'fields' => 0,
@@ -74,8 +78,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'use_textarea_autosize' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_561d2c03bfeec7_01871667',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55f1b64c78ef15_79990427')) {function content_55f1b64c78ef15_79990427($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_561d2c03bfeec7_01871667')) {function content_561d2c03bfeec7_01871667($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/function.counter.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['fields']->value['title'])) {?><h3><?php echo $_smarty_tpl->tpl_vars['fields']->value['title'];?>
 </h3><?php }?>
@@ -88,6 +94,59 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </script>
 <?php }?>
 
+
+	<?php if ((isset($_smarty_tpl->tpl_vars['form_errors']->value))&&(count($_smarty_tpl->tpl_vars['form_errors']->value)>0)) {?>
+		<div class="alert alert-danger">
+			<h4><?php echo smartyTranslate(array('s'=>'Error!','mod'=>'cronjobs'),$_smarty_tpl);?>
+</h4>
+			<ul class="list-unstyled">
+			<?php  $_smarty_tpl->tpl_vars['message'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['message']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['form_errors']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['message']->key => $_smarty_tpl->tpl_vars['message']->value) {
+$_smarty_tpl->tpl_vars['message']->_loop = true;
+?>
+				<li><?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['message']->value, ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
+</li>
+			<?php } ?>
+			</ul>
+		</div>
+	<?php }?>
+
+	<?php if ((isset($_smarty_tpl->tpl_vars['form_infos']->value))&&(count($_smarty_tpl->tpl_vars['form_infos']->value)>0)) {?>
+		<div class="alert alert-warning">
+			<h4><?php echo smartyTranslate(array('s'=>'Warning!','mod'=>'cronjobs'),$_smarty_tpl);?>
+</h4>
+			<ul class="list-unstyled">
+			<?php  $_smarty_tpl->tpl_vars['message'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['message']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['form_infos']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['message']->key => $_smarty_tpl->tpl_vars['message']->value) {
+$_smarty_tpl->tpl_vars['message']->_loop = true;
+?>
+				<li><?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['message']->value, ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
+</li>
+			<?php } ?>
+			</ul>
+		</div>
+	<?php }?>
+
+	<?php if ((isset($_smarty_tpl->tpl_vars['form_successes']->value))&&(count($_smarty_tpl->tpl_vars['form_successes']->value)>0)) {?>
+		<div class="alert alert-success">
+			<h4><?php echo smartyTranslate(array('s'=>'Success!','mod'=>'cronjobs'),$_smarty_tpl);?>
+</h4>
+			<ul class="list-unstyled">
+			<?php  $_smarty_tpl->tpl_vars['message'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['message']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['form_successes']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['message']->key => $_smarty_tpl->tpl_vars['message']->value) {
+$_smarty_tpl->tpl_vars['message']->_loop = true;
+?>
+				<li><?php echo mb_convert_encoding(htmlspecialchars($_smarty_tpl->tpl_vars['message']->value, ENT_QUOTES, 'UTF-8', true), "HTML-ENTITIES", 'UTF-8');?>
+</li>
+			<?php } ?>
+			</ul>
+		</div>
+	<?php }?>
+
+	
 <?php if (isset($_smarty_tpl->tpl_vars['identifier_bk']->value)&&$_smarty_tpl->tpl_vars['identifier_bk']->value==$_smarty_tpl->tpl_vars['identifier']->value) {?><?php $_smarty_tpl->_capture_stack[0][] = array('identifier_count', null, null); ob_start(); ?><?php echo smarty_function_counter(array('name'=>'identifier_count'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {
@@ -1126,8 +1185,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 									<?php $_smarty_tpl->tpl_vars['groups'] = new Smarty_variable($_smarty_tpl->tpl_vars['input']->value['values'], null, 0);?>
 									<?php /*  Call merged included template "helpers/form/form_group.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '53648564155f1b64ba6a792-88082098');
-content_560c615a7a86d7_81636449($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '1357761190561d2c026fb812-17155669');
+content_561d2c036e31c1_28983871($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "helpers/form/form_group.tpl" */?>
 								<?php } elseif ($_smarty_tpl->tpl_vars['input']->value['type']=='shop') {?>
@@ -1385,6 +1444,7 @@ $_smarty_tpl->tpl_vars['btn']->_loop = true;
 
 
 
+
 <?php if (isset($_smarty_tpl->tpl_vars['tinymce']->value)&&$_smarty_tpl->tpl_vars['tinymce']->value) {?>
 <script type="text/javascript">
 	var iso = '<?php echo addslashes($_smarty_tpl->tpl_vars['iso']->value);?>
@@ -1504,9 +1564,9 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2015-10-01 00:25:30
+<?php /* Smarty version Smarty-3.1.19, created on 2015-10-13 18:06:27
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/form/form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_560c615a7a86d7_81636449')) {function content_560c615a7a86d7_81636449($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_561d2c036e31c1_28983871')) {function content_561d2c036e31c1_28983871($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">

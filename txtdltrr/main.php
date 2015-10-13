@@ -26,20 +26,23 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = "joss.prova@gmail.com";
-$mail->Password = "txtdltrr";
+$mail->Username = "botigateixit@gmail.com";
+$mail->Password = "btgtxt15";
 
 //Fixem el correu com a Text, no HTML
 $mail->ContentType = 'text/plain'; 
 $mail->IsHTML(false);
 
 //Set who the message is to be sent from
-$mail->setFrom('joss.prova@gmail.com', 'Teixit de la Terra - Quartera');
+$mail->setFrom('botigateixit@gmail.com', 'Botiga Teixit de la Terra - Quartera');
 //Set an alternative reply-to address
 //$mail->addReplyTo('replyto@example.com', 'First Last');
 
 //Set who the message is to be sent to
 $mail->addAddress($Desti);
+
+// *************************** CAL RESOLDRE EL TEMA DE MULTIPLES DESTINATARIS amb comes ******************************************
+
 //fixem el cos del missatge que s'ha passat coma parametre
 $cos = file_get_contents($fitxcos);
 
@@ -125,7 +128,7 @@ echo $avui."\r\n";
 echo $avui_7."\r\n";
 
 // Definició del fitxer de log
-$log = "./comandes/main.log";
+$log = "../gestio/main.log";
 
 // Inicialitzem el log
 $dadeslog = "Dia execucio Tractament comandes: ".$avui.PHP_EOL.PHP_EOL;
@@ -133,8 +136,8 @@ file_put_contents ($log, $dadeslog);
 
 // Dades de la BBDD
 $servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
-$username = "adminm7XV1aT";
-$password = "Xf1zVBZCd4ug";
+$username = "adminlPiL16V";
+$password = "Rq5fIkhRr-_6";
 $dbname = "botiga";
 
 // Create connection

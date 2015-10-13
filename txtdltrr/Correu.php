@@ -37,13 +37,13 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "joss.prova@gmail.com";
+$mail->Username = "botigateixit@gmail.com";
 
 //Password to use for SMTP authentication
-$mail->Password = "txtdltrr";
+$mail->Password = "btgtxt15";
 
 //Set who the message is to be sent from
-$mail->setFrom('joss.prova@gmail.com', 'Jordi Sastre');
+$mail->setFrom('botigateixit@gmail.com', 'Botiga Teixit de la Terra');
 
 //Set an alternative reply-to address
 //$mail->addReplyTo('replyto@example.com', 'First Last');
