@@ -136,8 +136,8 @@ file_put_contents ($log, $dadeslog);
 
 // Dades de la BBDD
 $servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
-$username = "adminlPiL16V";
-$password = "Rq5fIkhRr-_6";
+$username = "webbotiga";
+$password = "wbbtg15";
 $dbname = "botiga";
 
 // Create connection
