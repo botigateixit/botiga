@@ -139,9 +139,10 @@ $servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
 $username = "webbotiga";
 $password = "wbbtg15";
 $dbname = "botiga";
+$dbport = getenv('OPENSHIFT_MYSQL_DB_PORT');
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname, $dbport);
 // Check connection
 if ($conn->connect_error) {
     $dadeslog = "Error connexio BBDD !!!";
@@ -221,7 +222,7 @@ if ($rprov->num_rows > 0) {
         	$dadeslog= "Productes: ".$rproductes->num_rows.PHP_EOL;
         	file_put_contents ($log, $dadeslog, FILE_APPEND);
 	// Gravem les daddes de la comanda en el fitxer destinat a aquest proveidor
-		$fprov = "./comandes/".date("Y")."/".date("Ymd").$provrow["name"];
+		$fprov = "../gestio/".date("Y")."/".date("Ymd").$provrow["name"];
                 $dadeslog= sprintf ("%1$-40s%2$-10s%3$-20s\r\n","Producte","Quantitat","Proveïdor").PHP_EOL.sprintf ("%'=70s\r\n","=");
                 file_put_contents ($fprov, $dadeslog);
     	    while($prodrow = $rproductes->fetch_assoc()) {
@@ -251,7 +252,7 @@ if ($rprov->num_rows > 0) {
 	        $rprebre = $conn->query($sql);
 
         	// Gravem les daddes de la comanda en el fitxer destinat al grup de rebre
-                $fprovrebre = "./comandes/".date("Y")."/".date("Ymd")."_Rebre_".$provrow["name"];
+                $fprovrebre = "../gestio/".date("Y")."/".date("Ymd")."_Rebre_".$provrow["name"];
                 $dadeslog= sprintf ("%1$-40s\t%2$-10s\t%3$-5s\t%4$-40s\t%5$-20s\r\n","Producte","Quantitat","Num.","Client","Proveïdor").PHP_EOL.sprintf ("%'=130s\r\n","=");
                 file_put_contents ($fprovrebre, $dadeslog);
             while($prowrebre = $rprebre->fetch_assoc()) {
