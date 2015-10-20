@@ -1,5 +1,8 @@
 <?php
 require './PHPMailer/PHPMailerAutoload.php';
+require('../config/config.inc.php');
+require_once '../classes/order/Order.php';
+require_once '../classes/order/OrderHistory.php';
 
 // ************************************************************* FUNCIONS ***************************************************
 
@@ -244,7 +247,7 @@ if ($rprov->num_rows > 0) {
         	LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
         	LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
         	LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
-		LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
+			LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
         	WHERE ((p.`current_state`< 4) OR ((p.`current_state`< 14) AND (p.`current_state`> 8)))
         	AND p.date_add >= '$avui_7' AND p.date_add <= '$avui' AND (pps.`id_supplier`= $provrow[id_supplier])
         	ORDER BY pc.`note`,pd.`product_name`;";
@@ -281,6 +284,36 @@ if ($rprov->num_rows > 0) {
     file_put_contents ($log, $dadeslog, FILE_APPEND);
     $conn->close();
     exit;
+}
+
+// Recuperem les comandes que hem tractat i que canviarem a estatus 14 
+$sql = "SELECT p.id_order, p.reference, p.current_state, p.date_add
+FROM ps_orders p
+WHERE ((p.current_state< 4) OR ((p.current_state< 14) AND (p.current_state> 8)))
+AND p.date_add >= '$avui_7' AND p.date_add <= '$avui'";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // Iniciem procés de tancament de comandes
+    $dadeslog= "Tancament de comandes".PHP_EOL;
+	file_put_contents ($log, $dadeslog, FILE_APPEND);
+    while($row = $result->fetch_assoc()) {
+		$objOrder = new Order($row["id_order"]); // Seleccionem comanda a tancar
+		$history = new OrderHistory();
+		$history->id_order = (int)$objOrder->id;
+		$history->id_order_state = (int)(14);
+		$history->changeIdOrderState((int)14, (int)($objOrder->id)); //order status=14 que es per pagament contrareembolsament
+		$history->addWithemail(true);
+        $dadeslog= "Comanda numero: ".$row["id_order"]." tancada".PHP_EOL;
+		file_put_contents ($log, $dadeslog, FILE_APPEND);	
+    }
+} else {
+// sino hi ha comandes tanquem la connexio i acabem
+    $dadeslog = "No hi ha comandes a tractar: 0 results".PHP_EOL;
+    file_put_contents ($log, $dadeslog, FILE_APPEND);
+    $conn->close();
+    exit;	
 }
 
 $conn->close();
