@@ -224,19 +224,23 @@ if ($rprov->num_rows > 0) {
     	// Gravem nombre de linies, productes
         	$dadeslog= "Productes: ".$rproductes->num_rows.PHP_EOL;
         	file_put_contents ($log, $dadeslog, FILE_APPEND);
-	// Gravem les daddes de la comanda en el fitxer destinat a aquest proveidor
-		$fprov = "../gestio/".date("Y")."/".date("Ymd").$provrow["name"];
-                $dadeslog= sprintf ("%1$-40s%2$-10s%3$-20s\r\n","Producte","Quantitat","Proveïdor").PHP_EOL.sprintf ("%'=70s\r\n","=");
-                file_put_contents ($fprov, $dadeslog);
-    	    while($prodrow = $rproductes->fetch_assoc()) {
-	        $dadeslog= sprintf ("%1$-40s%2$-10s%3$-20s\r\n",$prodrow["Producte"],$prodrow["Quantitat"],$prodrow["Proveidor"]);
-        	file_put_contents ($fprov, $dadeslog, FILE_APPEND);
+	// Gravem les daddes de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
+			$fprov = "../gestio/".date("Y")."/".date("Ymd").$provrow["name"].".html";
+			$dadeslog= file_get_contents("./plantilles/m_prov.htm_");
+			$dadeslog.= "<p>Local: La Quartera<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
+			$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Quantitat</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
+            while($prodrow = $rproductes->fetch_assoc()) {
+				$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
     		}
+    // Tanquem el fitxer html i gravem
+			$dadeslog.= "</table>".PHP_EOL."</body>".PHP_EOL."</html>".PHP_EOL;
+        	file_put_contents ($fprov, $dadeslog);
+
 	// Enviem la comanda al proveidor
 		echo "Enviem correu electronic\r\n";
 		echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
 		$Destinatari = AdreProv ($provrow["id_supplier"]);
-		$res = EnviaCorreu ("P",$fprov,$Destinatari,$provrow["name"]);
+	//	$res = EnviaCorreu ("P",$fprov,$Destinatari,$provrow["name"]);  ************ Comentat amb proves de missatges HTML  ***************+
 		if ($res != 0) { echo $res;
 		} else { echo "Correu enviat correctament \r\n";
 		}
