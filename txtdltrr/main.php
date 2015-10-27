@@ -254,7 +254,7 @@ if ($rprov->num_rows > 0) {
                 echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
                 $Destinatari = AdreProv ($provrow["id_supplier"]);
            		$Subject = "Comanda proveidor: ".$provrow["name"]." ".$avui;
-				$res = EnviaCorreu ($fprov,$Destinatari,$Subject);
+				$res = EnviaCorreu ($fprovrebre,$Destinatari,$Subject);
                 if ($res != 0) { echo $res;
                 } else { echo "Correu enviat correctament \r\n";
 		}
