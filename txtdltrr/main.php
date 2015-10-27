@@ -7,13 +7,11 @@ require_once '../classes/order/OrderHistory.php';
 // ************************************************************* FUNCIONS ***************************************************
 
 //Funcio que envia el correu tant per Rebre com per proveidor:
-//ProvReb= R (Rebre), P (Proveidor), fitxcos=fitxer que té el cos del missatge, Desti=adreca/es correu desti
-//NomProv=Nom del proveidor
-function EnviaCorreu ($ProvReb, $fitxcos, $Desti, $NomProv) {
-echo $ProvReb."\r\n";
+//fitxcos=fitxer que té el cos del missatge, Desti=adreca/es correu desti, Subject=Assumpte del missatge
+function EnviaCorreu ($fitxcos, $Desti, $Subject) {
 echo $fitxcos."\r\n";
 echo $Desti."\r\n";
-echo $NomProv."\r\n";
+echo $Subject."\r\n";
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
@@ -32,9 +30,8 @@ $mail->SMTPAuth = true;
 $mail->Username = "botigateixit@gmail.com";
 $mail->Password = "btgtxt15";
 
-//Fixem el correu com a Text, no HTML
-$mail->ContentType = 'text/plain'; 
-$mail->IsHTML(false);
+//Fixem el correu com a HTML
+$mail->IsHTML(true);
 
 //Set who the message is to be sent from
 $mail->setFrom('botigateixit@gmail.com', 'Botiga Teixit de la Terra - Quartera');
@@ -46,37 +43,16 @@ $mail->addAddress($Desti);
 
 // *************************** CAL RESOLDRE EL TEMA DE MULTIPLES DESTINATARIS amb comes ******************************************
 
-//fixem el cos del missatge que s'ha passat coma parametre
-$cos = file_get_contents($fitxcos);
-
 //Calculem la setmana en format dia del dilluns de la setmana, en catala
 setlocale(LC_ALL, 'ca_CA');
 $setmana = strftime ("%e %B");
 
-switch ($ProvReb) {
-        case "P":
-		//Set the subject line
-		$mail->Subject = 'Setmana del '.$setmana.' Comanda de '.$NomProv.' Teixit de la Terra (La Quartera)';
-		$inici = "Hola,\r\n\r\nUs fem arribar la comanda per al Teixit de la Terra:\r\n\r\n";
-		$precos = $inici."Local: La Quartera\r\nProveidor: ".$NomProv."\r\nSetmana: ".$setmana."\r\r\r\n";
-		$cosfinal = $precos.$cos."\r\n\r\nUs agrairíem confirmació de recepció de la comanda.\r\n\r\nGràcies.\r\n";
-		$mail->Body = $cosfinal;
-		break;
-	case "R":
-                //Set the subject line
-                $mail->Subject = "Rebre - Comanda setmana del: ".$setmana." ".$NomProv;
-                $inici = "Hola,\r\n\r\nComanda per al Teixit de la Terra:\r\n\r\n";
-                $precos = $inici."Local: La Quartera\r\nProveidor: ".$NomProv."\r\nSetmana: ".$setmana."\r\rn\r\n";
-                $cosfinal = $precos.$cos."\r\n\r\nSalutacions\r\n";
-                $mail->Body = $cosfinal;
-                break;
-	default:
-		return "Tipus de missatge incorrecte no R ni P";
-}
+// Fixem el assumpte del missatge
+$mail->Subject = $Subject;
 
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
-//$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
+$mail->msgHTML(file_get_contents($fitxcos));
 
 //Replace the plain text body with one created manually
 //$mail->AltBody = 'This is a plain-text message body';
@@ -240,7 +216,8 @@ if ($rprov->num_rows > 0) {
 		echo "Enviem correu electronic\r\n";
 		echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
 		$Destinatari = AdreProv ($provrow["id_supplier"]);
-	//	$res = EnviaCorreu ("P",$fprov,$Destinatari,$provrow["name"]);  ************ Comentat amb proves de missatges HTML  ***************+
+		$Subject = "Teixit de la terra, La Quartera, comanda: ".$provrow["name"]." ".$avui;
+		$res = EnviaCorreu ($fprov,$Destinatari,$Subject);
 		if ($res != 0) { echo $res;
 		} else { echo "Correu enviat correctament \r\n";
 		}
@@ -276,7 +253,8 @@ if ($rprov->num_rows > 0) {
                 echo "Enviem correu electronic grup rebre\r\n";
                 echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
                 $Destinatari = AdreProv ($provrow["id_supplier"]);
-//              $res = EnviaCorreu ("R",$fprovrebre,$correusrebre,$provrow["name"]); ******************** Pendent enviament en HTML  ************
+           		$Subject = "Comanda proveidor: ".$provrow["name"]." ".$avui;
+				$res = EnviaCorreu ($fprov,$Destinatari,$Subject);
                 if ($res != 0) { echo $res;
                 } else { echo "Correu enviat correctament \r\n";
 		}
