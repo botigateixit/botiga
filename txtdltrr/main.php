@@ -224,16 +224,16 @@ if ($rprov->num_rows > 0) {
     	// Gravem nombre de linies, productes
         	$dadeslog= "Productes: ".$rproductes->num_rows.PHP_EOL;
         	file_put_contents ($log, $dadeslog, FILE_APPEND);
-	// Gravem les daddes de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
+	// Gravem les dades de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
 			$fprov = "../gestio/".date("Y")."/".date("Ymd").$provrow["name"].".html";
-			$dadeslog= file_get_contents("./plantilles/m_prov.htm_");
+			$dadeslog= file_get_contents("./plantilles/mstg_prov.htm_");
 			$dadeslog.= "<p>Local: La Quartera<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
 			$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Quantitat</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
             while($prodrow = $rproductes->fetch_assoc()) {
 				$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
     		}
-    // Tanquem el fitxer html i gravem
-			$dadeslog.= "</table>".PHP_EOL."</body>".PHP_EOL."</html>".PHP_EOL;
+    // Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
+			$dadeslog.= file_get_contents("./plantilles/fimstg_prov.htm_");
         	file_put_contents ($fprov, $dadeslog);
 
 	// Enviem la comanda al proveidor
@@ -258,20 +258,25 @@ if ($rprov->num_rows > 0) {
 
 	        $rprebre = $conn->query($sql);
 
-        	// Gravem les daddes de la comanda en el fitxer destinat al grup de rebre
-                $fprovrebre = "../gestio/".date("Y")."/".date("Ymd")."_Rebre_".$provrow["name"];
-                $dadeslog= sprintf ("%1$-40s\t%2$-10s\t%3$-5s\t%4$-40s\t%5$-20s\r\n","Producte","Quantitat","Num.","Client","Proveïdor").PHP_EOL.sprintf ("%'=130s\r\n","=");
-                file_put_contents ($fprovrebre, $dadeslog);
+        	// Gravem les dades de la comanda en el fitxer destinat al grup de rebre
+                $fprovrebre = "../gestio/".date("Y")."/".date("Ymd")."_Rebre_".$provrow["name"].".html";
+				$dadeslog= file_get_contents("./plantilles/mstg_rebre.htm_");
+				$dadeslog.= "<p>Local: La Quartera<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
+				$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Qtat.</th><th>Num.</th><th>Client</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
             while($prowrebre = $rprebre->fetch_assoc()) {
-                $dadeslog= sprintf ("%1$-40s\t%2$-10s\t%3$-5s\t%4$-40s\t%5$-20s\r\n",$prowrebre["Producte"],$prowrebre["Quantitat"],$prowrebre["Num"],$prowrebre["Client"],$prowrebre["Proveidor"]);
-                file_put_contents ($fprovrebre, $dadeslog, FILE_APPEND);
+				$dadeslog.= "<tr><td>".$prowrebre['Producte']."</td><td>".$prowrebre['Quantitat']."</td><td>".$prowrebre['Num']."</td><td>".$prowrebre['Client']."</td><td>".$prowrebre['Proveidor']."</td></tr>".PHP_EOL;
                 }
 
-        // Enviem la comanda al grup de rebre
+			// Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
+				$dadeslog.= file_get_contents("./plantilles/fimstg_rebre.htm_");
+				file_put_contents ($fprovrebre, $dadeslog);
+
+
+			// Enviem la comanda al grup de rebre
                 echo "Enviem correu electronic grup rebre\r\n";
                 echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
                 $Destinatari = AdreProv ($provrow["id_supplier"]);
-                $res = EnviaCorreu ("R",$fprovrebre,$correusrebre,$provrow["name"]);
+//              $res = EnviaCorreu ("R",$fprovrebre,$correusrebre,$provrow["name"]); ******************** Pendent enviament en HTML  ************
                 if ($res != 0) { echo $res;
                 } else { echo "Correu enviat correctament \r\n";
 		}
