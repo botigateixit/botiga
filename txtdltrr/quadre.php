@@ -64,7 +64,7 @@ if ($rproductes->num_rows > 0) {
 		$fprov = "../gestio/".date("Y")."/".$ara."_quadre.html";
 		$dadeslog= file_get_contents("./plantilles/doc_quadre.htm_");
 		$dadeslog.= "<p>Quadre per Prove&iuml;dor:</p>".PHP_EOL;
-		$dadeslog.= "<table>".PHP_EOL."<tr><th>Producte</th><th>Quantitat</th><th>Preu</th><th>Total</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
+		$dadeslog.= "<table>".PHP_EOL."<tr bgcolor= #f0f8ff><th>Producte</th><th>Quantitat</th><th>Preu</th><th>Total</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
         while($prodrow = $rproductes->fetch_assoc()) {
 			if ($prodrow['Producte'] == 'Total' ) {
 			// Si es un Total, pintem la fila de color blau
