@@ -68,7 +68,7 @@ if ($rproductes->num_rows > 0) {
         while($prodrow = $rproductes->fetch_assoc()) {
 			if ($prodrow['Producte'] == 'Total' ) {
 			// Si es un Total, pintem la fila de color vermell
-				$dadeslog.= "<tr> bgcolor= #FF0000 <td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Preu']."</td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
+				$dadeslog.= "<tr bgcolor= #FF0000><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Preu']."</td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
 			} else {
 				$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Preu']."</td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
 			}	
