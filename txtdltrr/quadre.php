@@ -100,7 +100,7 @@ if ($rproductes->num_rows > 0) {
        	file_put_contents ($log, $dadeslog, FILE_APPEND);
 	// Gravem les dades de la comanda en el fitxer destinat al quadre en format HTML afegint al quadre de proveidors
 		$fprov = "../gestio/".date("Y")."/".$ara."_quadre.html";
-		$dadesquadre.= "<p>Quadre per Prove&iuml;dor:</p>".PHP_EOL;
+		$dadesquadre.= "<p>Quadre per Cooperativista:</p>".PHP_EOL;
 		$dadesquadre.= "<table>".PHP_EOL."<tr bgcolor= #f0f8ff><th>Num</th><th>Client</th><th>Total</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
         while($prodrow = $rproductes->fetch_assoc()) {
 			if ($prodrow['Proveidor'] == 'Total' ) {
