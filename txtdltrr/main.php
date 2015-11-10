@@ -186,7 +186,7 @@ if ($rprov->num_rows > 0) {
     // Gravem el proveidor que tractem
         $dadeslog= "Proveidor: ".sprintf ("%1$-15s\t%2$-30s\r\n",$provrow["id_supplier"],$provrow["name"]).PHP_EOL;
         file_put_contents ($log, $dadeslog, FILE_APPEND);
-    // Fem la query dels productes del proveidor tractat per comanda al proveidor
+    // Fem la query dels productes del proveidor tractat, per comanda al proveidor
 	$sql = "SELECT pd.`product_name` AS Producte , SUM(pd.`product_quantity`) AS Quantitat , ps.`name` AS Proveidor
 	FROM ps_orders p
 	LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
@@ -224,7 +224,7 @@ if ($rprov->num_rows > 0) {
 		if ($res != 0) { echo $res;
 		} else { echo "Correu enviat correctament \r\n";
 		}
-	// Fem la query dels productes del proveidor tractat per comanda al proveidor
+	// Fem la query dels productes del proveidor tractat, per document de repartir pel grup de rebre
         	$sql = "SELECT pd.`product_name` AS Producte , pd.`product_quantity` AS Quantitat, pc.`note` AS Num,
 		CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, ps.`name` AS Proveidor
         	FROM ps_orders p

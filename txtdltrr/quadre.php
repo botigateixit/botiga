@@ -39,9 +39,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-//************************* En aquest punt cal veure quines comandes hem de tractar per fer el quadre *****************************
-// de moment utilitzem aquesta per veure com queda el document de quadre
-
 // Aquesta query es per fer el quadre per proveïdors
 $sql="SELECT IFNULL(pd.`product_name`,'Total') AS Producte , SUM(pd.`product_quantity`) AS Quantitat , cast(pd.`unit_price_tax_incl` as decimal(10,2)) AS Preu
    , cast(SUM(pd.`total_price_tax_incl`) as decimal(10,2)) AS Total, IFNULL(ps.`name`,'Total') AS Proveidor
