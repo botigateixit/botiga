@@ -10,7 +10,7 @@ if [ "$hora" -eq "00" ]; then
    rm -rf ${OPENSHIFT_PHP_LOG_DIR}gestio
    cp -r ${OPENSHIFT_REPO_DIR}gestio ${OPENSHIFT_LOG_DIR}
    date >> ${OPENSHIFT_PHP_LOG_DIR}copia_gestio.log
-   echo "Enviament de correu"  >> ${OPENSHIFT_PHP_LOG_DIR}copia_gestio.log
+   echo "Copia del directori gestio"  >> ${OPENSHIFT_PHP_LOG_DIR}copia_gestio.log
 else
    date >> ${OPENSHIFT_PHP_LOG_DIR}copia_gestio.log
 fi
