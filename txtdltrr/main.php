@@ -107,6 +107,9 @@ if ($argc == 1) {
 echo $avui."\r\n";
 echo $avui_7."\r\n";
 
+//fixem la zona horaria
+date_default_timezone_set('Europe/Madrid');
+
 // Definició del fitxer de log
 $log = "../gestio/main.log";
 // $logger = new Logger('../gestio/main1.log');
