@@ -1,6 +1,5 @@
 <?php
 require './PHPMailer/PHPMailerAutoload.php';
-// require_once './KLogger/Logger.php';
 require('../config/config.inc.php');
 require_once '../classes/order/Order.php';
 require_once '../classes/order/OrderHistory.php';
@@ -112,12 +111,10 @@ date_default_timezone_set('Europe/Madrid');
 
 // Definició del fitxer de log
 $log = "../gestio/main.log";
-// $logger = new Logger('../gestio/main1.log');
 
 // Inicialitzem el log
 $dadeslog = "Dia execucio Tractament comandes: ".$avui.PHP_EOL.PHP_EOL;
 file_put_contents ($log, $dadeslog);
-// $logger->info('Dia execucio Tractament comandes: ',$avui);
 
 // Dades de la BBDD
 $servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
