@@ -43,14 +43,13 @@ if ($conn->connect_error) {
 // de moment utilitzem aquesta per veure com queda el document de quadre
 
 // Aquesta query es per fer el quadre per proveïdors
-$sql="SELECT IFNULL(pd.`product_name`,'Total') AS Producte , SUM(pd.`product_quantity`) AS Quantitat , pd.`unit_price_tax_incl` AS Preu
-   , SUM(pd.`total_price_tax_incl`) AS Total, IFNULL(ps.`name`,'Total') AS Proveidor
+$sql="SELECT IFNULL(pd.`product_name`,'Total') AS Producte , SUM(pd.`product_quantity`) AS Quantitat , cast(pd.`unit_price_tax_incl` as decimal(10,2)) AS Preu
+   , cast(SUM(pd.`total_price_tax_incl`) as decimal(10,2)) AS Total, IFNULL(ps.`name`,'Total') AS Proveidor
    FROM ps_orders p
    LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
    LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
    LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
-   WHERE ((p.`current_state`< 4) OR ((p.`current_state`< 14) AND (p.`current_state`> 8))) AND p.date_add
-   >= '2015-09-26 00:00:00' AND p.date_add <= '2015-11-04 00:00:00'
+   WHERE (p.`current_state` = 2) OR (p.`current_state` = 14) 
    GROUP BY ps.`name`,pd.`product_name` with ROLLUP;";
    
 $rproductes = $conn->query($sql);
