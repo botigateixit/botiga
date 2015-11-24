@@ -66,8 +66,8 @@ if ($rproductes->num_rows > 0) {
 		$dadesquadre.= "<table>".PHP_EOL."<tr bgcolor= #f0f8ff><th>Producte</th><th>Quantitat</th><th>Preu</th><th>Total</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
         while($prodrow = $rproductes->fetch_assoc()) {
 			if ($prodrow['Producte'] == 'Total' ) {
-			// Si es un Total, pintem la fila de color blau
-				$dadesquadre.= "<tr bgcolor= #6495ed><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Preu']."</td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
+			// Si es un Total, pintem la fila de color blau i no printem els valors que no tenen sentit en el total
+				$dadesquadre.= "<tr bgcolor= #6495ed><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td></td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
 			} else {
 				$dadesquadre.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Preu']."</td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
 			}	
@@ -81,7 +81,7 @@ if ($rproductes->num_rows > 0) {
 }
 
 // Aquesta query es per fer el quadre per cooperativista, tenint en compte l'estat de la comanda
-$sql="SELECT pc.`note` AS Num, CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, cast(SUM(pd.`total_price_tax_incl`) as decimal(10,2)) AS Total
+$sql="SELECT IFNULL(pc.`note`,'Total') AS Num, CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, cast(SUM(pd.`total_price_tax_incl`) as decimal(10,2)) AS Total
    , IFNULL(ps.`name`,'Total') AS Proveidor
    FROM ps_orders p
    LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
@@ -89,7 +89,7 @@ $sql="SELECT pc.`note` AS Num, CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Clie
    LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
    LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
    WHERE (p.`current_state` = 2) OR (p.`current_state` = 14)
-   GROUP BY ps.`name` with ROLLUP;";
+   GROUP BY pc.`note`,ps.`name` with ROLLUP;";
    
 $rproductes = $conn->query($sql);
 
@@ -104,8 +104,8 @@ if ($rproductes->num_rows > 0) {
 		$dadesquadre.= "<table>".PHP_EOL."<tr bgcolor= #f0f8ff><th>Num</th><th>Client</th><th>Total</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
         while($prodrow = $rproductes->fetch_assoc()) {
 			if ($prodrow['Proveidor'] == 'Total' ) {
-			// Si es un Total, pintem la fila de color blau
-				$dadesquadre.= "<tr bgcolor= #6495ed><td>".$prodrow['Num']."</td><td>".$prodrow['Client']."</td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
+			// Si es un Total, pintem la fila de color blau i no printem els valors que no tenen sentit en el total
+				$dadesquadre.= "<tr bgcolor= #6495ed><td>".$prodrow['Num']."</td><td></td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
 			} else {
 				$dadesquadre.= "<tr><td>".$prodrow['Num']."</td><td>".$prodrow['Client']."</td><td>".$prodrow['Total']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
 			}	
