@@ -43,8 +43,8 @@ if ($result->num_rows > 0) {
     $dadeslog= "Tancament de comandes".PHP_EOL;
 	file_put_contents ($log, $dadeslog, FILE_APPEND);
     while($row = $result->fetch_assoc()) {
-		if ($row["current_state"] == 2) nouestat = 5; // pagament OK, comanda estatus 5 (delivered)
-		else nouestat = 8; // no pagat, comanda estatus 8 (payment error)
+		if ($row["current_state"] == 2) $nouestat = 5; // pagament OK, comanda estatus 5 (delivered)
+		else $nouestat = 8; // no pagat, comanda estatus 8 (payment error)
 		$objOrder = new Order($row["id_order"]); // Seleccionem comanda a tancar
 		$history = new OrderHistory();
 		$history->id_order = (int)$objOrder->id;
