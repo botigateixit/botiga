@@ -1,12 +1,23 @@
-Dia execucio Tractament comandes: 2015-10-20 00:00:00
+Dia execucio Tractament comandes: 2015-11-24 00:00:00
 
 Comandes que es tractaran
 id_order  	reference 	current_state  	date_add            
 
 ===================================================================
 
-2         	ADSKSAQRO 	3              	2015-10-19 23:32:30 
+7         	LEOTAPXZQ 	3              	2015-11-21 00:17:04 
+
+8         	VWKOMHELB 	3              	2015-11-24 18:58:50 
 
 Proveidor: 1              	Roca                          
 
-Productes: 4
+Productes: 3
+Proveidor: 2              	Prat-Manel                    
+
+No hi ha productes
+Proveidor: 3              	Vivo                          
+
+Productes: 8
+Tancament de comandes
+Comanda numero: 7 tancada
+Comanda numero: 8 tancada
