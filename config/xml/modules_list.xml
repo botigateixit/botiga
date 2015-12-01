@@ -109,7 +109,8 @@
 		<module name="watermark"/>
 	</modules>
 	<modules type="partner">
-		<module name="affinityitems"/>
+		<module name="alipay"/>
+		<module name="amzpayments"/>
 		<module name="authorizeaim"/>
 		<module name="avalaratax"/>
 		<module name="bluepay"/>
@@ -117,6 +118,7 @@
 		<module name="boxdropshipment"/>
 		<module name="bpostshm"/>
 		<module name="brinkscheckout"/>
+		<module name="checkyourdata"/>
 		<module name="chronopost"/>
 		<module name="convermax"/>
 		<module name="clickline"/>
@@ -151,7 +153,6 @@
 		<module name="liveperson"/>
 		<module name="loyaltylion"/>
 		<module name="mailjet"/>
-		<module name="mapubfacile"/>
 		<module name="mediafinanz"/>
 		<module name="mercadopagobr"/>
 		<module name="merchantware"/>
@@ -169,7 +170,6 @@
 		<module name="paypalmx"/>
 		<module name="payplug"/>
 		<module name="payulatam"/>
-		<module name="pigmbhpaymill"/>
 		<module name="powatag"/>
 		<module name="prestashippingeasy"/>
 		<module name="prestastats"/>
@@ -177,6 +177,7 @@
 		<module name="psphipay"/>
 		<module name="realexredirect"/>
 		<module name="reforestaction"/>
+		<module name="remarkety"/>
 		<module name="riskified"/>
 		<module name="sarbacanedesktop"/>
 		<module name="sellstrom"/>
