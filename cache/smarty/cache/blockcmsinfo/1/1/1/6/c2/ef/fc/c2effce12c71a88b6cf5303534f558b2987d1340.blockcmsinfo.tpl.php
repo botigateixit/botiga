@@ -1,0 +1,44 @@
+<?php /*%%SmartyHeaderCode:50228719355f1b68e5869b4-79722766%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'c2effce12c71a88b6cf5303534f558b2987d1340' => 
+    array (
+      0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/blockcmsinfo/blockcmsinfo.tpl',
+      1 => 1441303312,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '50228719355f1b68e5869b4-79722766',
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_565e956faf6a43_21214410',
+  'has_nocache_code' => false,
+  'cache_lifetime' => 31536000,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_565e956faf6a43_21214410')) {function content_565e956faf6a43_21214410($_smarty_tpl) {?><!-- MODULE Block cmsinfo -->
+<div id="cmsinfo_block">
+					<div class="col-xs-6"><ul><li><em class="icon-truck" id="icon-truck"></em>
+<div class="type-text">
+<h3>Transport</h3>
+<p>De moment haureu de venir a buscar-ho.</p>
+</div>
+</li>
+<li><em class="icon-phone" id="icon-phone"></em>
+<div class="type-text">
+<h3>Telèfon</h3>
+<p>En tenim.</p>
+</div>
+</li>
+<li><em class="icon-credit-card" id="icon-credit-card"></em>
+<div class="type-text">
+<h3>Pagament per targeta</h3>
+<p>Nanai, de moment en cash.</p>
+</div>
+</li>
+</ul></div>
+					<div class="col-xs-6"><h3>Per posar missatges nostres?</h3>
+<p><strong class="dark">Amb subtítols</strong></p>
+<p>No se quins hi posarem ni quant.</p></div>
+		</div>
+<!-- /MODULE Block cmsinfo -->
+<?php }} ?>
