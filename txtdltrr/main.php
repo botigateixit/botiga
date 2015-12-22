@@ -135,7 +135,7 @@ if ($conn->connect_error) {
 // Gravem en el log les comandes que tractarem
 $sql = "SELECT p.id_order, p.reference, p.current_state, p.date_add
 FROM ps_orders p
-WHERE (p.current_state=3)";
+WHERE ((p.current_state=2) OR (p.current_state=3))";
 
 $result = $conn->query($sql);
 
@@ -191,7 +191,7 @@ if ($rprov->num_rows > 0) {
 	LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
 	LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
 	LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
-	WHERE (p.current_state=3) AND (pps.`id_supplier`= $provrow[id_supplier])
+	WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier])
 	GROUP BY pd.`product_id`;";
 
         $rproductes = $conn->query($sql);
@@ -230,7 +230,7 @@ if ($rprov->num_rows > 0) {
         	LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
         	LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
 			LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
-        	WHERE (p.current_state=3) AND (pps.`id_supplier`= $provrow[id_supplier])
+        	WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier])
         	ORDER BY pc.`note`,pd.`product_name`;";
 
 	        $rprebre = $conn->query($sql);
@@ -276,7 +276,7 @@ if ($rprov->num_rows > 0) {
 // Recuperem les comandes que hem tractat i que canviarem a estatus 14 
 $sql = "SELECT p.id_order, p.reference, p.current_state, p.date_add
 FROM ps_orders p
-WHERE (p.current_state=3)";
+WHERE ((p.current_state=2) OR (p.current_state=3))";
 
 $result = $conn->query($sql);
 
