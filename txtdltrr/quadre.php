@@ -47,7 +47,7 @@ $sql="SELECT IFNULL(pd.`product_name`,'Total') AS Producte , SUM(pd.`product_qua
    , cast(SUM(pd.`total_price_tax_incl`) as decimal(10,2)) AS Total, IFNULL(ps.`name`,'Total') AS Proveidor
    FROM ps_orders p
    LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-   LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
+   LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
    LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
    WHERE (p.`current_state` = 2) OR (p.`current_state` = 14) 
    GROUP BY ps.`name`,pd.`product_name` with ROLLUP;";
@@ -85,7 +85,7 @@ $sql="SELECT IFNULL(pc.`note`,'Total') AS Num, CONCAT(pc.`lastname`,', ',pc.`fir
    , IFNULL(ps.`name`,'Total') AS Proveidor
    FROM ps_orders p
    LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-   LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
+   LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
    LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
    LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
    WHERE (p.`current_state` = 2) OR (p.`current_state` = 14)

@@ -189,7 +189,7 @@ if ($rprov->num_rows > 0) {
 	$sql = "SELECT pd.`product_name` AS Producte , SUM(pd.`product_quantity`) AS Quantitat , ps.`name` AS Proveidor
 	FROM ps_orders p
 	LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-	LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
+	LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
 	LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
 	WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier])
 	GROUP BY pd.`product_id`;";
@@ -227,7 +227,7 @@ if ($rprov->num_rows > 0) {
 		CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, ps.`name` AS Proveidor
         	FROM ps_orders p
         	LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-        	LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
+        	LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
         	LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
 			LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
         	WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier])
