@@ -182,9 +182,23 @@ $rprov = $conn->query($sql);
 
 if ($rprov->num_rows > 0) {
     while($provrow = $rprov->fetch_assoc()) {
+	// Obtenim les dades de email i tipus_email de la taula tx_supplier	
+	$sqlsupplier = "SELECT email,tipus_email FROM tx_supplier WHERE id_supplier =".$provrow['id_supplier'];
+	$resultsupplier = $conn->query($sqlsupplier);
+	if ($resultsupplier->num_rows > 0) {
+		$rowsupplier = $resultsupplier->fetch_assoc();
+		$Destinatari = $rowsupplier['email'];
+		$Tipus_email = $rowsupplier['tipus_email'];
+	} else {
+	// sino hi ha proveidor a la taula tx_supplier
+    $dadeslog = "No hi ha el proveidor: ".$provrow['id_supplier']." en la taula tx_supplier".PHP_EOL;
+    file_put_contents ($log, $dadeslog, FILE_APPEND);
+    $conn->close();
+    exit;	
+	}
     // Gravem el proveidor que tractem
-        $dadeslog= "Proveidor: ".sprintf ("%1$-15s\t%2$-30s\r\n",$provrow["id_supplier"],$provrow["name"]).PHP_EOL;
-        file_put_contents ($log, $dadeslog, FILE_APPEND);
+    $dadeslog= "Proveidor: ".sprintf ("%1$-5s\t%2$-15s\t%3s-20s\t%4s-5s\r\n",$provrow["id_supplier"],$provrow["name"],$Destinatari,$Tipus_email).PHP_EOL;
+    file_put_contents ($log, $dadeslog, FILE_APPEND);
     // Fem la query dels productes del proveidor tractat, per comanda al proveidor
 	$sql = "SELECT pd.`product_name` AS Producte , SUM(pd.`product_quantity`) AS Quantitat , ps.`name` AS Proveidor
 	FROM ps_orders p

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-12-03 01:04:20
+<?php /* Smarty version Smarty-3.1.19, created on 2015-12-30 19:03:03
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/kpi/kpi.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:139844238355f1b959560e51-50039220%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'db6486ee00b0527d569d1741c5b7da7fe468b988' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/kpi/kpi.tpl',
-      1 => 1448993191,
+      1 => 1451496754,
       2 => 'file',
     ),
   ),

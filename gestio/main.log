@@ -1,33 +1,25 @@
-Dia execucio Tractament comandes: 2015-12-03 00:00:00
+Dia execucio Tractament comandes: 2015-12-30 00:00:00
 
 Comandes que es tractaran
 id_order  	reference 	current_state  	date_add            
 
 ===================================================================
 
-9         	DYAIBMMBG 	3              	2015-11-26 09:46:55 
+18        	RHUSVJPPH 	2              	2015-12-22 18:52:35 
 
-10        	PYSFBIAGH 	3              	2015-12-01 16:06:21 
+17        	SOMGFSCOM 	3              	2015-12-22 18:51:04 
 
-11        	KWQVJNUHW 	3              	2015-12-01 16:08:15 
-
-12        	LLOTXKOPK 	3              	2015-12-01 18:51:13 
-
-13        	SUYORROQS 	3              	2015-12-02 08:47:10 
-
-14        	YGJJVHYHM 	3              	2015-12-02 11:12:05 
-
-15        	LCXXYCGVF 	3              	2015-12-03 20:29:43 
+19        	LBYMEFHZK 	3              	2015-12-22 18:52:46 
 
 Proveidor: 1              	Roca                          
 
-Productes: 3
+Productes: 2
 Proveidor: 2              	Prat-Manel                    
 
-Productes: 5
+Productes: 3
 Proveidor: 3              	Vivo                          
 
-Productes: 9
+Productes: 2
 Proveidor: 4              	Stock                         
 
 Productes: 1
@@ -36,12 +28,8 @@ Proveidor: 5              	Moli de Bonsfills
 No hi ha productes
 Proveidor: 6              	La Feixa Verda                
 
-No hi ha productes
+Productes: 3
 Tancament de comandes
-Comanda numero: 9 tancada
-Comanda numero: 10 tancada
-Comanda numero: 11 tancada
-Comanda numero: 12 tancada
-Comanda numero: 13 tancada
-Comanda numero: 14 tancada
-Comanda numero: 15 tancada
+Comanda numero: 18 tancada
+Comanda numero: 17 tancada
+Comanda numero: 19 tancada
