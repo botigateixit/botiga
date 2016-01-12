@@ -197,7 +197,7 @@ if ($rprov->num_rows > 0) {
     exit;	
 	}
     // Gravem el proveidor que tractem
-    $dadeslog= "Proveidor: ".sprintf ("%1$-5s\t%2$-15s\t%3s-20s\t%4s-5s\r\n",$provrow["id_supplier"],$provrow["name"],$Destinatari,$Tipus_email).PHP_EOL;
+    $dadeslog= "Proveidor: ".sprintf ("%1$-5s\t%2$-15s\t%3$-20s\t%4$-5s\r\n",$provrow["id_supplier"],$provrow["name"],$Destinatari,$Tipus_email).PHP_EOL;
     file_put_contents ($log, $dadeslog, FILE_APPEND);
     // Fem la query dels productes del proveidor tractat, per comanda al proveidor
 	$sql = "SELECT pd.`product_name` AS Producte , SUM(pd.`product_quantity`) AS Quantitat , ps.`name` AS Proveidor
