@@ -109,6 +109,9 @@ echo $avui_7."\r\n";
 //fixem la zona horaria
 date_default_timezone_set('Europe/Madrid');
 
+// Verifiquem existencia directori any, sino el creem
+if (!file_exists("../gestio/".date("Y")) mkdir ("../gestio/".date("Y"));
+
 // Definició del fitxer de log
 $log = "../gestio/main.log";
 

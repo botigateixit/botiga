@@ -22,7 +22,7 @@ date_default_timezone_set('Europe/Madrid');
 $log = "../gestio/quadre.log";
 
 // Inicialitzem el log
-$ara = date("Ymd_H:i:s");
+$ara = date("Ymd__H:i:s");
 $dadeslog = "Dia/Hora execucio Quadre: ".$ara.PHP_EOL;
 file_put_contents ($log, $dadeslog, FILE_APPEND);
 

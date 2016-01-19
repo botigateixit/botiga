@@ -5,6 +5,9 @@
 
     // Initialize the DirectoryLister object
     $lister = new DirectoryLister();
+    
+    //fixem la zona horaria
+	date_default_timezone_set('Europe/Madrid');
 
     // Restrict access to current directory
     ini_set('open_basedir', getcwd());

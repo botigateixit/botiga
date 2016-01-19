@@ -5,7 +5,7 @@ return array(
     // Basic settings
     'hide_dot_files'     => true,
     'list_folders_first' => true,
-    'list_sort_order'    => 'natcasesort',
+    'list_sort_order'    => 'arsort',
     'theme_name'         => 'bootstrap',
 
     // Hidden files
