@@ -110,7 +110,9 @@ echo $avui_7."\r\n";
 date_default_timezone_set('Europe/Madrid');
 
 // Verifiquem existencia directori any, sino el creem
-if (!file_exists("../gestio/".date("Y")) mkdir ("../gestio/".date("Y"));
+$dirany = "../gestio/".date("Y");
+if (!file_exists($dirany)) 
+	if (mkdir($dirany)) echo "Directori".date("Y")."creat\r\n";
 
 // Definició del fitxer de log
 $log = "../gestio/main.log";

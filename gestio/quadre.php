@@ -1,7 +1,7 @@
 <?php
 
 // Obtenim les dates de tractament dels paràmetres i sino es calculen segons la data execucio
-//echo "Nombre d'arguments".$argc."\r\n";
+// echo "Nombre d'arguments".$argc."\r\n";
 if ($argc == 1) {
 	$today  = mktime(0, 0, 0, date("m")  , date("d"), date("Y"));
 	$lastweek = mktime(0, 0, 0, date("m") , date("d")-20, date("Y"));
@@ -12,8 +12,8 @@ if ($argc == 1) {
 	$avui = $argv[2];
 	$avui_7 = $argv[1];
 	}
-//echo $avui."\r\n";
-//echo $avui_7."\r\n";
+// echo $avui."\r\n";
+// echo $avui_7."\r\n";
 
 //fixem la zona horaria
 date_default_timezone_set('Europe/Madrid');
@@ -47,9 +47,9 @@ $sql="SELECT IFNULL(pd.`product_name`,'Total') AS Producte , SUM(pd.`product_qua
    , cast(SUM(pd.`total_price_tax_incl`) as decimal(10,2)) AS Total, IFNULL(ps.`name`,'Total') AS Proveidor
    FROM ps_orders p
    LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-   LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
+   LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
    LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
-   WHERE (p.`current_state` = 2) OR (p.`current_state` = 14) 
+   WHERE (p.`current_state` = 2) OR (p.`current_state` = 14)
    GROUP BY ps.`name`,pd.`product_name` with ROLLUP;";
    
 $rproductes = $conn->query($sql);
@@ -85,7 +85,7 @@ $sql="SELECT IFNULL(pc.`note`,'Total') AS Num, CONCAT(pc.`lastname`,', ',pc.`fir
    , IFNULL(ps.`name`,'Total') AS Proveidor
    FROM ps_orders p
    LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-   LEFT JOIN ps_product_supplier pps ON (pd.`product_id`=pps.`id_product`)
+   LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
    LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
    LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
    WHERE (p.`current_state` = 2) OR (p.`current_state` = 14)
