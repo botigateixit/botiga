@@ -1,0 +1,37 @@
+Nom;"Preu amb impostos";Quantitat;Actiu;Categorias;Proveidor;"URL imatge"
+"A 1K - PA PAGÈS ecològic 1 Kg";3,15;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_pages.jpg
+"A 1/2K - PA PAGÈS ecològic 1/2 kg";2;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_pagesm.jpg
+"B 1K - PA RODÓ integral - 1 kg";3,15;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_integral.jpg
+"B 1/2K - PA RODO integral- 1/2 kg";2;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_integralm.jpg
+"C - PA espelta - 1/2 kg";3,1;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_paespelta.jpg
+"D - PA MOTLLO espelta gran";4,1;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_paespeltam.jpg
+"E - PANET espelta - 80 gr";0,7;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_panetespelta.jpg
+"F - PA MOTLLO espelta i nous gran";4,35;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_motlleespelano.jpg
+"G - PA MOTLLO espelta integral amb segol gran";4,1;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_motllesegol.jpg
+"H - PA espelta integral i segol";3,1;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_integralespesegol.jpg
+"I - PANET espelta i segol - 80 gr";0,7;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_panetespesegol.jpg
+"J - PANET espelta i nous - 80 gr";0,8;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_panetespesegol.jpg
+"K - XUSCO espelta i 6 cereals - 1/2 kg";3,2;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_xuscoespe6.jpg
+"L - PA MOTLLO integral 6 cereals - 700 gr";4,55;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_motlleintegral6.jpg
+"M - PANET espelta i 6 cereals - 80 gr";0,75;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_panetespe6.jpg
+"N - PA blat ecologic i nous gran";3,2;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_blateconous.jpg
+"O - PANET blat ecologic i nous - 80 g";0,65;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_panetblateconous.jpg
+"P - PA multicereals - 1/2 kjg";2,35;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_multicereals.jpg
+"Q - PANET multicereals - 80 g";0,75;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_panetmulticereals.jpg
+"R - PA blat integral-espinacs-panses-pinyons";3,75;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_espinacspanses.jpg
+"S - PANET blat integral-espinacs-panses-pinyons - 80 gr";0,8;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_panetespinnacspanses.jpg
+"PR.KG T - Galetes de blat eco";10;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_galeteseco.jpg
+"PR.KG U - Galetes d'espelta";14;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_galetesespel.jpg
+"PR.KG V - Magdalenes blat ecologic";8,5;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_magdaleneseco.jpg
+"PR.KG W - Magdalenes XOCO blat ecologic";9,5;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_magdalenesecoxoco.jpg
+"X - RODO St. Julià (Blat integrat del Rodal)";1,95;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_rodosantjulia.jpg
+"Y - PA St. Julià (Blat integrat del Rodal)";1,3;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_santjulia.jpg
+"Z - Magdalenes d'espelta";12,5;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_magdalenesespel.jpg
+"F1 - Farina blanca de blat eco.";1,9;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinablat.jpg
+"F2 - Farina integral de blat eco.";1,85;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinablatinteg.jpg
+"F3 - Farina integral espelta eco.";4,35;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinaespelinteg.jpg
+"F4 - Farina blanca espelta eco.";4,45;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinaespelta.jpg
+"F5 - Farina blanca sègol eco.";1,95;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinasegol.jpg
+"F6 - Farina integral Sègol eco.";1,9;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinasegolinteg.jpg
+"F7 - Farina blanca Parc Agrari";1;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinasantjulia.jpg
+"F8 - Farina força no eco.";2,25;999999999;1;Roca,Fleca;Roca;http://botiga-teixitdelaterra.rhcloud.com/imatges/roca_farinaforca.jpg

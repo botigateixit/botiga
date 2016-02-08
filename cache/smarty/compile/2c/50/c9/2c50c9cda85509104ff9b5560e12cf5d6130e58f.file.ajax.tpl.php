@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-01-21 23:30:35
+<?php /* Smarty version Smarty-3.1.19, created on 2016-02-03 00:23:46
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/uploader/ajax.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:26013874756a15c0bae1871-22581347%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2c50c9cda85509104ff9b5560e12cf5d6130e58f' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/uploader/ajax.tpl',
-      1 => 1453224181,
+      1 => 1453834886,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56a15c0bc5b0f9_84786601',
   'variables' => 
   array (
     'id' => 0,
@@ -28,8 +30,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'drop_zone' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56a15c0bc5b0f9_84786601',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_56a15c0bc5b0f9_84786601')) {function content_56a15c0bc5b0f9_84786601($_smarty_tpl) {?>
 <div class="form-group" style="display: none;">
