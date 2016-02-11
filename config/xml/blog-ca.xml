@@ -13,12 +13,47 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.prestashop.com/blog/en</link>
 	<description></description>
-	<lastBuildDate>Mon, 08 Feb 2016 11:01:28 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 08 Feb 2016 17:18:33 +0000</lastBuildDate>
 	<language>en-US</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.8.1</generator>
 	<item>
+		<title>Retargeting Basics for Online Merchants</title>
+		<link>https://www.prestashop.com/blog/en/retargeting-basics-online-merchants/</link>
+		<comments>https://www.prestashop.com/blog/en/retargeting-basics-online-merchants/#comments</comments>
+		<pubDate>Mon, 08 Feb 2016 13:30:30 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=21219</guid>
+		<description><![CDATA[<p>As online shoppers, we’ve all experienced it: while window shopping on a website, you decide you’re not quite ready to make a purchase and go back to skimming Buzzfeed articles. As you continue to browse the internet, you notice the products you just finished browsing hovering at the edge of your screen. How did this [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/retargeting-basics-online-merchants/">Retargeting Basics for Online Merchants</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>As online shoppers, we’ve all experienced it: while window shopping on a website, you decide you’re not quite ready to make a purchase and go back to skimming Buzzfeed articles. As you continue to browse the internet, you notice the products you just finished browsing hovering at the edge of your screen. How did this website know you were just ogling those products? If you’re an online merchant, you probably can’t help but ask yourself, would this work for <em>my</em> <a href="http://prestashop.com/">online store</a>? The answer is yes, probably. We invited Garrett Gan from <a href="http://www.thalamus.co/" target="_blank">Thalamus</a>, a digital advertising review website, to give us his insight.<br />
+<span id="more-21219"></span></p>
+<h2 style="color:#353466">1. What is Retargeting?</h2>
+<p>Retargeting is a type of advertising that is only shown to people after they have visited your online store. Here’s how it works: you place a pixel (or a single line of code) on your website, which will drop a tracking cookie onto a user&#8217;s browser. With this tracking cookie, <a href="http://www.thalamus.co/display/retargeting" target="_blank">retargeting companies</a> are able to see where the user travels across multiple websites on the internet, and serve them ads accordingly. </p>
+<p>The best analogy for this is the tracking of animals using tags, which allows scientists to observe their behavior; in this case, the tag is placed on a consumer&#8217;s&#8217; web browser so that later on, you can serve ads that correspond to their behavior. </p>
+<p>One of the best use cases for retargeting is to serve ads to users that have looked at a specific product on your website &#8211; shoes, jeans, t-shirts, trinkets &#8211; and serve them ads for that exact product after they have left (and haven&#8217;t bought yet) with a small discount to entice them to come back to complete the purchase. </p>
+<h2 style="color:#353466">2. What types of companies use retargeting? Why?</h2>
+<p>All types of companies use retargeting, including those in eCommerce, mobile apps, B2B sites &#8212; even advertising companies!</p>
+<p>Retargeting is a powerful tool for communicating with users that have already interacted with your website, to further add value to their experience. </p>
+<p>It also makes their web browsing experience more relevant, as the ads you serve will be for specific items they have already browsed, now with discounts and/or giveaways. Without this technology, merchants are now left to decide which products could be relevant for a user. </p>
+<p>When retargeting first came out, it was sometimes seen by consumers as “creepy,” but many companies have adopted the tactic for years and has come to be a rather widely accepted practice.</p>
+<h2 style="color:#353466">3. How much does it cost to run a retargeting campaign?</h2>
+<p>Online merchants can start for as low as $100 per week (or even less) with companies like <a href="http://www.thalamus.co/ad_partners/adroll" target="_blank">AdRoll</a>, or <a href="http://www.thalamus.co/ad_partners/retargeter" target="_blank">Retargeter</a>. There are also larger companies like <a href="http://www.thalamus.co/ad_partners/tellapart" target="_blank">TellApart</a>, <a href="http://www.thalamus.co/ad_partners/criteo" target="_blank">Criteo</a>, or <a href="http://www.thalamus.co/ad_partners/simpli-fi" target="_blank">Simpli.fi</a> that offer more robust features like dynamic creative optimization (changing ads algorithmically to serve the highest performing one), or Product Catalog Feeds (where a consumer can see items similar to the item they just viewed on the e-commerce website).</p>
+<h2 style="color:#353466">4. How can online merchants get started with retargeting?</h2>
+<p>It&#8217;s a good practice for merchants of all sizes to start running year-round retargeting campaigns. Many eCommerce companies have increased the number of actual conversions from consumers, simply by offering a small discount in a retargeting ad if a user abandoned their cart.</p>
+<p>Once merchants are more familiar with how to maximize conversions from regular retargeting ads, then they can move to more sophisticated mechanisms, such as dynamic creative optimization, product feed catalogs (both mentioned above), as well as working with <a href="http://www.thalamus.co/display/ad-network" target="_blank">ad networks</a> to drive new customers to the site.</p>
+<hr align="left" width="20%">
+<p>Get started today by checking out reviews on retargeting companies like AdRoll and Retargeter on <a href="http://www.thalamus.co/" target="_blank">Thalamus</a>. Then jump in and launch your first retargeting campaign. Already running a campaign? Share your tips and advice in the comments below. </p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/retargeting-basics-online-merchants/">Retargeting Basics for Online Merchants</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/retargeting-basics-online-merchants/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
 		<title>First steps to using video on Social Media</title>
 		<link>https://www.prestashop.com/blog/en/first-steps-using-video-social-media/</link>
 		<comments>https://www.prestashop.com/blog/en/first-steps-using-video-social-media/#comments</comments>
@@ -355,7 +390,7 @@ Promoting your sale on social media is a great way to reach shoppers who are int
 <p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/5-steps-successful-valentines-day-sale/">5 steps to a successful Valentine&#8217;s Day Sale</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
 ]]></content:encoded>
 			<wfw:commentRss>https://www.prestashop.com/blog/en/5-steps-successful-valentines-day-sale/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+		<slash:comments>1</slash:comments>
 		</item>
 		<item>
 		<title>Success Story: How crazy is it to sell perishable goods online? Not Half Nuts!</title>
@@ -389,53 +424,6 @@ Promoting your sale on social media is a great way to reach shoppers who are int
 <p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/success-story-how-crazy-is-it-to-sell-perishable-goods-online-not-half-nuts/">Success Story: How crazy is it to sell perishable goods online? Not Half Nuts!</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
 ]]></content:encoded>
 			<wfw:commentRss>https://www.prestashop.com/blog/en/success-story-how-crazy-is-it-to-sell-perishable-goods-online-not-half-nuts/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Should your online store offer gift cards?</title>
-		<link>https://www.prestashop.com/blog/en/online-store-offer-gift-cards/</link>
-		<comments>https://www.prestashop.com/blog/en/online-store-offer-gift-cards/#comments</comments>
-		<pubDate>Fri, 22 Jan 2016 13:30:32 +0000</pubDate>
-		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=21121</guid>
-		<description><![CDATA[<p>Did you know that in 2014 gift card spending grew to $100 billion? Since their inception, gift cards have steadily grown in popularity. Today we’ll go over the basics of gift cards to help you determine if they’re a good fit for your online shop. What are gift cards? There are 2 major kinds of [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/online-store-offer-gift-cards/">Should your online store offer gift cards?</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>Did you know that in <a href="http://www.pymnts.com/news/2015/inside-the-motives-of-a-gift-card-buyer-why-the-industry-continues-to-boom/" target="_blank">2014 gift card spending grew to $100 billion</a>? Since their inception, gift cards have steadily grown in popularity. Today we’ll go over the basics of gift cards to help you determine if they’re a good fit for your online shop.<br />
-<span id="more-21121"></span></p>
-<h2 style="color:#251b5a">What are gift cards?</h2>
-<p>There are 2 major kinds of gift cards: open-loop (bank) gift cards, which are supported by major payment solutions like Visa, MasterCard and American Express, and closed-loop  (or retail) cards,  which are only accepted at specific retailers. In this article, we’ll just be addressing closed-loop gift cards your own shop can issue. </p>
-<h2 style="color:#251b5a">Gift card pros for online stores</h2>
-<p>Gift cards are great not only for customers, but also for the merchants who sell them. Here are a few great reasons to offer gift cards on your online shop: </p>
-<ol>
-<li>It’s easy for the customer&#8211;they don’t need to know the recipient’s address or preferences.</li>
-<li>End customers get to pick products they actually want, which reduces the number of returns on your site.</li>
-<li>Your cash flow gets a boost: you’ll be paid before you even ship the product.</li>
-<li>They’re convenient, but more personal than money.</li>
-<li>Gift cards give new customers that may have been hesitant to purchase from you otherwise a reason to get to know you.</li>
-<li>Customers generally pay full price and <a href="https://www.cebglobal.com/exbd/financial-services/tower-group/gift-cards/index.page?" target="_blank">spend more than the value of the gift card</a>.</li>
-</ol>
-<h2 style="color:#251b5a">Gift card cons for online stores</h2>
-<p>Of course, with the good comes the bad. Here are some of the negatives of making gift cards available on your shop:</p>
-<ol>
-<li><strong>Increased bookkeeping.</strong> You’ll need to keep track of the initial gift card purchase, as well as the product order, which is when the gift card is actually redeemed.</li>
-<li><strong>No returns, only exchanges.</strong> For most credit card processors, funds can only be returned to the original purchaser’s card. This makes issuing returns to the gift recipient impossible.</li>
-<li><strong>Potential for fraud.</strong> In some instances, a scammer could purchase the gift card, then drain the value of the gift card <em>before you</em>, the merchant, realize that the original order is fraudulent.</li>
-</ol>
-<h2 style="color:#251b5a">How to set up gift cards in PrestaShop</h2>
-<ol>
-<li><strong>Install a <a href="http://addons.prestashop.com/en/pricing-promotion-prestashop-modules/17452-gift-card.html" target="_blank">gift card module</a>.</strong> Although it’s possible to manually create each gift card as customers purchase them with our built-in voucher capabilities, we’ve created a module that helps you manage your gift cards. Once you’ve installed a gift card module, you’re ready to set it up. </li>
-<li><strong>Decide on gift card amounts / denominations.</strong> You’ll want to offer gift cards in denominations that make sense for your product selection. If your average order value is , make sure you offer gift card amounts that reflect that. Offering  gift cards won’t really make sense in this example. </li>
-<li><strong>Set the expiration date.</strong> Be aware of laws that regulate this in your country. For example, if you’re based <a href="http://www.ncsl.org/research/financial-services-and-commerce/gift-cards-and-certificates-statutes-and-legis.aspx" target="_blank">in the US, gift cards cannot expire within 5 years</a> of the purchase. This is just the baseline. Additional state laws may further limit the expiration date. </li>
-<li><strong>Provide all product FAQ’s in the product description.</strong> For example, let customers know where the gift card is valid. If you have a physical location, can it be used there? Can the gift card be used on clearance items? If you will assess any additional fees, list them here as well. This ensures that you not only address your customer’s concerns, but you also ensure that there is no confusion about how gift cards are to be used on your website. </li>
-<li><strong>List and promote your gift card.</strong> It’s not enough to just create your gift card. Be sure to add a link in your footer and try searching “gift card” in your search bar to verify that it’s easy to find. Next, try promoting the gift card on a homepage slider or in your gift product category. </li>
-</ol>
-<p>It’s your turn. Tell us why you do or don’t offer gift cards to your online shop. Have any good or bad experiences share them in the comments below. Not running an online shop yet? Get started today with PrestaShop. </p>
-<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/online-store-offer-gift-cards/">Should your online store offer gift cards?</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://www.prestashop.com/blog/en/online-store-offer-gift-cards/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
