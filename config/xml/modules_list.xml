@@ -129,7 +129,6 @@
 		<module name="dpdpoland"/>
 		<module name="easymarketing"/>
 		<module name="ebay"/>
-		<module name="ecopresto"/>
 		<module name="envoimoinscher"/>
 		<module name="erpillicopresta"/>
 		<module name="expressmailing"/>
@@ -162,7 +161,6 @@
 		<module name="nostotagging"/>
 		<module name="nimblepayment"/>
 		<module name="ogone"/>
-		<module name="olark"/>
 		<module name="pagseguro"/>
 		<module name="paymentsense"/>
 		<module name="paypal"/>
@@ -172,7 +170,6 @@
 		<module name="payulatam"/>
 		<module name="powatag"/>
 		<module name="prestashippingeasy"/>
-		<module name="prestastats"/>
 		<module name="protectedshops"/>
 		<module name="psphipay"/>
 		<module name="realexredirect"/>
@@ -180,10 +177,8 @@
 		<module name="remarkety"/>
 		<module name="riskified"/>
 		<module name="sarbacanedesktop"/>
-		<module name="sellstrom"/>
 		<module name="sendinblue"/>
 		<module name="shiptomyid"/>
-		<module name="shopgate"/>
 		<module name="shoppingfeedexport"/>
 		<module name="shoppingfluxexport"/>
 		<module name="simplifycommerce"/>
