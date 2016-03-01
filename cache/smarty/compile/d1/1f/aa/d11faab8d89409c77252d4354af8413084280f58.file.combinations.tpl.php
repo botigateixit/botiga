@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-17 23:36:42
+<?php /* Smarty version Smarty-3.1.19, created on 2016-02-19 00:40:58
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/combinations.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1913852956c4f5fa5ac1a3-13781416%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd11faab8d89409c77252d4354af8413084280f58' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/combinations.tpl',
-      1 => 1455666713,
+      1 => 1455753896,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56c4f5fa730375_78365784',
   'variables' => 
   array (
     'product' => 0,
@@ -43,8 +45,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'link' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c4f5fa730375_78365784',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_56c4f5fa730375_78365784')) {function content_56c4f5fa730375_78365784($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['product']->value->id)&&!$_smarty_tpl->tpl_vars['product']->value->is_virtual) {?>

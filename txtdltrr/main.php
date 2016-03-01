@@ -41,6 +41,9 @@ $mail->setFrom('botigateixit@gmail.com', 'Botiga Teixit de la Terra - Quartera')
 //Set who the message is to be sent to
 $mail->addAddress($Desti);
 
+//Posem amb CC botigateixit@gmail.com
+$mail->addCC("botigateixit@gmail.com");
+
 // *************************** CAL RESOLDRE EL TEMA DE MULTIPLES DESTINATARIS amb comes ******************************************
 
 //Calculem la setmana en format dia del dilluns de la setmana, en catala
