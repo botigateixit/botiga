@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-18 01:08:44
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 18:53:18
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/kpi/kpi.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:182992294056c4f435888f69-31343420%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:102632958456e3060ec3f874-38744202%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'db6486ee00b0527d569d1741c5b7da7fe468b988' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/kpi/kpi.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '182992294056c4f435888f69-31343420',
+  'nocache_hash' => '102632958456e3060ec3f874-38744202',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c4f43597ef89_87094482',
   'variables' => 
   array (
     'href' => 0,
@@ -33,8 +31,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'data' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56e3060ece06f5_92009744',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c4f43597ef89_87094482')) {function content_56c4f43597ef89_87094482($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_56e3060ece06f5_92009744')) {function content_56e3060ece06f5_92009744($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
 ?>
 
 <<?php if (isset($_smarty_tpl->tpl_vars['href']->value)&&$_smarty_tpl->tpl_vars['href']->value) {?>a style="display:block" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['href']->value, ENT_QUOTES, 'UTF-8', true);?>

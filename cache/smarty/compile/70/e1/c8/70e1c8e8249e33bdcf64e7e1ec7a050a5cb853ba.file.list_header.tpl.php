@@ -1,28 +1,26 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-19 00:39:38
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-12 21:13:11
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/helpers/list/list_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:204620545256c4f5c5e86f79-19621519%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:109134455756e478571799e4-25210471%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '70e1c8e8249e33bdcf64e7e1ec7a050a5cb853ba' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/helpers/list/list_header.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
     '11eec3f839491af1fc10b990e3cc7cfa9065b01f' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/list/list_header.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '204620545256c4f5c5e86f79-19621519',
+  'nocache_hash' => '109134455756e478571799e4-25210471',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c4f5c64ad293_86517185',
   'variables' => 
   array (
     'ajax' => 0,
@@ -70,8 +68,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'filters_has_value' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56e4785779b259_63451573',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c4f5c64ad293_86517185')) {function content_56c4f5c64ad293_86517185($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/function.math.php';
+<?php if ($_valid && !is_callable('content_56e4785779b259_63451573')) {function content_56e4785779b259_63451573($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/function.math.php';
 ?>
 <?php if ($_smarty_tpl->tpl_vars['ajax']->value) {?>
 	<script type="text/javascript">

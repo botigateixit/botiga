@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-18 09:08:33
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 09:45:18
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/shopping-cart-product-line.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:120549023856c57c01572763-51833107%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:126990716656e2859ea79cf9-86718658%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c14933717e34eb0103c126f22ab1d129a7063fff' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/shopping-cart-product-line.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '120549023856c57c01572763-51833107',
+  'nocache_hash' => '126990716656e2859ea79cf9-86718658',
   'function' => 
   array (
   ),
@@ -39,9 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c57c019694c9_74973759',
+  'unifunc' => 'content_56e2859ed4a879_72514487',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c57c019694c9_74973759')) {function content_56c57c019694c9_74973759($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_56e2859ed4a879_72514487')) {function content_56e2859ed4a879_72514487($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
 if (!is_callable('smarty_modifier_regex_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 <tr id="product_<?php echo $_smarty_tpl->tpl_vars['product']->value['id_product'];?>

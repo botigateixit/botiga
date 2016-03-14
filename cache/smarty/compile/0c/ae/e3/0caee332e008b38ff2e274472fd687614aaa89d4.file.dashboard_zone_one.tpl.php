@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-18 01:08:28
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 18:52:42
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/dashactivity/views/templates/hook/dashboard_zone_one.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:44229964156c4f3d633dd38-70490860%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:85590533956e305ea68d782-53208268%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0caee332e008b38ff2e274472fd687614aaa89d4' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/dashactivity/views/templates/hook/dashboard_zone_one.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '44229964156c4f3d633dd38-70490860',
+  'nocache_hash' => '85590533956e305ea68d782-53208268',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c4f3d6512c91_68847594',
   'variables' => 
   array (
     'allow_push' => 0,
@@ -30,8 +28,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'date_format' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56e305ea72e9c1_21300045',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c4f3d6512c91_68847594')) {function content_56c4f3d6512c91_68847594($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_56e305ea72e9c1_21300045')) {function content_56e305ea72e9c1_21300045($_smarty_tpl) {?>
 <section id="dashactivity" class="panel widget<?php if ($_smarty_tpl->tpl_vars['allow_push']->value) {?> allow_push<?php }?>">
 	<div class="panel-heading">
 		<i class="icon-time"></i> <?php echo smartyTranslate(array('s'=>'Activity overview','mod'=>'dashactivity'),$_smarty_tpl);?>

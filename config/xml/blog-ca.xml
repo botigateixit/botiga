@@ -13,12 +13,78 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.prestashop.com/blog/en</link>
 	<description></description>
-	<lastBuildDate>Thu, 25 Feb 2016 13:30:53 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Mar 2016 10:16:01 +0000</lastBuildDate>
 	<language>en-US</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.8.1</generator>
 	<item>
+		<title>3 Spring Cleaning Tips for Your Ecommerce Store: Legal Edition</title>
+		<link>https://www.prestashop.com/blog/en/3-spring-cleaning-tips-ecommerce-store-legal-edition/</link>
+		<comments>https://www.prestashop.com/blog/en/3-spring-cleaning-tips-ecommerce-store-legal-edition/#comments</comments>
+		<pubDate>Thu, 10 Mar 2016 10:14:21 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=21282</guid>
+		<description><![CDATA[<p>Today, Leah Hamilton from Terms Feed explains how to give your site a little “spring cleaning” to ensure optimum functionality and legal compliance, year-round. Keeping your ecommerce store fresh and up-to-date is important to ensure that it functions well, meets customer needs, and maintains any legal obligations that you may have (such as intellectual property [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/3-spring-cleaning-tips-ecommerce-store-legal-edition/">3 Spring Cleaning Tips for Your Ecommerce Store: Legal Edition</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><em>Today, Leah Hamilton from Terms Feed explains how to give your site a little “spring cleaning” to ensure optimum functionality and legal compliance, year-round.</em></p>
+<p>Keeping your ecommerce store fresh and up-to-date is important to ensure that it functions well, meets customer needs, and maintains any legal obligations that you may have (such as intellectual property protection and privacy rules). By examining your ecommerce store up close once a year, you can avoid unpleasant surprises later on.</p>
+<p>We’ll take a look at 3 “spring beginnings” you should apply to your ecommerce store to keep your business in top legal condition. First we’ll look at protecting IP, as well as product photos; next we’ll examine your Privacy Policy and some things to note about leveraging old data; finally, we’ll describe some tips for making sure you’re not in breach of anti-spam laws with any marketing emails you may be sending.</p>
+<p><span id="more-21282"></span></p>
+<h2>Updating Product Photos and Protecting IP</h2>
+<p>Refreshing <a href="https://www.prestashop.com/blog/en/improve-product-photos-online-store-the-5-mistakes-you-dont-want-commit/">product photos</a> is something that you need to do at least once a year, and even more frequently if your stock changes often.</p>
+<h3>False Advertising</h3>
+<p>By providing <a href="http://www.efulfillmentservice.com/2012/03/ecommerce-tip-of-the-week-use-great-photos/" target="_blank">accurate, up-to-date product photos</a>, you reduce the likelihood of items being returned for not meeting the accompanying written description. Even better, you’ll avoid legal liability for misleading or false advertising. For example, take a look at these product photo comparisons:</p>
+<p>In this image you can see that using flash has made the first photo look over-exposed and unappealing. The second photo looks softer and nicer, like a mug you would actually want to drink from!</p>
+<p><img class="aligncenter size-full wp-image-21285" alt="img01" src="https://www.prestashop.com/blog/en/files/2016/03/img01.jpg" width="1024" height="768" /></p>
+<p>These images show us how the same product can be presented in wildly different ways, depending on the photography. The first image is blurry, has awkward shadows, is off-kilter, and doesn’t look particularly mouth watering. The second image looks appealing: the lighting is good and the background has been digitally altered.</p>
+<p>The above images are good examples of photography can enhance a product’s desirability. But when this is taken too far, you risk crossing the line into false advertising through misleading imagery. While unfortunately a common occurrence, this practice is unacceptable with regard to advertising standards. We see it most often in relation to <a href="http://izismile.com/2009/04/27/fast-food_products_on_ads_and_in_real_life_14_pics.html" target="_blank">fast food advertisements</a> (and the often-disappointing real food). Take a look at this example:</p>
+<p><img class="aligncenter size-full wp-image-21286" alt="img02" src="https://www.prestashop.com/blog/en/files/2016/03/img02.jpg" width="640" height="256" /></p>
+<p>You can protect yourself from these issues by carefully <a href="https://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/">taking your own product photos</a> or using a professional photographer to do so.</p>
+<h3>Protecting Your IP</h3>
+<p>Once you have <a href="https://www.prestashop.com/blog/en/make-the-most-of-your-product-images-with-prestashop/">created new product photos</a> (whether on your own or with the help of a professional), you need to ensure that you protect your own intellectual property in these images. The type of intellectual property protection we’re referring to here is copyright.</p>
+<p>Copyright protects your work from being copied or used by other people. Typically, a work must meet minimal standards of originality in order to qualify for copyright, and the copyright expires after a set period of time (some jurisdictions may allow this to be extended).</p>
+<p>Different countries use different tests to determine when copyright “attaches” to a work, although generally the requirements are low. For example, in the UK, &#8220;skill, labour, and judgment&#8221; must have been put into the original work for it to have copyright protection. In every country that has adopted the Berne Convention standards, <a href="https://www.gov.uk/copyright" target="_blank">copyright is automatic</a>, unless the jurisdiction also provides for a system of registration within that country. In that case, registration may be necessary to prove in court that you have a valid copyright, even though you might already have a valid (automatic) copyright.</p>
+<h2>Leveraging Data and Your Privacy Policy</h2>
+<p>Remember to take a look at what data you are still leveraging and using from the previous year. The first thing to do is examine whether it is still relevant and up to date.</p>
+<p>Next, look at:</p>
+<ul>
+<li>who has access to the data within your organisation?</li>
+<li>do those people need to have access to that data?</li>
+<li>is the data still relevant to your purpose for collecting it?</li>
+<li>are your previous conclusions (from analysing the data) still relevant?</li>
+<li>are you still using the data in the best way for the current market?</li>
+<li>do you need to re-analyse the data to pull out new trends to create new business strategies?</li>
+</ul>
+<p>This is also a good opportunity to refresh your Privacy Policy. We’ve examined Privacy Policies at PrestaShop before, in two parts. The <a href="https://www.prestashop.com/blog/en/protecting-customer-privacy-prestashop-store-part-1/">first part</a> examined what a Privacy Policy is, and how you can comply with laws in the US and EU. The <a href="https://www.prestashop.com/blog/en/protecting-customer-privacy-prestashop-store-part-2/">second part</a> looked at displaying your Privacy Policy, and keeping it secure.</p>
+<p>If you’re updating your Privacy Policy to comply with those rules, you’ll now need to know how to post an update to your Privacy Policy on your ecommerce store to ensure customers are legally bound by your new version. Your updates must be visible and accessible, and your customers must be informed that an update has been made.</p>
+<p>One good way to do this is to send out an email to customers who have signed up, saying your terms have been updated. Here’s an example from <a href="https://bitly.com/" target="_blank">Bitly</a>:</p>
+<p><a href="https://www.prestashop.com/blog/en/files/2016/03/img03.jpg"><img class="aligncenter size-full wp-image-21287" alt="img03" src="https://www.prestashop.com/blog/en/files/2016/03/img03.jpg" width="610" height="929" /></a></p>
+<p>You can see that the message is clear, sets out the changes in an easy-to-read form that customers can understand, and also includes a link to the new Privacy Policy so customers can read it.</p>
+<p>Another way is to display a link on your website or blog. Take a look at this example from <a href="http://www.swcredit.com.au/blog-blog-2014-our-privacy-policy-has-changed.html" target="_blank">Southwest Credit</a>:</p>
+<p><a href="https://www.prestashop.com/blog/en/files/2016/03/img04.jpg"><img class="aligncenter size-full wp-image-21288" alt="img04" src="https://www.prestashop.com/blog/en/files/2016/03/img04.jpg" width="997" height="352" /></a></p>
+<p>The key thing to remember here (as established in the legal case of <a href="http://blog.ericgoldman.org/archives/2010/11/another_ruling.htm" target="_blank">Roling v. E*Trade</a>) is that it’s not enough to just upload a copy of the new terms to your website &#8211; you must tell your users that the document has changed or been updated.</p>
+<h2>Anti-Spam Compliance and Email Marketing</h2>
+<p>Finally, make sure you update all of your email templates and segment your marketing lists. Email templates can all-too-often be left behind.</p>
+<h3>Email Templates and Anti-Spam Law</h3>
+<p>Updating your email templates allows you to ensure compliance with anti-spam legislation, such as CAN-SPAM in the US, the Privacy and Electronic Communications (EC Directive) Regulations 2003 in the UK, and the Privacy and Electronic Communication Directive in the EU. These laws cover what you need to do when emailing customers or potential customers to ensure that you are not sending unsolicited or misleading messages. We’ve covered this at PrestaShop before, in our holiday-themed article on anti-spam laws. Take a look at some of the key points <a href="https://www.prestashop.com/blog/en/anti-spam-time-season/">here</a>.</p>
+<p>Remember that one of the most important steps towards compliance you can take when examining your email templates is to check whether they all include an unsubscribe link for any marketing messages that you send out. Another key feature your email templates need is the ability to customize aspects to ensure message accuracy. For example, make sure it is clear to those using the templates that they should change subject headers to reflect the content of the message.</p>
+<h3>Segmenting Marketing Lists</h3>
+<p><a href="http://blog.hubspot.com/blog/tabid/6307/bid/32848/Why-List-Segmentation-Matters-in-Email-Marketing.aspx" target="_blank"> Segmenting marketing lists</a> is important for high quality marketing, as it allows you to exercise a more targeted email strategy that is less likely to be viewed as spam.</p>
+<p>There are several <a href="http://smallbiztrends.com/2015/12/segmenting-your-email-lists.html" target="_blank">different ways</a> to segment your customers. For example, you can look at natural groups such as sex, location, or age, or examine trends such as groups of people that have the same spending patterns. The important thing to keep in mind when determining segmentation is that you are not just splitting your customers into groups for the sake of it: remember that the purpose is to segment your customers into categories that make sense in terms of what affects buying behaviour. There’s no point splitting your customers into men and women if your data shows that their buying behaviour for your product is the same.</p>
+<p>The primary benefit of customer segmentation is that it allows you to pinpoint which groups are the most and least profitable so you can create targeted marketing campaigns for each of them. This allows you to allocate business marketing resources more prudently, and in a more focused manner.</p>
+<h2>Conclusion</h2>
+<p>Re-examining your product photos, IP protection, data leveraging methods and privacy, as well as anti-spam compliance and email features can help keep your marketing messages fresh and your business practices legally compliant.</p>
+<p>Remember to take a look at these key areas every year to ensure that you don’t let something fall behind. While it may appear to be a lot of effort, the benefits are more than worth it.</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/3-spring-cleaning-tips-ecommerce-store-legal-edition/">3 Spring Cleaning Tips for Your Ecommerce Store: Legal Edition</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/3-spring-cleaning-tips-ecommerce-store-legal-edition/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>eCommerce Virtual Staff: 10 Tips To Beef Up Productivity</title>
 		<link>https://www.prestashop.com/blog/en/ecommerce-virtual-staff-10-tips-beef-productivity/</link>
 		<comments>https://www.prestashop.com/blog/en/ecommerce-virtual-staff-10-tips-beef-productivity/#comments</comments>
@@ -379,87 +445,6 @@ A go-to retention strategy for many ecommerce businesses is to launch a rewards 
 <p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/get-ready-spring-partner-amazon-payments/">Get ready for spring with our partner Amazon Payments</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
 ]]></content:encoded>
 			<wfw:commentRss>https://www.prestashop.com/blog/en/get-ready-spring-partner-amazon-payments/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>2016 Web Design Trends for your Online Store</title>
-		<link>https://www.prestashop.com/blog/en/2016-web-design-trends-online-store/</link>
-		<comments>https://www.prestashop.com/blog/en/2016-web-design-trends-online-store/#comments</comments>
-		<pubDate>Mon, 01 Feb 2016 13:30:47 +0000</pubDate>
-		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=21163</guid>
-		<description><![CDATA[<p>Trends come and go, and in the ecommerce industry, where updating web page design is as simple as swapping out a few lines of code, they can shift in an instant. To help guide your web design changes this year, we’ve asked members of our Agency Program to share their predictions for 2016 so you [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/2016-web-design-trends-online-store/">2016 Web Design Trends for your Online Store</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>Trends come and go, and in the ecommerce industry, where updating web page design is as simple as swapping out a few lines of code, they can shift in an instant. To help guide your web design changes this year, we’ve asked members of our <a href="https://www.prestashop.com/en/certification-details">Agency Program</a> to share their predictions for 2016 so you can stay ahead of the pack.<br />
-<span id="more-21163"></span> </p>
-<h2 style="color:#1b9743">Trends from 2015</h2>
-<p>First, let’s look at some 2015 trends that are sticking around. If your redesigned your website last year using any of these elements, you don’t have to change them. Armando Salvador, <strong>Chief Technical Officer</strong> at <a href="https://www.prestashop.com/es/asociados-agencia-web/plata/ecomm360">eComm360</a> predicts these trends are here to stay: </p>
-<p><strong>Flat Design</strong><br />
-Flat web design removes all traces of shadows, depth effects, bevels, gradients and three-dimensional effects to give a simple, minimalist look. This trends makes a website very clean and clear, and a seamless match for responsive design. Although this trend has been around for a few years already, we will continue to see it used in 2016.</p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/flat-desingquerolets-1024x506.png" alt="flat desing(querolets)" width="700" height="345" class="aligncenter size-large wp-image-21164" /></p>
-<p><a href="http://www.querolets.net/es/" target="_blank">Querolets</a></p>
-<p><strong>Scroll to tell stories</strong><br />
-In 2015, we saw a rise of web pages that seem to scroll to infinity. The scrolling web design not only gives great results, it’s perfect for developing story-like content because it limits the number of clicks a visitor has to make. Coupled with the increased use of mobile devices, this scrolling trend will remain the design preference of users in 2016.</p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/scrolllesraffineurs.png" alt="scroll(lesraffineurs)" width="404" height="854" class="aligncenter size-full wp-image-21170" /></p>
-<p><a href="http://www.lesraffineurs.com/" target="_blank">lesraffineurs</a></p>
-<p><strong>Animations</strong><br />
-Well-placed animations can greatly enrich the experience within any web website<br />
-Here are some of the most popular: </p>
-<ul style="padding-left: 30px">
-<li>Loaders: entertains and lets visitors know exactly what’s going on.</li>
-<li>Hover: lends itself to a more intuitive user experience, providing user feedback without having to click.</li>
-<li>Slideshows: present images and videos without cluttering web design.</li>
-</ul>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/hovercanada.png" alt="hover(canada)" width="845" height="660" class="aligncenter size-full wp-image-21167" /></p>
-<p><a href="http://www.canadahouse.es/en/" target="_blank">Canada House</a></p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/hoverclick-and-wine-1024x479.png" alt="hover(click and wine)" width="700" height="327" class="aligncenter size-large wp-image-21168" /></p>
-<p><a href="http://www.clickandwine.es/gb/" target="_blank">Click and Wine</a></p>
-<p>Not all 2015 trends will be along for the ride in 2016. Mona from <a href="https://www.prestashop.com/en/web-agency-partners/bronze/nurelm">NuRelm</a> says goodbye to: </p>
-<p><strong>Flashy but Slow Sites</strong><br />
-In 2015, there were many flashy sites that used hefty and sizable parallax styles or large file designs that look cool, but slow down users’ browsers to unbearable speeds. Designs should be clean, unique engaging, and easily accessible, but also easy to process both on the server-side. They should be easy on viewers’ eyes and easy to understand.</p>
-<h2 style="color:#1b9743">Design Trends New to 2016</h2>
-<p>Each new year brings new ideas. Here are the trends Armando from <a href="https://www.prestashop.com/es/asociados-agencia-web/plata/ecomm360">eComm360</a> is most looking forward to in 2016. </p>
-<p><strong>Typography</strong><br />
-Larger fonts, used expressively, will be more common.</p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/Tipografiacanadahouse-1024x506.png" alt="Tipografia(canadahouse)" width="700" height="345" class="aligncenter size-large wp-image-21171" /></p>
-<p><a href="http://www.canadahouse.es/en/" target="_blank">Canada House</a></p>
-<p><strong>Fullscreen</strong><br />
-Take advantage of the full width of devices: sliders with multiple images have been replaced with one, high-resolution image. With more advanced technology and improved hardware, larger designs can be better appreciated. </p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/fullscreentiny-cottons-1024x506.png" alt="fullscreen(tiny cottons)" width="700" height="345" class="aligncenter size-large wp-image-21165" /></p>
-<p><a href="http://tinycottons.com/" target="_blank">Tiny Cottons</a></p>
-<p><strong>Burger menu</strong><br />
-The Burger menu, so prevalent in responsive designs, is now a regular feature on the websites, even those designed for larger devices. It has long been used for mobile, but as the minimalist trend continues, we see the burger menu replacing traditional dropdowns on desktop. </p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/menu-hamburguesaclick-and-wine-1024x496.png" alt="menu hamburguesa(click and wine)" width="700" height="339" class="aligncenter size-large wp-image-21169" /></p>
-<p><a href="http://www.clickandwine.es/gb/" target="_blank">Click and Wine</a></p>
-<p><strong>Ghost buttons</strong><br />
-Ghost buttons have been increasingly integrated into today’s design. Virtually invisible, they take minimalism to the extreme. Activated via hover animations, they attract more attention from the user and encourage secondary actions.</p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/boton-fantasmaimage-republic-1024x487.png" alt="boton fantasma(image republic)" width="700" height="332" class="aligncenter size-large wp-image-21172" /></p>
-<p><a href="http://image-republic.com/en/" target="_blank">Image Republic</a></p>
-<p><strong>Grid options</strong><br />
-Pinterest made this trend popular, and we’ll be seeing it adapted into web design this year. The design works very well when websites need to mix different types of information and invites unlimited and easy content navigation.</p>
-<p><img src="https://www.prestashop.com/blog/en/files/2016/01/gridtiny-cottons-1024x514.png" alt="grid(tiny cottons)" width="700" height="351" class="aligncenter size-large wp-image-21166" /></p>
-<p><a href="http://tinycottons.com/" target="_blank">Tiny Cottons</a></p>
-<p>In 2016, Sam from <a href="https://www.prestashop.com/en/web-agency-partners/bronze/nurelm">NuRelm</a> is looking forward to: </p>
-<p><strong>Accessibility</strong><br />
-We are expecting to see a rise in developers and designers implementing designs that  increase usability for those who have trouble accessing a computer or the internet. Whether it be physical touch limitation or sight impairment, new design trends are shifting to adapt to individual needs. We believe everyone should have the right to easily access the internet and browse the same as everyone else, and no company should ignore people that might have trouble browsing their own site.</p>
-<h2 style="color:#1b9743">In a nutshell</h2>
-<p>Whether you’re an online merchant looking to redesign your website or a designer picking up ideas for new PrestaShop themes, here are a few tips to keep in mind. </p>
-<ol>
-<li>Design trends should be carefully considered before integrating them into your online shop. The “flashy-er” a trend, the quicker it can potentially die out. If you’re not looking to redesign your shop for a few years, pick the trends you want to integrate wisely.</li>
-<li>Don’t forget about your audience, the customer. Regardless of how “cool” your website is, it should ultimately help to convert your customer. Make sure your new design doesn’t detract from the products you’re trying to sell.</li>
-<li><a href="https://www.prestashop.com/blog/en/6-ab-tests-for-optimizing-your-online-store/">A/B test</a> your ideas, if you can. Just because something is trendy, doesn’t mean it will work for your online shop. Make sure that adding these new designs don’t put a damper on your current sales.</li>
-</ol>
-<p>Looking for some great agencies to give your <a href="https://www.prestashop.com/">online store</a> a rocking website design? Pick from our list of <a href="https://www.prestashop.com/en/web-agency-partners">Official Agencies</a>. Think we missed an important trend for 2016? Share in the comments below!</p>
-<div class="row">
-<div class="col-sm-6"><img src="https://www.prestashop.com/blog/en/files/2016/02/ecomm360-1024x270.png" alt="ecomm360" width="700" height="184" class="aligncenter size-large wp-image-13059" /></div>
-<div class="col-sm-6"><img src="https://www.prestashop.com/blog/en/files/2016/02/nurelm.png" alt="nurelm" width="220" height="127" class="aligncenter size-full wp-image-13054" /></div>
-</div>
-<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/2016-web-design-trends-online-store/">2016 Web Design Trends for your Online Store</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://www.prestashop.com/blog/en/2016-web-design-trends-online-store/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

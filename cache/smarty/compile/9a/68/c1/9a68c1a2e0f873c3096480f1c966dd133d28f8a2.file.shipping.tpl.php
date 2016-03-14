@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-19 00:40:56
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-12 21:23:40
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/shipping.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:40923840356c4f5f857fa70-92839789%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:148098419156e47acca06437-79515325%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9a68c1a2e0f873c3096480f1c966dd133d28f8a2' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/shipping.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '40923840356c4f5f857fa70-92839789',
+  'nocache_hash' => '148098419156e47acca06437-79515325',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c4f5f866cf04_74490322',
   'variables' => 
   array (
     'display_common_field' => 0,
@@ -31,8 +29,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'link' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56e47acca8cb77_05296274',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c4f5f866cf04_74490322')) {function content_56c4f5f866cf04_74490322($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_56e47acca8cb77_05296274')) {function content_56e47acca8cb77_05296274($_smarty_tpl) {?>
 <div id="product-shipping" class="panel product-tab">
 	<input type="hidden" name="submitted_tabs[]" value="Shipping" />
 	<h3><?php echo smartyTranslate(array('s'=>'Shipping'),$_smarty_tpl);?>

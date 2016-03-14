@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-17 23:59:30
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 09:23:19
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/modules/productcomments//productcomments-extra.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:202790411756c4fb52eaea94-06690142%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:59187225556e2807726b3a2-13639359%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '04c168d1051b1c251835b050c870a94b7573de91' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/modules/productcomments//productcomments-extra.tpl',
-      1 => 1455666713,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '202790411756c4fb52eaea94-06690142',
+  'nocache_hash' => '59187225556e2807726b3a2-13639359',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c4fb53005220_64237066',
+  'unifunc' => 'content_56e280772b5d96_99069734',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c4fb53005220_64237066')) {function content_56c4fb53005220_64237066($_smarty_tpl) {?> 
+<?php if ($_valid && !is_callable('content_56e280772b5d96_99069734')) {function content_56e280772b5d96_99069734($_smarty_tpl) {?> 
 <?php if ((!$_smarty_tpl->tpl_vars['content_only']->value&&(($_smarty_tpl->tpl_vars['nbComments']->value==0&&$_smarty_tpl->tpl_vars['too_early']->value==false&&($_smarty_tpl->tpl_vars['is_logged']->value||$_smarty_tpl->tpl_vars['allow_guests']->value))||($_smarty_tpl->tpl_vars['nbComments']->value!=0)))) {?>
 <div id="product_comments_block_extra" class="no-print" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
 	<?php if ($_smarty_tpl->tpl_vars['nbComments']->value!=0) {?>

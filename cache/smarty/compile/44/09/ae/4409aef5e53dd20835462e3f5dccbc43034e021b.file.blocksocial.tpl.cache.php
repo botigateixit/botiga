@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-17 06:11:27
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 06:11:37
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/modules/blocksocial/blocksocial.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:142244689856c400ff9838b1-63585290%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:126395099956e25389292822-49304111%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4409aef5e53dd20835462e3f5dccbc43034e021b' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/modules/blocksocial/blocksocial.tpl',
-      1 => 1455666713,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '142244689856c400ff9838b1-63585290',
+  'nocache_hash' => '126395099956e25389292822-49304111',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c400ffa9db48_76054824',
+  'unifunc' => 'content_56e253893580c3_20453393',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c400ffa9db48_76054824')) {function content_56c400ffa9db48_76054824($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_56e253893580c3_20453393')) {function content_56e253893580c3_20453393($_smarty_tpl) {?>
 <section id="social_block" class="pull-right">
 	<ul>
 		<?php if (isset($_smarty_tpl->tpl_vars['facebook_url']->value)&&$_smarty_tpl->tpl_vars['facebook_url']->value!='') {?>

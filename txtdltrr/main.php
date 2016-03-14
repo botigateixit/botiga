@@ -198,6 +198,7 @@ if ($rprov->num_rows > 0) {
 	if ($resultsupplier->num_rows > 0) {
 		$rowsupplier = $resultsupplier->fetch_assoc();
 		$Destinatari = $rowsupplier['email'];
+		$Destinatari_rebre = "sastrej@gmail.com";
 		$Tipus_email = $rowsupplier['tipus_email'];
 	} else {
 		// sino hi ha proveidor a la taula tx_supplier
@@ -308,6 +309,11 @@ if ($rprov->num_rows > 0) {
 		// Tipus_email=3: No s'envia correu a proveïdor pero si es genera el de grup de rebre
 		$missatge_rebre = 1;
 		break;
+
+        case 4:
+                // Tipus_email=4: No s'envia correu a proveïdor ni el del grup de rebre
+                $missatge_rebre = 0;
+                break;
 		
 	default	:
 		// Proveidor amb Tipus_email desconegut i deixem el $missatge_rebre a 0 per no generar el de rebre
@@ -344,7 +350,7 @@ if ($rprov->num_rows > 0) {
         echo "Enviem correu electronic grup rebre\r\n";
         echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
    		$Subject = "Comanda proveidor: ".$provrow["name"]." ".$avui;
-		$res = EnviaCorreu ($fprovrebre,$Destinatari,$Subject);
+		$res = EnviaCorreu ($fprovrebre,$Destinatari_rebre,$Subject);
         if ($res != 0) { echo $res;
 		} else { echo "Correu enviat correctament \r\n";
 		}

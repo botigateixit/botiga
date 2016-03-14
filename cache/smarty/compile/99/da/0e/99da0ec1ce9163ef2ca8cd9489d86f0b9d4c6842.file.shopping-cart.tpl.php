@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-18 09:08:32
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 09:45:18
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/shopping-cart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:50870462156c57c009b6569-38658414%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:90017666756e2859e3ab994-26899794%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '99da0ec1ce9163ef2ca8cd9489d86f0b9d4c6842' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/shopping-cart.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '50870462156c57c009b6569-38658414',
+  'nocache_hash' => '90017666756e2859e3ab994-26899794',
   'function' => 
   array (
   ),
@@ -99,9 +99,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c57c014074b0_08354988',
+  'unifunc' => 'content_56e2859e985cc0_61440602',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c57c014074b0_08354988')) {function content_56c57c014074b0_08354988($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_56e2859e985cc0_61440602')) {function content_56e2859e985cc0_61440602($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><?php echo smartyTranslate(array('s'=>'Your shopping cart'),$_smarty_tpl);?>

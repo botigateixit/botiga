@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-02-19 00:41:11
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-12 21:23:47
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/customization.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3504600156c4f602dde392-51975218%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:157490243656e47ad3f166a9-25053212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '680296db037b702c129b375de307867cba18250a' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/customization.tpl',
-      1 => 1455753896,
+      1 => 1456875413,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3504600156c4f602dde392-51975218',
+  'nocache_hash' => '157490243656e47ad3f166a9-25053212',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56c4f602ea5403_77537079',
   'variables' => 
   array (
     'obj' => 0,
@@ -31,8 +29,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'link' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56e47ad40370c9_28076477',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56c4f602ea5403_77537079')) {function content_56c4f602ea5403_77537079($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_56e47ad40370c9_28076477')) {function content_56e47ad40370c9_28076477($_smarty_tpl) {?>
 
 <?php if (isset($_smarty_tpl->tpl_vars['obj']->value->id)) {?>
 <div id="product-customization" class="panel product-tab">

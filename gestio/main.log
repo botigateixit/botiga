@@ -1,51 +1,95 @@
-Dia execucio Tractament comandes: 2016-03-01 00:00:00
+Dia execucio Tractament comandes: 2016-03-14 00:00:00
 
 Comandes que es tractaran
 id_order  	reference 	current_state  	date_add            
 
 ===================================================================
 
-29        	SAXAEFISN 	2              	2016-02-24 17:02:50 
+55        	WCNPTNDVL 	3              	2016-03-10 07:57:48 
 
-30        	ODNTBIFAR 	3              	2016-02-24 19:22:40 
+56        	DBYHOJXNU 	3              	2016-03-11 09:46:09 
 
-31        	KVOQCVUMY 	3              	2016-02-24 21:36:46 
+57        	WVGXYTNLA 	3              	2016-03-12 13:10:15 
 
-32        	UTYTBUJAC 	3              	2016-02-24 23:26:04 
+58        	WIBEWYTWF 	3              	2016-03-12 13:13:50 
 
-33        	AOPAAWUHR 	3              	2016-02-24 23:31:08 
+59        	DMDKDYTXF 	3              	2016-03-12 18:32:15 
 
-34        	WTTXZWXDC 	3              	2016-02-25 08:28:55 
+60        	SCCEBBPKV 	2              	2016-03-13 08:55:58 
 
-35        	DPDVDFZIL 	2              	2016-02-26 07:57:13 
+61        	TMSJCRREZ 	3              	2016-03-13 09:13:23 
 
-Proveidor: 1    	Roca           	sastrej@gmail.com   	1    
+62        	QEOHTFGUG 	3              	2016-03-13 11:44:49 
 
-Productes: 2
-Proveidor: 2    	Prat-Manel     	sastrej@gmail.com   	1    
+64        	BMHVQQBMT 	3              	2016-03-13 17:28:29 
+
+65        	ZNTZZBGEG 	3              	2016-03-13 18:43:21 
+
+66        	MYHGPMGQB 	3              	2016-03-13 19:59:51 
+
+67        	IFZAEQSTF 	3              	2016-03-13 21:13:13 
+
+68        	WVZUAKWDR 	2              	2016-03-13 21:14:21 
+
+69        	THBXBVWAC 	3              	2016-03-13 21:59:26 
+
+70        	BOCAJFUZX 	3              	2016-03-13 22:09:36 
+
+71        	RJQAQSVID 	3              	2016-03-13 22:11:01 
+
+72        	JRADMBJRL 	3              	2016-03-13 22:39:12 
+
+73        	QGYMSRRZU 	3              	2016-03-13 22:48:52 
+
+74        	TOQIKDMQM 	2              	2016-03-13 23:16:01 
+
+Proveidor: 1    	Roca           	flecaroca@gremipa.com	1    
 
 Productes: 5
-Proveidor: 3    	Vivo           	botigateixit@gmail.com	1    
+Proveidor: 2    	Prat-Manel     	manel.lacera@yahoo.es	1    
 
-Productes: 8
+Productes: 5
+Proveidor: 3    	Vivo           	j06vivo@yahoo.es    	1    
+
+Productes: 12
 Proveidor: 4    	Stock          	botigateixit@gmail.com	3    
 
-Proveidor: 5    	Moli de Bonsfills	botigateixit@gmail.com	1    
+Proveidor: 5    	Moli de Bonsfills	gemma.raset@gmail.com	1    
 
 No hi ha productes
-Proveidor: 6    	La Feixa Verda 	botigateixit@gmail.com	2    
+Proveidor: 6    	La Feixa Verda 	natixavi@hotmail.com	2    
 
-Productes: 23
-Proveidor: 7    	La Cleda       	botigateixit@gmail.com	1    
+Productes: 131
+Proveidor: 7    	La Cleda       	david@redcluster.com	1    
+
+No hi ha productes
+Proveidor: 8    	Niko           	nikohristov@yahoo.es	1    
 
 Productes: 3
-Proveidor: 8    	Niko           	botigateixit@gmail.com	1    
+Proveidor: 9    	Carns Bayo     	rosabayo@yahoo.com  	2    
 
-Productes: 2
-Proveidor: 9    	Carns Bayo     	botigateixit@gmail.com	1    
+Productes: 13
+Proveidor: 10   	Toni P.        	toniporcar@gmail.com	2    
 
-Productes: 5
-Proveidor: 10   	Toni P.        	botigateixit@gmail.com	2    
-
-No hi ha productes
-No hi ha el proveidor: 11 en la taula tx_supplier
+Productes: 6
+No hi ha el proveidor: 18 en la taula tx_supplier
+Tancament de comandes
+Comanda numero: 55 tancada
+Comanda numero: 56 tancada
+Comanda numero: 57 tancada
+Comanda numero: 58 tancada
+Comanda numero: 59 tancada
+Comanda numero: 60 tancada
+Comanda numero: 61 tancada
+Comanda numero: 62 tancada
+Comanda numero: 64 tancada
+Comanda numero: 65 tancada
+Comanda numero: 66 tancada
+Comanda numero: 67 tancada
+Comanda numero: 68 tancada
+Comanda numero: 69 tancada
+Comanda numero: 70 tancada
+Comanda numero: 71 tancada
+Comanda numero: 72 tancada
+Comanda numero: 73 tancada
+Comanda numero: 74 tancada
