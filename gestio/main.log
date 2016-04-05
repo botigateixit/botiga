@@ -1,54 +1,50 @@
-Dia execucio Tractament comandes: 2016-03-14 00:00:00
+Dia execucio Tractament comandes: 2016-04-04 00:00:00
 
 Comandes que es tractaran
 id_order  	reference 	current_state  	date_add            
 
 ===================================================================
 
-55        	WCNPTNDVL 	3              	2016-03-10 07:57:48 
+99        	BNUPPVGUT 	2              	2016-04-01 19:54:20 
 
-56        	DBYHOJXNU 	3              	2016-03-11 09:46:09 
+94        	JINEOEDIJ 	3              	2016-03-28 00:23:43 
 
-57        	WVGXYTNLA 	3              	2016-03-12 13:10:15 
+95        	BHRYUSHJG 	3              	2016-03-31 08:01:49 
 
-58        	WIBEWYTWF 	3              	2016-03-12 13:13:50 
+96        	VVINWOFXA 	3              	2016-04-01 07:50:23 
 
-59        	DMDKDYTXF 	3              	2016-03-12 18:32:15 
+97        	GDWIAVEGU 	3              	2016-04-01 11:55:05 
 
-60        	SCCEBBPKV 	2              	2016-03-13 08:55:58 
+98        	NTOESHKRD 	3              	2016-04-01 18:54:17 
 
-61        	TMSJCRREZ 	3              	2016-03-13 09:13:23 
+100       	TOAKXNELV 	3              	2016-04-01 21:31:05 
 
-62        	QEOHTFGUG 	3              	2016-03-13 11:44:49 
+101       	NTIYQRJAP 	3              	2016-04-02 13:17:19 
 
-64        	BMHVQQBMT 	3              	2016-03-13 17:28:29 
+102       	EKXOKPCNU 	3              	2016-04-02 21:55:49 
 
-65        	ZNTZZBGEG 	3              	2016-03-13 18:43:21 
+103       	COYZQTPVC 	3              	2016-04-03 12:08:54 
 
-66        	MYHGPMGQB 	3              	2016-03-13 19:59:51 
+104       	EKJPPDZHZ 	3              	2016-04-03 17:44:31 
 
-67        	IFZAEQSTF 	3              	2016-03-13 21:13:13 
+105       	PVOUBHYYD 	3              	2016-04-03 18:40:57 
 
-68        	WVZUAKWDR 	2              	2016-03-13 21:14:21 
+106       	KWIDJISOV 	3              	2016-04-03 18:58:53 
 
-69        	THBXBVWAC 	3              	2016-03-13 21:59:26 
+107       	MGQZAAFMB 	3              	2016-04-03 22:28:40 
 
-70        	BOCAJFUZX 	3              	2016-03-13 22:09:36 
+108       	NKCXXYQFY 	3              	2016-04-03 22:48:49 
 
-71        	RJQAQSVID 	3              	2016-03-13 22:11:01 
+109       	UMLDPWRTL 	3              	2016-04-03 23:03:34 
 
-72        	JRADMBJRL 	3              	2016-03-13 22:39:12 
-
-73        	QGYMSRRZU 	3              	2016-03-13 22:48:52 
-
-74        	TOQIKDMQM 	2              	2016-03-13 23:16:01 
+110       	FVCLWHFOH 	3              	2016-04-03 23:04:35 
 
 Proveidor: 1    	Roca           	flecaroca@gremipa.com	1    
 
-Productes: 5
+Productes: 9
 Proveidor: 2    	Prat-Manel     	manel.lacera@yahoo.es	1    
 
-Productes: 5
+Productes: 7
 Proveidor: 3    	Vivo           	j06vivo@yahoo.es    	1    
 
 Productes: 12
@@ -59,37 +55,42 @@ Proveidor: 5    	Moli de Bonsfills	gemma.raset@gmail.com	1
 No hi ha productes
 Proveidor: 6    	La Feixa Verda 	natixavi@hotmail.com	2    
 
-Productes: 131
+Productes: 121
 Proveidor: 7    	La Cleda       	david@redcluster.com	1    
 
-No hi ha productes
+Productes: 10
 Proveidor: 8    	Niko           	nikohristov@yahoo.es	1    
 
 Productes: 3
 Proveidor: 9    	Carns Bayo     	rosabayo@yahoo.com  	2    
 
-Productes: 13
+Productes: 14
 Proveidor: 10   	Toni P.        	toniporcar@gmail.com	2    
 
-Productes: 6
-No hi ha el proveidor: 18 en la taula tx_supplier
+Productes: 7
+Proveidor: 18   	Cal Mateu      	sastrej@gmail.com   	4    
+
+Proveidor: 19   	BioBio         	sastrej@gmail.com   	4    
+
+Proveidor: 20   	Varis          	sastrej@gmail.com   	4    
+
+Proveidor: 21   	Puigcerver     	sastrej@gmail.com   	4    
+
 Tancament de comandes
-Comanda numero: 55 tancada
-Comanda numero: 56 tancada
-Comanda numero: 57 tancada
-Comanda numero: 58 tancada
-Comanda numero: 59 tancada
-Comanda numero: 60 tancada
-Comanda numero: 61 tancada
-Comanda numero: 62 tancada
-Comanda numero: 64 tancada
-Comanda numero: 65 tancada
-Comanda numero: 66 tancada
-Comanda numero: 67 tancada
-Comanda numero: 68 tancada
-Comanda numero: 69 tancada
-Comanda numero: 70 tancada
-Comanda numero: 71 tancada
-Comanda numero: 72 tancada
-Comanda numero: 73 tancada
-Comanda numero: 74 tancada
+Comanda numero: 99 tancada
+Comanda numero: 94 tancada
+Comanda numero: 95 tancada
+Comanda numero: 96 tancada
+Comanda numero: 97 tancada
+Comanda numero: 98 tancada
+Comanda numero: 100 tancada
+Comanda numero: 101 tancada
+Comanda numero: 102 tancada
+Comanda numero: 103 tancada
+Comanda numero: 104 tancada
+Comanda numero: 105 tancada
+Comanda numero: 106 tancada
+Comanda numero: 107 tancada
+Comanda numero: 108 tancada
+Comanda numero: 109 tancada
+Comanda numero: 110 tancada
