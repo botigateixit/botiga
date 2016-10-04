@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-14 18:22:24
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 18:12:21
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/search_form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:135072145356e305eaf39985-24199883%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2067722359579a2ee57afa97-65393932%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b97bb35db22f3c3408eef430775eb8334a69b698' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/search_form.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '135072145356e305eaf39985-24199883',
+  'nocache_hash' => '2067722359579a2ee57afa97-65393932',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e305eb043130_23609962',
   'variables' => 
   array (
     'id' => 0,
@@ -25,8 +23,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'search_type' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_579a2ee5808299_24670579',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e305eb043130_23609962')) {function content_56e305eb043130_23609962($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_579a2ee5808299_24670579')) {function content_579a2ee5808299_24670579($_smarty_tpl) {?>
 
 <form id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['id']->value, ENT_QUOTES, 'UTF-8', true);?>
 " class="bo_search_form" method="post" action="index.php?controller=AdminSearch&amp;token=<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['getAdminToken'][0][0]->getAdminTokenLiteSmarty(array('tab'=>'AdminSearch'),$_smarty_tpl);?>

@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-14 18:36:19
+<?php /* Smarty version Smarty-3.1.19, created on 2016-09-01 00:13:33
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/uploader/simple.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:60934049656e6e842603f16-60527140%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:153679636357c7568dd2cbc3-19140948%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '87928c353ebb6cfe7abc9e932b0cda57e81ad507' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/uploader/simple.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '60934049656e6e842603f16-60527140',
+  'nocache_hash' => '153679636357c7568dd2cbc3-19140948',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e6e8427abd44_42524258',
   'variables' => 
   array (
     'files' => 0,
@@ -29,8 +27,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'size' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57c7568de85445_64530758',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e6e8427abd44_42524258')) {function content_56e6e8427abd44_42524258($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57c7568de85445_64530758')) {function content_57c7568de85445_64530758($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['files']->value)&&count($_smarty_tpl->tpl_vars['files']->value)>0) {?>
 	<?php $_smarty_tpl->tpl_vars['show_thumbnail'] = new Smarty_variable(false, null, 0);?>
 	<?php  $_smarty_tpl->tpl_vars['file'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['file']->_loop = false;

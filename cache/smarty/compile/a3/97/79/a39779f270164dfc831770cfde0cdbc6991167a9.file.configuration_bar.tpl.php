@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-17 23:26:49
+<?php /* Smarty version Smarty-3.1.19, created on 2016-09-01 00:13:43
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/modules/configuration_bar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11965139056eb2f296b6114-87771605%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:205204153757c7569718b5a5-02818627%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a39779f270164dfc831770cfde0cdbc6991167a9' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/modules/configuration_bar.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11965139056eb2f296b6114-87771605',
+  'nocache_hash' => '205204153757c7569718b5a5-02818627',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56eb2f296e1f99_66350128',
+  'unifunc' => 'content_57c756971b8289_00454487',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56eb2f296e1f99_66350128')) {function content_56eb2f296e1f99_66350128($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_57c756971b8289_00454487')) {function content_57c756971b8289_00454487($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 
 <?php $_smarty_tpl->tpl_vars['module_name'] = new Smarty_variable(htmlspecialchars($_smarty_tpl->tpl_vars['module_name']->value, ENT_QUOTES, 'UTF-8', true), null, 0);?>

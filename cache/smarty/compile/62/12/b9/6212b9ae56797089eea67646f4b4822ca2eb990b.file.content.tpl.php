@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-14 18:22:04
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 18:11:43
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/login/content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:128454025256e305d70a5807-97603421%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:389088517579a2ebfb917c7-09937472%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6212b9ae56797089eea67646f4b4822ca2eb990b' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/login/content.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '128454025256e305d70a5807-97603421',
+  'nocache_hash' => '389088517579a2ebfb917c7-09937472',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e305d7126e52_95454000',
   'variables' => 
   array (
     'img_dir' => 0,
@@ -35,8 +33,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'adminUrl' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_579a2ebfd95ec5_91585441',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e305d7126e52_95454000')) {function content_56e305d7126e52_95454000($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_579a2ebfd95ec5_91585441')) {function content_579a2ebfd95ec5_91585441($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.date_format.php';
 ?>
 <div id="login-panel">
 	<div id="login-header">

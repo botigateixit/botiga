@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 06:11:34
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 18:11:21
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/modules/blockcart/blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:26681979556e25386cd0ca6-45191359%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2028756273579a2ea9b8c639-53862261%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '69654e2c5c86582c1e86b8fd1ae5e010c59ebddf' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/modules/blockcart/blockcart.tpl',
-      1 => 1456875413,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '26681979556e25386cd0ca6-45191359',
+  'nocache_hash' => '2028756273579a2ea9b8c639-53862261',
   'function' => 
   array (
   ),
@@ -55,9 +55,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e253873e44f5_30321199',
+  'unifunc' => 'content_579a2eaae7a600_17218135',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e253873e44f5_30321199')) {function content_56e253873e44f5_30321199($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_579a2eaae7a600_17218135')) {function content_579a2eaae7a600_17218135($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/function.counter.php';
 ?>
 <!-- MODULE Block cart -->

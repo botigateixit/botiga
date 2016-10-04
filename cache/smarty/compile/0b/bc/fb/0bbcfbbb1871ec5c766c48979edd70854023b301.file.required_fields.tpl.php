@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-17 22:19:51
+<?php /* Smarty version Smarty-3.1.19, created on 2016-09-01 00:16:03
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/customers/helpers/required_fields.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:211095841356e5f91aa524f9-20648356%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:203808926557c75723e46505-58067559%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0bbcfbbb1871ec5c766c48979edd70854023b301' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/customers/helpers/required_fields.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '211095841356e5f91aa524f9-20648356',
+  'nocache_hash' => '203808926557c75723e46505-58067559',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e5f91aa86507_05405112',
   'variables' => 
   array (
     'current' => 0,
@@ -27,8 +25,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'required_fields' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57c75723e90818_98300872',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e5f91aa86507_05405112')) {function content_56e5f91aa86507_05405112($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57c75723e90818_98300872')) {function content_57c75723e90818_98300872($_smarty_tpl) {?>
 <a class="btn btn-default" href="#" onclick="if ($('.requiredFieldsParameters:visible').length == 0) $('.requiredFieldsParameters').slideDown('slow'); else $('.requiredFieldsParameters').slideUp('slow'); return false;">
   <i class="icon-plus-sign"></i> <?php echo smartyTranslate(array('s'=>'Set required fields for this section'),$_smarty_tpl);?>
 

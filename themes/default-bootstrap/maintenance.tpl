@@ -45,10 +45,10 @@
 				<div class="logo"><img src="{$logo_url}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}"{/if} alt="logo" /></div>
 	        		{$HOOK_MAINTENANCE}
 	        		<div id="message">
-	             			<h1 class="maintenance-heading">{l s='We\'ll be back soon.'}</h1>
-							{l s='We are currently updating our shop and will be back really soon.'}
+	             			<h1 class="maintenance-heading">{l s='Estem de Vacances !!!'}</h1>
+							{l s='Tornarem aviat. Si us voleu posar en contacte amb nosaltres, envieu un correu a la següent adreça:'}
 							<br />
-							{l s='Thanks for your patience.'}
+							{l s='teixitdelaterra@gmail.com'}
 					</div>
 				</div>
 	        </div>

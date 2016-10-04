@@ -3,7 +3,7 @@
 <head>
 <style type="text/css">
 	.TFtable{
-		width:50%; 
+		width:80%; 
 		border-collapse:collapse; 
 	}
 	.TFtable, th, td{ 

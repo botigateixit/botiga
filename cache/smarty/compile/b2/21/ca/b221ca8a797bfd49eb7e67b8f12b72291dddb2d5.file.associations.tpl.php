@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-14 18:23:07
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-31 23:54:40
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/associations.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:48026840356e47acaf418f1-52296884%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1129685557c75220376252-25850458%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b221ca8a797bfd49eb7e67b8f12b72291dddb2d5' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/associations.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '48026840356e47acaf418f1-52296884',
+  'nocache_hash' => '1129685557c75220376252-25850458',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e47acb082841_45932997',
   'variables' => 
   array (
     'category_tree' => 0,
@@ -29,8 +27,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'product' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57c752203fe658_75256370',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e47acb082841_45932997')) {function content_56e47acb082841_45932997($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57c752203fe658_75256370')) {function content_57c752203fe658_75256370($_smarty_tpl) {?>
 <div id="product-associations" class="panel product-tab">
 	<input type="hidden" name="submitted_tabs[]" value="Associations" />
 	<h3><?php echo smartyTranslate(array('s'=>'Associations'),$_smarty_tpl);?>

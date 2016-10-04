@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-14 18:22:05
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 18:11:24
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/javascript.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:139539077956e2453c7f1098-69008620%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:975542347579a2eac5fae58-11411040%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c36a25ee00b6d9d1e67e5b93b3bcc80f5b9d1ed5' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/javascript.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '139539077956e2453c7f1098-69008620',
+  'nocache_hash' => '975542347579a2eac5fae58-11411040',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e2453c93b6a3_40787477',
   'variables' => 
   array (
     'js_def' => 0,
@@ -28,8 +26,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'inline' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_579a2eac71b8a9_24714795',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e2453c93b6a3_40787477')) {function content_56e2453c93b6a3_40787477($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_579a2eac71b8a9_24714795')) {function content_579a2eac71b8a9_24714795($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/modifier.replace.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['js_def']->value)&&is_array($_smarty_tpl->tpl_vars['js_def']->value)&&count($_smarty_tpl->tpl_vars['js_def']->value)) {?>
 <script type="text/javascript">

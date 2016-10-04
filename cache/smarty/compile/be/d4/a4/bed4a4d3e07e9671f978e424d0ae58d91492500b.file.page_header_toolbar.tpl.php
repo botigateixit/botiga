@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-14 18:22:04
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 18:11:43
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/page_header_toolbar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:117893222656e305d713f469-92052896%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1308703792579a2ebfe453e1-89051372%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bed4a4d3e07e9671f978e424d0ae58d91492500b' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/page_header_toolbar.tpl',
-      1 => 1457975962,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '117893222656e305d713f469-92052896',
+  'nocache_hash' => '1308703792579a2ebfe453e1-89051372',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e305d72ca2a0_82091098',
   'variables' => 
   array (
     'title' => 0,
@@ -32,8 +30,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'tab_modules_list' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_579a2ec0344700_63008479',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e305d72ca2a0_82091098')) {function content_56e305d72ca2a0_82091098($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_579a2ec0344700_63008479')) {function content_579a2ec0344700_63008479($_smarty_tpl) {?>
 
 
 <?php if (!isset($_smarty_tpl->tpl_vars['title']->value)&&isset($_smarty_tpl->tpl_vars['page_header_toolbar_title']->value)) {?>

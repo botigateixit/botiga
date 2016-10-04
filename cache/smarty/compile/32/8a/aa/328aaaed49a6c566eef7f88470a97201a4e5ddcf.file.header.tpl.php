@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-11 06:11:37
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 18:11:23
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:176817670356e25389b140a8-13438744%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:344685368579a2eab9ecb78-96950272%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '328aaaed49a6c566eef7f88470a97201a4e5ddcf' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/header.tpl',
-      1 => 1456875413,
+      1 => 1459875527,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '176817670356e25389b140a8-13438744',
+  'nocache_hash' => '344685368579a2eab9ecb78-96950272',
   'function' => 
   array (
   ),
@@ -56,9 +56,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e25389d11630_33042325',
+  'unifunc' => 'content_579a2eabf366f4_12104527',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e25389d11630_33042325')) {function content_56e25389d11630_33042325($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/function.implode.php';
+<?php if ($_valid && !is_callable('content_579a2eabf366f4_12104527')) {function content_579a2eabf366f4_12104527($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/tools/smarty/plugins/function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>

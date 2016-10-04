@@ -1,0 +1,11 @@
+Product ID*;Attribute (Name:Type:Position)*;Value (Value:Position)*;Quantity;Minimal quantity;Default (0 = No, 1 = Yes)
+874;Pes:select:0;100 grs:0;999999999;1;0
+874;Pes:select:0;1/4 KG:0;999999999;1;1
+874;Pes:select:0;1/2 KG:0;999999999;1;0
+874;Pes:select:0;3/4 KG:0;999999999;1;0
+874;Pes:select:0;1 KG:0;999999999;1;0
+874;Pes:select:0;1.5 KG:0;999999999;1;0
+874;Pes:select:0;2 KG:0;999999999;1;0
+874;Pes:select:0;3 KG:0;999999999;1;0
+874;Pes:select:0;4 KG:0;999999999;1;0
+874;Pes:select:0;5 KG:0;999999999;1;0
