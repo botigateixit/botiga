@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-08-31 23:54:29
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-08 00:23:06
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/multishop/checkbox.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:7458977657c75215450168-61325917%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '315239b2ee61a0aec6dd2dccbef068a9111fb3d4' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/products/multishop/checkbox.tpl',
-      1 => 1459875527,
+      1 => 1475601738,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57c752154b5466_23316821',
   'variables' => 
   array (
     'display_multishop_checkboxes' => 0,
@@ -27,8 +29,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'multishop_check' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57c752154b5466_23316821',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57c752154b5466_23316821')) {function content_57c752154b5466_23316821($_smarty_tpl) {?>
 

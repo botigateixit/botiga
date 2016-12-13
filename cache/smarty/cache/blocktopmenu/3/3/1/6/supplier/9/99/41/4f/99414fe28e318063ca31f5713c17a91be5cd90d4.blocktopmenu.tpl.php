@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '206736389257c36425bd8024-34019727',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57c9a375d3bb35_50540888',
+  'unifunc' => 'content_584dc40b148f12_98556091',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57c9a375d3bb35_50540888')) {function content_57c9a375d3bb35_50540888($_smarty_tpl) {?>	<!-- Menu -->
+<?php if ($_valid && !is_callable('content_584dc40b148f12_98556091')) {function content_584dc40b148f12_98556091($_smarty_tpl) {?>	<!-- Menu -->
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
 		<div class="cat-title">Menú</div>
 		<ul class="sf-menu clearfix menu-content">
@@ -26,6 +26,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/8__niko" title="Niko">Niko</a></li>
 <li class="sfHover"><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/9__carns-bayo" title="Carns Bayo">Carns Bayo</a></li>
 <li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/7__la-cleda" title="La Cleda">La Cleda</a></li>
+<li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/10__toni-p" title="Toni P.">Toni P.</a></li>
 
 					</ul>
 	</div>

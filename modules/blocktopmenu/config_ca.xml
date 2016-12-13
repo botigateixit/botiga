@@ -2,7 +2,7 @@
 <module>
 	<name>blocktopmenu</name>
 	<displayName><![CDATA[Men&uacute; horitzontal superior]]></displayName>
-	<version><![CDATA[2.2.3]]></version>
+	<version><![CDATA[2.2.4]]></version>
 	<description><![CDATA[Afegeix un nou men&uacute; a la part superior de la vostra botiga.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

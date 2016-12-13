@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '33796117157c755d2f270e6-05817732',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57e372b33cbbd4_78091560',
+  'unifunc' => 'content_584da034e2ba87_51321811',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57e372b33cbbd4_78091560')) {function content_57e372b33cbbd4_78091560($_smarty_tpl) {?><ul id="homefeatured" class="homefeatured tab-pane">
+<?php if ($_valid && !is_callable('content_584da034e2ba87_51321811')) {function content_584da034e2ba87_51321811($_smarty_tpl) {?><ul id="homefeatured" class="homefeatured tab-pane">
 	<li class="alert alert-info">No hay productos destacados</li>
 </ul>
 <?php }} ?>

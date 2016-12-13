@@ -2,7 +2,7 @@
 <module>
 	<name>homeslider</name>
 	<displayName><![CDATA[Passi de diapositives per a la p&agrave;gina principal]]></displayName>
-	<version><![CDATA[1.6.0]]></version>
+	<version><![CDATA[1.6.1]]></version>
 	<description><![CDATA[Afegir passi de diapositives a la p&agrave;gina principal.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
