@@ -248,7 +248,7 @@ if ($rprov->num_rows > 0) {
 				// Gravem les dades de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
 				$fprov = "../gestio".$lgrouprow[id_group]."/".date("Y")."/".date("Ymd").$provrow["name"].".html";
 				$dadeslog= file_get_contents("./plantilles/mstg_prov.htm_");
-				$dadeslog.= "<p>Local: ".$lgrouprow[name]."<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
+				$dadeslog.= "<p>Local: <FONT SIZE=+2><b>".$lgrouprow[name]."</b></FONT><br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
 				$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Quantitat</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
 				while($prodrow = $rproductes->fetch_assoc()) {
 					$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
@@ -353,7 +353,7 @@ if ($rprov->num_rows > 0) {
 			// Gravem les dades de la comanda en el fitxer destinat al grup de rebre
 			$fprovrebre = "../gestio".$lgrouprow[id_group]."/".date("Y")."/".date("Ymd")."_Rebre_".$provrow["name"].".html";
 			$dadeslog= file_get_contents("./plantilles/mstg_rebre.htm_");
-			$dadeslog.= "<p>Local: ".$lgrouprow[name]."<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
+			$dadeslog.= "<p>Local: <FONT SIZE=+2><b>".$lgrouprow[name]."</b></FONT><br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
 			$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Qtat.</th><th>Num.</th><th>Client</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
 			while($prowrebre = $rprebre->fetch_assoc()) {
 				$dadeslog.= "<tr><td>".$prowrebre['Producte']."</td><td>".$prowrebre['Quantitat']."</td><td>".$prowrebre['Num']."</td><td>".$prowrebre['Client']."</td><td>".$prowrebre['Proveidor']."</td></tr>".PHP_EOL;
