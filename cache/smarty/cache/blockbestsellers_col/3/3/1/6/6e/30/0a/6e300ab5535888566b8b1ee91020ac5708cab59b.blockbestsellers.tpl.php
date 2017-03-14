@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '93168131357c9a0736b1738-67919579',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_584dd0f71c0071_92563240',
+  'unifunc' => 'content_58a0e881ecf5d9_12721668',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_584dd0f71c0071_92563240')) {function content_584dd0f71c0071_92563240($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58a0e881ecf5d9_12721668')) {function content_58a0e881ecf5d9_12721668($_smarty_tpl) {?>
 <!-- MODULE Block best sellers -->
 <div id="best-sellers_block_right" class="block products_block">
 	<h4 class="title_block">
@@ -41,13 +41,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                     </div>
 			</li>
 					<li class="clearfix">
-				<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="" class="products-block-image content_img clearfix">
-					<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/127-small_default/platan.jpg" alt="" />
+				<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/65-fruitaverdura.html" title="Fruita/Verdura" class="products-block-image content_img clearfix">
+					<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/122-small_default/fruitaverdura.jpg" alt="Fruita/Verdura" />
 				</a>
 				<div class="product-content">
                 	<h5>
-                    	<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="">
-                            Plàtan
+                    	<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/65-fruitaverdura.html" title="Fruita/Verdura">
+                            Total Fruita/Verdura
                         </a>
                     </h5>
                     <p class="product-description"></p>
@@ -58,13 +58,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                     </div>
 			</li>
 					<li class="clearfix">
-				<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/65-fruitaverdura.html" title="Fruita/Verdura" class="products-block-image content_img clearfix">
-					<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/122-small_default/fruitaverdura.jpg" alt="Fruita/Verdura" />
+				<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="" class="products-block-image content_img clearfix">
+					<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/127-small_default/platan.jpg" alt="" />
 				</a>
 				<div class="product-content">
                 	<h5>
-                    	<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/65-fruitaverdura.html" title="Fruita/Verdura">
-                            Total Fruita/Verdura
+                    	<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="">
+                            Plàtan
                         </a>
                     </h5>
                     <p class="product-description"></p>
@@ -143,23 +143,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                     </div>
 			</li>
 					<li class="clearfix">
-				<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomaquet" class="products-block-image content_img clearfix">
-					<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/678-small_default/tomaquet.jpg" alt="Tomaquet" />
-				</a>
-				<div class="product-content">
-                	<h5>
-                    	<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomaquet">
-                            Tomàquet
-                        </a>
-                    </h5>
-                    <p class="product-description"></p>
-                                            <div class="price-box">
-                            <span class="price">0,00 €</span>
-                            
-                        </div>
-                                    </div>
-			</li>
-					<li class="clearfix">
 				<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/146-patata.html" title="" class="products-block-image content_img clearfix">
 					<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/209-small_default/patata.jpg" alt="" />
 				</a>
@@ -184,6 +167,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 	<h5>
                     	<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/145-pastanaga.html" title="">
                             Pastanaga
+                        </a>
+                    </h5>
+                    <p class="product-description"></p>
+                                            <div class="price-box">
+                            <span class="price">0,00 €</span>
+                            
+                        </div>
+                                    </div>
+			</li>
+					<li class="clearfix">
+				<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomaquet" class="products-block-image content_img clearfix">
+					<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/678-small_default/tomaquet.jpg" alt="Tomaquet" />
+				</a>
+				<div class="product-content">
+                	<h5>
+                    	<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomaquet">
+                            Tomàquet
                         </a>
                     </h5>
                     <p class="product-description"></p>

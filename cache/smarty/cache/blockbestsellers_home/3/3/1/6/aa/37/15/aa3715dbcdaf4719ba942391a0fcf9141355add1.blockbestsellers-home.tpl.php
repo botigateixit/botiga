@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '5366655257c35ff9e0de08-96533018',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_584dd06d8766f1_67893551',
+  'unifunc' => 'content_58a0d706d482d4_23013303',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_584dd06d8766f1_67893551')) {function content_584dd06d8766f1_67893551($_smarty_tpl) {?>		
+<?php if ($_valid && !is_callable('content_58a0d706d482d4_23013303')) {function content_58a0d706d482d4_23013303($_smarty_tpl) {?>		
 									
 		
 	
@@ -77,7 +77,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=368&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="0" data-id-product="368" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=368&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="0" data-id-product="368" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/carns-bayo/368-mandonguilles.html" title="Veure">
@@ -97,72 +97,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		
 		
 								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
-			<div class="product-container" itemscope itemtype="https://schema.org/Product">
-				<div class="left-block">
-					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="Plàtan" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/127-home_default/platan.jpg" alt="Plàtan" title="Plàtan"  width="250" height="250" itemprop="image" />
-						</a>
-													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html">
-								<i class="icon-eye-open"></i>
-							</a>
-						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html">
-							<span>Vista r&agrave;pida</span>
-						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-                                        
-										0,00 €									</span>
-									<meta itemprop="priceCurrency" content="EUR" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />En estoc																					</span>
-																		
-									
-															</div>
-																							</div>
-										
-				</div>
-				<div class="right-block">
-					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="Plàtan" itemprop="url" >
-							Plàtan
-						</a>
-					</h5>
-					
-					<p class="product-desc" itemprop="description">
-						
-					</p>
-										<div class="content_price">
-						                            
-							<span class="price product-price">
-								0,00 €							</span>
-														
-							
-                            
-											</div>
-										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=69&amp;ipa=89&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="89" data-id-product="69" data-minimal_quantity="1">
-									<span>Afegir al carret</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="Veure">
-							<span>M&eacute;s</span>
-						</a>
-					</div>
-										<div class="product-flags">
-																														</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										En estoc									</span>
-															</span>
-															</div>
-							</div><!-- .product-container> -->
-		</li>
-			
-		
-		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
@@ -209,10 +143,76 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=65&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="0" data-id-product="65" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=65&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="0" data-id-product="65" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/65-fruitaverdura.html" title="Veure">
+							<span>M&eacute;s</span>
+						</a>
+					</div>
+										<div class="product-flags">
+																														</div>
+																		<span class="availability">
+																	<span class=" label-success">
+										En estoc									</span>
+															</span>
+															</div>
+							</div><!-- .product-container> -->
+		</li>
+			
+		
+		
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
+			<div class="product-container" itemscope itemtype="https://schema.org/Product">
+				<div class="left-block">
+					<div class="product-image-container">
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="Plàtan" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/127-home_default/platan.jpg" alt="Plàtan" title="Plàtan"  width="250" height="250" itemprop="image" />
+						</a>
+													<div class="quick-view-wrapper-mobile">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html">
+								<i class="icon-eye-open"></i>
+							</a>
+						</div>
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html">
+							<span>Vista r&agrave;pida</span>
+						</a>
+																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+																	<span itemprop="price" class="price product-price">
+                                        
+										0,00 €									</span>
+									<meta itemprop="priceCurrency" content="EUR" />
+																												<span class="unvisible">
+																								<link itemprop="availability" href="https://schema.org/InStock" />En estoc																					</span>
+																		
+									
+															</div>
+																							</div>
+										
+				</div>
+				<div class="right-block">
+					<h5 itemprop="name">
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="Plàtan" itemprop="url" >
+							Plàtan
+						</a>
+					</h5>
+					
+					<p class="product-desc" itemprop="description">
+						
+					</p>
+										<div class="content_price">
+						                            
+							<span class="price product-price">
+								0,00 €							</span>
+														
+							
+                            
+											</div>
+										<div class="button-container">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=69&amp;ipa=89&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="89" data-id-product="69" data-minimal_quantity="1">
+									<span>Afegir al carret</span>
+								</a>
+																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/69-platan.html" title="Veure">
 							<span>M&eacute;s</span>
 						</a>
 					</div>
@@ -275,7 +275,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=269&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="0" data-id-product="269" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=269&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="0" data-id-product="269" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/vivo/269-l-7-llet-civada-avena-1l.html" title="Veure">
@@ -341,7 +341,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=144&amp;ipa=290&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="290" data-id-product="144" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=144&amp;ipa=290&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="290" data-id-product="144" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/144-ous.html" title="Veure">
@@ -407,7 +407,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=68&amp;ipa=58&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="58" data-id-product="68" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=68&amp;ipa=58&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="58" data-id-product="68" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/68-pera.html" title="Veure">
@@ -473,7 +473,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=135&amp;ipa=134&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="134" data-id-product="135" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=135&amp;ipa=134&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="134" data-id-product="135" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/135-ceba-seca.html" title="Veure">
@@ -493,72 +493,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		
 		
 								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line last-item-of-mobile-line">
-			<div class="product-container" itemscope itemtype="https://schema.org/Product">
-				<div class="left-block">
-					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomàquet" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/678-home_default/tomaquet.jpg" alt="Tomaquet" title="Tomaquet"  width="250" height="250" itemprop="image" />
-						</a>
-													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html">
-								<i class="icon-eye-open"></i>
-							</a>
-						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html">
-							<span>Vista r&agrave;pida</span>
-						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-                                        
-										0,00 €									</span>
-									<meta itemprop="priceCurrency" content="EUR" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />En estoc																					</span>
-																		
-									
-															</div>
-																							</div>
-										
-				</div>
-				<div class="right-block">
-					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomàquet" itemprop="url" >
-							Tomàquet
-						</a>
-					</h5>
-					
-					<p class="product-desc" itemprop="description">
-						
-					</p>
-										<div class="content_price">
-						                            
-							<span class="price product-price">
-								0,00 €							</span>
-														
-							
-                            
-											</div>
-										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=861&amp;ipa=1113&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="1113" data-id-product="861" data-minimal_quantity="1">
-									<span>Afegir al carret</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Veure">
-							<span>M&eacute;s</span>
-						</a>
-					</div>
-										<div class="product-flags">
-																														</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										En estoc									</span>
-															</span>
-															</div>
-							</div><!-- .product-container> -->
-		</li>
-			
-		
-		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line last-line last-item-of-tablet-line first-item-of-mobile-line last-mobile-line">
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
@@ -605,7 +539,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=146&amp;ipa=214&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="214" data-id-product="146" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=146&amp;ipa=214&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="214" data-id-product="146" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/146-patata.html" title="Veure">
@@ -624,7 +558,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			
 		
 		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line first-item-of-tablet-line last-item-of-mobile-line last-mobile-line">
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line last-line last-item-of-tablet-line first-item-of-mobile-line last-mobile-line">
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
@@ -671,10 +605,76 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             
 											</div>
 										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=145&amp;ipa=270&amp;token=4a769fbe6545262dbf0aa4471e2c4778" rel="nofollow" title="Afegir al carret" data-id-product-attribute="270" data-id-product="145" data-minimal_quantity="1">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=145&amp;ipa=270&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="270" data-id-product="145" data-minimal_quantity="1">
 									<span>Afegir al carret</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/145-pastanaga.html" title="Veure">
+							<span>M&eacute;s</span>
+						</a>
+					</div>
+										<div class="product-flags">
+																														</div>
+																		<span class="availability">
+																	<span class=" label-success">
+										En estoc									</span>
+															</span>
+															</div>
+							</div><!-- .product-container> -->
+		</li>
+			
+		
+		
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-line first-item-of-tablet-line last-item-of-mobile-line last-mobile-line">
+			<div class="product-container" itemscope itemtype="https://schema.org/Product">
+				<div class="left-block">
+					<div class="product-image-container">
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomàquet" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/678-home_default/tomaquet.jpg" alt="Tomaquet" title="Tomaquet"  width="250" height="250" itemprop="image" />
+						</a>
+													<div class="quick-view-wrapper-mobile">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html">
+								<i class="icon-eye-open"></i>
+							</a>
+						</div>
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html">
+							<span>Vista r&agrave;pida</span>
+						</a>
+																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+																	<span itemprop="price" class="price product-price">
+                                        
+										0,00 €									</span>
+									<meta itemprop="priceCurrency" content="EUR" />
+																												<span class="unvisible">
+																								<link itemprop="availability" href="https://schema.org/InStock" />En estoc																					</span>
+																		
+									
+															</div>
+																							</div>
+										
+				</div>
+				<div class="right-block">
+					<h5 itemprop="name">
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Tomàquet" itemprop="url" >
+							Tomàquet
+						</a>
+					</h5>
+					
+					<p class="product-desc" itemprop="description">
+						
+					</p>
+										<div class="content_price">
+						                            
+							<span class="price product-price">
+								0,00 €							</span>
+														
+							
+                            
+											</div>
+										<div class="button-container">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/cart?add=1&amp;id_product=861&amp;ipa=1113&amp;token=8db42009f47a2e4242a2e9e9e8ca304e" rel="nofollow" title="Afegir al carret" data-id-product-attribute="1113" data-id-product="861" data-minimal_quantity="1">
+									<span>Afegir al carret</span>
+								</a>
+																			<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-feixa-verda/861-tomaquet.html" title="Veure">
 							<span>M&eacute;s</span>
 						</a>
 					</div>

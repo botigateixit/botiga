@@ -112,11 +112,6 @@ echo $avui_7."\r\n";
 //fixem la zona horaria
 date_default_timezone_set('Europe/Madrid');
 
-// Verifiquem existencia directori any, sino el creem
-$dirany = "../gestio/".date("Y");
-if (!file_exists($dirany)) 
-	if (mkdir($dirany)) echo "Directori".date("Y")."creat\r\n";
-
 // Definició del fitxer de log
 $log = "../gestio/main.log";
 
@@ -190,8 +185,6 @@ $rprov = $conn->query($sql);
 
 if ($rprov->num_rows > 0) {
     while($provrow = $rprov->fetch_assoc()) {
-	// Inicialitzem control d'enviament de missatge a rebre
-	$missatge_rebre = 0;
 	// Obtenim les dades de email i tipus_email de la taula tx_supplier	
 	$sqlsupplier = "SELECT email,tipus_email FROM tx_supplier WHERE id_supplier =".$provrow['id_supplier'];
 	$resultsupplier = $conn->query($sqlsupplier);
@@ -211,152 +204,185 @@ if ($rprov->num_rows > 0) {
     $dadeslog= "Proveidor: ".sprintf ("%1$-5s\t%2$-15s\t%3$-20s\t%4$-5s\r\n",$provrow["id_supplier"],$provrow["name"],$Destinatari,$Tipus_email).PHP_EOL;
     file_put_contents ($log, $dadeslog, FILE_APPEND);
     
-    switch ($Tipus_email) {
-		
-    case 1:
-		// Tipus_email=1: Fem la query dels productes del proveidor tractat, per comanda al proveidor agrupant per producte 
-		$sql = "SELECT pd.`product_name` AS Producte , SUM(pd.`product_quantity`) AS Quantitat , ps.`name` AS Proveidor
-		FROM ps_orders p
-		LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-		LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
-		LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
-		WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier])
-		GROUP BY pd.`product_id`;";
-        $rproductes = $conn->query($sql);
-
-		// Amb el resultat generem la informacio a enviar
-		if ($rproductes->num_rows > 0) {
-			// Gravem nombre de linies, productes
-			$dadeslog= "Productes: ".$rproductes->num_rows.PHP_EOL;
-			// Indiquem que s'ha d'enviar el missatge per al grup de rebre
-			$missatge_rebre = 1;
-        	file_put_contents ($log, $dadeslog, FILE_APPEND);
-			// Gravem les dades de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
-			$fprov = "../gestio/".date("Y")."/".date("Ymd").$provrow["name"].".html";
-			$dadeslog= file_get_contents("./plantilles/mstg_prov.htm_");
-			$dadeslog.= "<p>Local: La Quartera<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
-			$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Quantitat</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
-            while($prodrow = $rproductes->fetch_assoc()) {
-				$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
-    		}
-			// Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
-			$dadeslog.= file_get_contents("./plantilles/fimstg_prov.htm_");
-        	file_put_contents ($fprov, $dadeslog);
-
-			// Enviem la comanda al proveidor
-			echo "Enviem correu electronic\r\n";
-			echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
-			$Subject = "Teixit de la terra, La Quartera, comanda: ".$provrow["name"]." ".$avui;
-			$res = EnviaCorreu ($fprov,$Destinatari,$Subject);
-			if ($res != 0) { echo $res;
-			} else { echo "Correu enviat correctament \r\n";
-			}
-		} else {
-			// Gravem sino hi ha productes i deixem el $missatge_rebre=0 i així no s'enviara el missatge
-			$dadeslog = "No hi ha productes".PHP_EOL;
-			file_put_contents ($log, $dadeslog, FILE_APPEND);
-		}
-		break;
-		
-    case 2:
-		// Tipus_email=2: Fem la query dels productes del proveidor tractat, agrupat per cooperativista com el del grup de rebre
-       	$sql = "SELECT pd.`product_name` AS Producte , pd.`product_quantity` AS Quantitat, pc.`note` AS Num,
-		CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, ps.`name` AS Proveidor
-       	FROM ps_orders p
-      	LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-       	LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
-       	LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
-		LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
-       	WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier])
-       	ORDER BY pc.`note`,pd.`product_name`;";
-        $rproductes = $conn->query($sql);
-
-		// Amb el resultat generem la informacio a enviar
-		if ($rproductes->num_rows > 0) {
-			// Gravem nombre de linies, productes
-			$dadeslog= "Productes: ".$rproductes->num_rows.PHP_EOL;
-			// Indiquem que s'ha d'enviar el missatge per al grup de rebre
-			$missatge_rebre = 1;
-        	file_put_contents ($log, $dadeslog, FILE_APPEND);
-			// Gravem les dades de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
-			$fprov = "../gestio/".date("Y")."/".date("Ymd").$provrow["name"].".html";
-			$dadeslog= file_get_contents("./plantilles/mstg_prov.htm_");
-			$dadeslog.= "<p>Local: La Quartera<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
-			$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Qtat.</th><th>Num.</th><th>Client</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
-            while($prodrow = $rproductes->fetch_assoc()) {
-				$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Num']."</td><td>".$prodrow['Client']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
-    		}
-			// Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
-			$dadeslog.= file_get_contents("./plantilles/fimstg_prov.htm_");
-        	file_put_contents ($fprov, $dadeslog);
-
-			// Enviem la comanda al proveidor
-			echo "Enviem correu electronic\r\n";
-			echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
-			$Subject = "Teixit de la terra, La Quartera, comanda: ".$provrow["name"]." ".$avui;
-			$res = EnviaCorreu ($fprov,$Destinatari,$Subject);
-			if ($res != 0) { echo $res;
-			} else { echo "Correu enviat correctament \r\n";
-			}
-		} else {
-			// Gravem sino hi ha productes i deixem el $missatge_rebre=0 i així no s'enviara el missatge
-			$dadeslog = "No hi ha productes".PHP_EOL;
-			file_put_contents ($log, $dadeslog, FILE_APPEND);
-		}
-		break;
-		
-	case 3:
-		// Tipus_email=3: No s'envia correu a proveïdor pero si es genera el de grup de rebre
-		$missatge_rebre = 1;
-		break;
-
-        case 4:
-                // Tipus_email=4: No s'envia correu a proveïdor ni el del grup de rebre
-                $missatge_rebre = 0;
-                break;
-		
-	default	:
-		// Proveidor amb Tipus_email desconegut i deixem el $missatge_rebre a 0 per no generar el de rebre
-	    $dadeslog = "Proveidor amb Tipus_email desconegut".PHP_EOL;
-		file_put_contents ($log, $dadeslog, FILE_APPEND);
-	}
-		
-	if ($missatge_rebre == 1) {
-		// Fem la query dels productes del proveidor tractat, per document de repartir pel grup de rebre
-       	$sql = "SELECT pd.`product_name` AS Producte , pd.`product_quantity` AS Quantitat, pc.`note` AS Num,
-		CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, ps.`name` AS Proveidor
-       	FROM ps_orders p
-       	LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
-       	LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
-       	LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
-		LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
-       	WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier])
-       	ORDER BY pc.`note`,pd.`product_name`;";
-	    $rprebre = $conn->query($sql);
-
-       	// Gravem les dades de la comanda en el fitxer destinat al grup de rebre
-        $fprovrebre = "../gestio/".date("Y")."/".date("Ymd")."_Rebre_".$provrow["name"].".html";
-		$dadeslog= file_get_contents("./plantilles/mstg_rebre.htm_");
-		$dadeslog.= "<p>Local: La Quartera<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
-		$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Qtat.</th><th>Num.</th><th>Client</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
-        while($prowrebre = $rprebre->fetch_assoc()) {
-			$dadeslog.= "<tr><td>".$prowrebre['Producte']."</td><td>".$prowrebre['Quantitat']."</td><td>".$prowrebre['Num']."</td><td>".$prowrebre['Client']."</td><td>".$prowrebre['Proveidor']."</td></tr>".PHP_EOL;
-        }
-		// Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
-		$dadeslog.= file_get_contents("./plantilles/fimstg_rebre.htm_");
-		file_put_contents ($fprovrebre, $dadeslog);
-
-		// Enviem la comanda al grup de rebre
-        echo "Enviem correu electronic grup rebre\r\n";
-        echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
-   		$Subject = "Comanda proveidor: ".$provrow["name"]." ".$avui;
-		$res = EnviaCorreu ($fprovrebre,$Destinatari_rebre,$Subject);
-        if ($res != 0) { echo $res;
-		} else { echo "Correu enviat correctament \r\n";
-		}
-		// Fem reset del control d'enviament de missatge per rebre
+    // Seleccionem les botigues (grups) gestionades
+	$sql = "SELECT id_group,name FROM ps_group_lang WHERE (id_lang=1 AND id_group IN (4,5));";
+	$lgroup = $conn->query($sql);
+	
+    
+    if ($lgroup->num_rows > 0) {
+    while($lgrouprow = $lgroup->fetch_assoc()) {
+		// Inicialitzem control d'enviament de missatge a rebre
 		$missatge_rebre = 0;
+		
+	    // Gravem la Botiga/grup que tractem
+		$dadeslog= "Botiga/grup: ".sprintf ("%1$-5s\t%2$-15s\r\n",$lgrouprow["id_group"],$lgrouprow["name"]).PHP_EOL;
+		file_put_contents ($log, $dadeslog, FILE_APPEND);
+
+		// Verifiquem existencia directori any, sino el creem
+		$dirany = "../gestio".$lgrouprow[id_group]."/".date("Y");
+		if (!file_exists($dirany)) 
+			if (mkdir($dirany)) echo "Directori".$dirany."creat\r\n";
+    
+		switch ($Tipus_email) {
+			
+		case 1:
+			// Tipus_email=1: Fem la query dels productes del proveidor tractat, per comanda al proveidor agrupant per producte 
+			$sql = "SELECT pd.`product_name` AS Producte , SUM(pd.`product_quantity`) AS Quantitat , ps.`name` AS Proveidor
+			FROM ps_orders p
+			LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
+			LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
+			LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
+			LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
+			LEFT JOIN ps_group_lang gl ON (gl.`id_group` = pc.`id_default_group` AND gl.`id_lang` = pc.`id_lang`)
+			WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier]) AND (pc.`id_default_group`= $lgrouprow[id_group])
+			GROUP BY pd.`product_id`;";
+			$rproductes = $conn->query($sql);
+			
+			// Amb el resultat generem la informacio a enviar
+			if ($rproductes->num_rows > 0) {
+				// Gravem nombre de linies, productes
+				$dadeslog= "Productes: ".$rproductes->num_rows.PHP_EOL;
+				// Indiquem que s'ha d'enviar el missatge per al grup de rebre
+				$missatge_rebre = 1;
+				file_put_contents ($log, $dadeslog, FILE_APPEND);
+				// Gravem les dades de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
+				$fprov = "../gestio".$lgrouprow[id_group]."/".date("Y")."/".date("Ymd").$provrow["name"].".html";
+				$dadeslog= file_get_contents("./plantilles/mstg_prov.htm_");
+				$dadeslog.= "<p>Local: ".$lgrouprow[name]."<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
+				$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Quantitat</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
+				while($prodrow = $rproductes->fetch_assoc()) {
+					$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
+				}
+				// Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
+				$dadeslog.= file_get_contents("./plantilles/fimstg_prov.htm_");
+				file_put_contents ($fprov, $dadeslog);
+
+				// Enviem la comanda al proveidor
+				echo "Enviem correu electronic\r\n";
+				echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
+				$Subject = "Teixit de la terra, ".$lgrouprow[name].", comanda: ".$provrow["name"]." ".$avui;
+				$res = EnviaCorreu ($fprov,$Destinatari,$Subject);
+				if ($res != 0) { echo $res;
+				} else { echo "Correu enviat correctament \r\n";
+				}
+			} else {
+				// Gravem sino hi ha productes i deixem el $missatge_rebre=0 i així no s'enviara el missatge
+				$dadeslog = "No hi ha productes".PHP_EOL;
+				file_put_contents ($log, $dadeslog, FILE_APPEND);
+			}
+			break;
+			
+		case 2:
+			// Tipus_email=2: Fem la query dels productes del proveidor tractat, agrupat per cooperativista com el del grup de rebre
+			$sql = "SELECT pd.`product_name` AS Producte , pd.`product_quantity` AS Quantitat, pc.`note` AS Num,
+			CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, ps.`name` AS Proveidor
+			FROM ps_orders p
+			LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
+			LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
+			LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
+			LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
+			LEFT JOIN ps_group_lang gl ON (gl.`id_group` = pc.`id_default_group` AND gl.`id_lang` = pc.`id_lang`)
+			WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier]) AND (pc.`id_default_group`= $lgrouprow[id_group])
+			ORDER BY pc.`note`,pd.`product_name`;";
+			$rproductes = $conn->query($sql);
+
+			// Amb el resultat generem la informacio a enviar
+			if ($rproductes->num_rows > 0) {
+				// Gravem nombre de linies, productes
+				$dadeslog= "Productes: ".$rproductes->num_rows.PHP_EOL;
+				// Indiquem que s'ha d'enviar el missatge per al grup de rebre
+				$missatge_rebre = 1;
+				file_put_contents ($log, $dadeslog, FILE_APPEND);
+				// Gravem les dades de la comanda en el fitxer destinat a aquest proveidor en format HTML i a partir de la plantilla
+				$fprov = "../gestio".$lgrouprow[id_group]."/".date("Y")."/".date("Ymd").$provrow["name"].".html";
+				$dadeslog= file_get_contents("./plantilles/mstg_prov.htm_");
+				$dadeslog.= "<p>Local: ".$lgrouprow[name]."<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
+				$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Qtat.</th><th>Num.</th><th>Client</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
+				while($prodrow = $rproductes->fetch_assoc()) {
+					$dadeslog.= "<tr><td>".$prodrow['Producte']."</td><td>".$prodrow['Quantitat']."</td><td>".$prodrow['Num']."</td><td>".$prodrow['Client']."</td><td>".$prodrow['Proveidor']."</td></tr>".PHP_EOL;
+				}
+				// Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
+				$dadeslog.= file_get_contents("./plantilles/fimstg_prov.htm_");
+				file_put_contents ($fprov, $dadeslog);
+
+				// Enviem la comanda al proveidor
+				echo "Enviem correu electronic\r\n";
+				echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
+				$Subject = "Teixit de la terra, ".$lgrouprow[name].", comanda: ".$provrow["name"]." ".$avui;
+				$res = EnviaCorreu ($fprov,$Destinatari,$Subject);
+				if ($res != 0) { echo $res;
+				} else { echo "Correu enviat correctament \r\n";
+				}
+			} else {
+				// Gravem sino hi ha productes i deixem el $missatge_rebre=0 i així no s'enviara el missatge
+				$dadeslog = "No hi ha productes".PHP_EOL;
+				file_put_contents ($log, $dadeslog, FILE_APPEND);
+			}
+			break;
+			
+		case 3:
+			// Tipus_email=3: No s'envia correu a proveïdor pero si es genera el de grup de rebre
+			$missatge_rebre = 1;
+			break;
+
+		case 4:
+			// Tipus_email=4: No s'envia correu a proveïdor ni el del grup de rebre
+			$missatge_rebre = 0;
+			break;
+			
+		default	:
+			// Proveidor amb Tipus_email desconegut i deixem el $missatge_rebre a 0 per no generar el de rebre
+			$dadeslog = "Proveidor amb Tipus_email desconegut".PHP_EOL;
+			file_put_contents ($log, $dadeslog, FILE_APPEND);
+		}
+		
+		if ($missatge_rebre == 1) {
+			// Fem la query dels productes del proveidor tractat, per document de repartir pel grup de rebre
+			$sql = "SELECT pd.`product_name` AS Producte , pd.`product_quantity` AS Quantitat, pc.`note` AS Num,
+			CONCAT(pc.`lastname`,', ',pc.`firstname`) AS Client, ps.`name` AS Proveidor
+			FROM ps_orders p
+			LEFT JOIN ps_order_detail pd ON (p.`id_order`=pd.`id_order`)
+			LEFT JOIN ps_product pps ON (pd.`product_id`=pps.`id_product`)
+			LEFT JOIN ps_supplier ps ON (pps.`id_supplier`=ps.`id_supplier`)
+			LEFT JOIN ps_customer pc ON (p.`id_customer`=pc.`id_customer`)
+			LEFT JOIN ps_group_lang gl ON (gl.`id_group` = pc.`id_default_group` AND gl.`id_lang` = pc.`id_lang`)
+			WHERE ((p.current_state=2) OR (p.current_state=3)) AND (pps.`id_supplier`= $provrow[id_supplier]) AND (pc.`id_default_group`= $lgrouprow[id_group])
+			ORDER BY pc.`note`,pd.`product_name`;";
+			$rprebre = $conn->query($sql);
+
+			// Gravem les dades de la comanda en el fitxer destinat al grup de rebre
+			$fprovrebre = "../gestio".$lgrouprow[id_group]."/".date("Y")."/".date("Ymd")."_Rebre_".$provrow["name"].".html";
+			$dadeslog= file_get_contents("./plantilles/mstg_rebre.htm_");
+			$dadeslog.= "<p>Local: ".$lgrouprow[name]."<br>Prove&iuml;dor:".$provrow["name"]."</p>".PHP_EOL;
+			$dadeslog.= "<table class='TFtable'>".PHP_EOL."<tr><th>Producte</th><th>Qtat.</th><th>Num.</th><th>Client</th><th>Prove&iuml;dor</th></tr>".PHP_EOL;
+			while($prowrebre = $rprebre->fetch_assoc()) {
+				$dadeslog.= "<tr><td>".$prowrebre['Producte']."</td><td>".$prowrebre['Quantitat']."</td><td>".$prowrebre['Num']."</td><td>".$prowrebre['Client']."</td><td>".$prowrebre['Proveidor']."</td></tr>".PHP_EOL;
+			}
+			// Tanquem amb la plantilla de fi de missatge el fitxer html i gravem
+			$dadeslog.= file_get_contents("./plantilles/fimstg_rebre.htm_");
+			file_put_contents ($fprovrebre, $dadeslog);
+
+			// Enviem la comanda al grup de rebre
+			echo "Enviem correu electronic grup rebre\r\n";
+			echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
+			$Subject = "Comanda proveidor: ".$provrow["name"]." ".$avui;
+			$res = EnviaCorreu ($fprovrebre,$Destinatari_rebre,$Subject);
+			if ($res != 0) { echo $res;
+			} else { echo "Correu enviat correctament \r\n";
+			}
+			// Fem reset del control d'enviament de missatge per rebre
+			$missatge_rebre = 0;
+		}
+
+		} // Tancament del bucle de grups/botigues
+	} else {
+	// sino hi ha grups (botigues) definides, tanquem la connexio i acabem
+    $dadeslog = "No hi ha grups (botigues) definits: 0 results".PHP_EOL;
+    file_put_contents ($log, $dadeslog, FILE_APPEND);
+    $conn->close();
+    exit;
 	}
+
 	} // Tancament del bucle de proveidors	
 } else {
 	// sino hi ha proveidors a tractar, tanquem la connexio i acabem

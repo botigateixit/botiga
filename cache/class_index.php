@@ -709,7 +709,7 @@
   ),
   'AdminOrdersController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/admin/AdminOrdersController.php',
     'type' => 'class',
     'override' => false,
   ),

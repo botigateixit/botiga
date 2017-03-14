@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '132057998157c9a073cc0975-13744115',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_584dd0f72f78d0_36234550',
+  'unifunc' => 'content_58899e83e5b799_56508636',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_584dd0f72f78d0_36234550')) {function content_584dd0f72f78d0_36234550($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58899e83e5b799_56508636')) {function content_58899e83e5b799_56508636($_smarty_tpl) {?>
 <!-- Block suppliers module -->
 <div id="suppliers_block_left" class="block blocksupplier">
 	<p class="title_block">
@@ -60,7 +60,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				                La Cleda
                 					</a>
                 				</li>
-																																																																																							</ul>
+																																																																																														</ul>
 										<form action="/index.php" method="get">
 					<div class="form-group selector1">
 						<select class="form-control" name="supplier_list">
@@ -71,6 +71,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/9__carns-bayo">Carns Bayo</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/7__la-cleda">La Cleda</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/6__la-feixa-verda">La Feixa Verda</option>
+													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/24__massaxuxes">Massaxuxes</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/5__moli-de-bonsfills">Moli de Bonsfills</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/8__niko">Niko</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/2__prat-manel">Prat-Manel</option>

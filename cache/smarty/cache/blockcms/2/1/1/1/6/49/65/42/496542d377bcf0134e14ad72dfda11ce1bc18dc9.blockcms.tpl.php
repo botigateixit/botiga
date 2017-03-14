@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '126180173457c753dbdb9c89-51892567',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_584d3f76c1a457_21436395',
+  'unifunc' => 'content_5884932119c722_13305611',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_584d3f76c1a457_21436395')) {function content_584d3f76c1a457_21436395($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5884932119c722_13305611')) {function content_5884932119c722_13305611($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Informació</h4>
@@ -55,7 +55,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</section>
 		<section class="bottom-footer col-xs-12">
 		<div>
-			&copy; 2016 <a class="_blank" href="http://www.prestashop.com">Programari de comerç electrònic de PrestaShop™</a>
+			&copy; 2017 <a class="_blank" href="http://www.prestashop.com">Programari de comerç electrònic de PrestaShop™</a>
 		</div>
 	</section>
 		<!-- /Block CMS module footer -->

@@ -1,0 +1,5 @@
+AuthUserFile /var/lib/openshift/55e615f62d5271473f000022/app-root/repo/txtdltrr/.gestio5_admin
+AuthName "Administracio Creu Alta"
+AuthType Basic
+Require valid-user
+Options -Indexes
