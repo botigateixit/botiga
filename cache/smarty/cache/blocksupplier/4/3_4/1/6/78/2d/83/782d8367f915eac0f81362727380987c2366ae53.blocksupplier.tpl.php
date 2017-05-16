@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '132057998157c9a073cc0975-13744115',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58ba825af2eca5_68707743',
+  'unifunc' => 'content_59065d600e5b79_97458060',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58ba825af2eca5_68707743')) {function content_58ba825af2eca5_68707743($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59065d600e5b79_97458060')) {function content_59065d600e5b79_97458060($_smarty_tpl) {?>
 <!-- Block suppliers module -->
 <div id="suppliers_block_left" class="block blocksupplier">
 	<p class="title_block">
@@ -55,12 +55,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 				</li>
 															<li class="item">
                 					<a 
-					href="http://botiga-teixitdelaterra.rhcloud.com/ca/7__la-cleda" 
-					title="Més sobre La Cleda">
-				                La Cleda
+					href="http://botiga-teixitdelaterra.rhcloud.com/ca/25__la-catxaruda" 
+					title="Més sobre La Catxaruda">
+				                La Catxaruda
                 					</a>
                 				</li>
-																																																																																							</ul>
+																																																																																														</ul>
 										<form action="/index.php" method="get">
 					<div class="form-group selector1">
 						<select class="form-control" name="supplier_list">
@@ -69,8 +69,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/22__cal-marti">Cal Marti</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/18__cal-mateu">Cal Mateu</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/9__carns-bayo">Carns Bayo</option>
+													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/25__la-catxaruda">La Catxaruda</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/7__la-cleda">La Cleda</option>
-													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/6__la-feixa-verda">La Feixa Verda</option>
+													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/26__la-veganeria">La Veganeria</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/24__massaxuxes">Massaxuxes</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/5__moli-de-bonsfills">Moli de Bonsfills</option>
 													<option value="http://botiga-teixitdelaterra.rhcloud.com/ca/2__prat-manel">Prat-Manel</option>

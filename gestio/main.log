@@ -1,40 +1,52 @@
-Dia execucio Tractament comandes: 2017-03-13 00:00:00
+Dia execucio Tractament comandes: 2017-05-15 00:00:00
 
 Comandes que es tractaran
 id_order  	reference 	current_state  	date_add            
 
 ===================================================================
 
-773       	RGQAXMNFL 	2              	2017-03-11 18:35:34 
+920       	ZEMPWKNLR 	2              	2017-05-14 17:36:46 
 
-769       	OXQIQMVKY 	3              	2017-03-09 00:04:12 
+911       	UNEKOBVEX 	3              	2017-05-10 14:56:32 
 
-770       	KRCKGOGAB 	3              	2017-03-09 11:51:41 
+914       	SKDIXSDLH 	3              	2017-05-11 10:59:29 
 
-771       	SIWSAFWFV 	3              	2017-03-10 16:02:05 
+915       	FLRWTFUFW 	3              	2017-05-11 21:57:34 
 
-772       	EOLWCIUHH 	3              	2017-03-10 18:36:08 
+916       	JENKXRFQO 	3              	2017-05-13 13:08:41 
 
-774       	SUIZJUXBP 	3              	2017-03-12 19:26:30 
+917       	QJTWWMQPC 	3              	2017-05-13 16:44:01 
 
-775       	UAUOICKBS 	3              	2017-03-12 19:34:21 
+918       	MKMSRAPBE 	3              	2017-05-14 00:18:00 
 
-776       	JJQSEMRLS 	3              	2017-03-12 21:22:32 
+919       	WWCIZUOTW 	3              	2017-05-14 12:28:04 
 
-777       	VSKLMWXDW 	3              	2017-03-12 22:16:24 
+921       	PRDDCDABJ 	3              	2017-05-14 18:42:07 
 
-778       	GXLMRYMVA 	3              	2017-03-12 23:04:36 
+922       	PLFEFKHFC 	3              	2017-05-14 18:44:24 
 
-779       	WXGZZUUXE 	3              	2017-03-12 23:19:32 
+923       	WFWCSMDZY 	3              	2017-05-14 20:01:21 
+
+924       	JHDTCMOZV 	3              	2017-05-14 20:46:04 
+
+925       	TOAOGRIYQ 	3              	2017-05-14 21:00:47 
+
+926       	BZBSBTQFI 	3              	2017-05-14 22:50:44 
+
+927       	GWBAZIACA 	3              	2017-05-14 22:59:10 
+
+928       	MCDZRCGDG 	3              	2017-05-14 23:45:12 
+
+929       	EGSHEHWJH 	3              	2017-05-14 23:47:24 
 
 Proveidor: 1    	Roca           	flecaroca@gremipa.com	1    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 3
+Productes: 8
 Botiga/grup: 5    	Creu Alta      
 
-No hi ha productes
+Productes: 8
 Proveidor: 2    	Prat-Manel     	manel.lacera@yahoo.es	1    
 
 Botiga/grup: 4    	La Quartera    
@@ -47,16 +59,18 @@ Proveidor: 3    	Vivo           	j06vivo@yahoo.es    	1
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 10
+Productes: 9
 Botiga/grup: 5    	Creu Alta      
 
-No hi ha productes
-Proveidor: 4    	Stock          	botigateixit@gmail.com	3    
+Productes: 6
+Proveidor: 4    	Stock          	sastrej@gmail.com   	2    
 
 Botiga/grup: 4    	La Quartera    
 
+No hi ha productes
 Botiga/grup: 5    	Creu Alta      
 
+No hi ha productes
 Proveidor: 5    	Moli de Bonsfills	gemma.raset@gmail.com	1    
 
 Botiga/grup: 4    	La Quartera    
@@ -65,35 +79,27 @@ No hi ha productes
 Botiga/grup: 5    	Creu Alta      
 
 No hi ha productes
-Proveidor: 6    	La Feixa Verda 	natixavi@hotmail.com	2    
-
-Botiga/grup: 4    	La Quartera    
-
-Productes: 101
-Botiga/grup: 5    	Creu Alta      
-
-No hi ha productes
 Proveidor: 7    	La Cleda       	david@redcluster.com	1    
-
-Botiga/grup: 4    	La Quartera    
-
-Productes: 6
-Botiga/grup: 5    	Creu Alta      
-
-No hi ha productes
-Proveidor: 9    	Carns Bayo     	rosabayo@yahoo.com  	2    
 
 Botiga/grup: 4    	La Quartera    
 
 Productes: 5
 Botiga/grup: 5    	Creu Alta      
 
-No hi ha productes
+Productes: 4
+Proveidor: 9    	Carns Bayo     	rosabayo@yahoo.com  	2    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 8
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 1
 Proveidor: 10   	Toni P.        	toniporcar@gmail.com	2    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 2
+No hi ha productes
 Botiga/grup: 5    	Creu Alta      
 
 No hi ha productes
@@ -139,15 +145,35 @@ Botiga/grup: 4    	La Quartera
 
 Botiga/grup: 5    	Creu Alta      
 
+Proveidor: 25   	La Catxaruda   	gerard@lacatxaruda.cat	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 23
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 18
+Proveidor: 26   	La Veganeria   	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
 Tancament de comandes
-Comanda numero: 773 tancada
-Comanda numero: 769 tancada
-Comanda numero: 770 tancada
-Comanda numero: 771 tancada
-Comanda numero: 772 tancada
-Comanda numero: 774 tancada
-Comanda numero: 775 tancada
-Comanda numero: 776 tancada
-Comanda numero: 777 tancada
-Comanda numero: 778 tancada
-Comanda numero: 779 tancada
+Comanda numero: 920 tancada
+Comanda numero: 911 tancada
+Comanda numero: 914 tancada
+Comanda numero: 915 tancada
+Comanda numero: 916 tancada
+Comanda numero: 917 tancada
+Comanda numero: 918 tancada
+Comanda numero: 919 tancada
+Comanda numero: 921 tancada
+Comanda numero: 922 tancada
+Comanda numero: 923 tancada
+Comanda numero: 924 tancada
+Comanda numero: 925 tancada
+Comanda numero: 926 tancada
+Comanda numero: 927 tancada
+Comanda numero: 928 tancada
+Comanda numero: 929 tancada

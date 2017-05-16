@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '122615863057c753dab1fab4-13515511',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5884931fbba522_60123400',
+  'unifunc' => 'content_59050f4eb44f94_51480184',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5884931fbba522_60123400')) {function content_5884931fbba522_60123400($_smarty_tpl) {?><!-- Block search module TOP -->
+<?php if ($_valid && !is_callable('content_59050f4eb44f94_51480184')) {function content_59050f4eb44f94_51480184($_smarty_tpl) {?><!-- Block search module TOP -->
 <div id="search_block_top" class="col-sm-4 clearfix">
 	<form id="searchbox" method="get" action="//botiga-teixitdelaterra.rhcloud.com/ca/search" >
 		<input type="hidden" name="controller" value="search" />

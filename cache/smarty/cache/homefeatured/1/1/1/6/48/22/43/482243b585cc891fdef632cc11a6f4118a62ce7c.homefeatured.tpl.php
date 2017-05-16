@@ -8,14 +8,70 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1459875527,
       2 => 'file',
     ),
+    'f63492f0aa0ba54ef685e31c1dba85b297c78105' => 
+    array (
+      0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/themes/default-bootstrap/product-list.tpl',
+      1 => 1459875527,
+      2 => 'file',
+    ),
   ),
   'nocache_hash' => '33796117157c755d2f270e6-05817732',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58c76d2e3d2316_76782138',
+  'unifunc' => 'content_5913d623932fd7_06043453',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58c76d2e3d2316_76782138')) {function content_58c76d2e3d2316_76782138($_smarty_tpl) {?><ul id="homefeatured" class="homefeatured tab-pane">
-	<li class="alert alert-info">No hi ha productes destacats ara mateix.</li>
-</ul>
+<?php if ($_valid && !is_callable('content_5913d623932fd7_06043453')) {function content_5913d623932fd7_06043453($_smarty_tpl) {?>		
+									
+		
+	
+	<!-- Products list -->
+	<ul id="homefeatured" class="product_list grid row homefeatured tab-pane">
+			
+		
+		
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line last-line first-item-of-tablet-line first-item-of-mobile-line last-mobile-line">
+			<div class="product-container" itemscope itemtype="https://schema.org/Product">
+				<div class="left-block">
+					<div class="product-image-container">
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-cleda/886-formatge-d-ovella-gran-madurat.html" title="Formatge d&#039;Ovella gran Madurat" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/img/p/ca-default-home_default.jpg" alt="Formatge d&#039;Ovella gran Madurat" title="Formatge d&#039;Ovella gran Madurat"  width="250" height="250" itemprop="image" />
+						</a>
+													<div class="quick-view-wrapper-mobile">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-cleda/886-formatge-d-ovella-gran-madurat.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-cleda/886-formatge-d-ovella-gran-madurat.html">
+								<i class="icon-eye-open"></i>
+							</a>
+						</div>
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-cleda/886-formatge-d-ovella-gran-madurat.html" rel="http://botiga-teixitdelaterra.rhcloud.com/ca/la-cleda/886-formatge-d-ovella-gran-madurat.html">
+							<span>Vista r&agrave;pida</span>
+						</a>
+																													</div>
+										
+				</div>
+				<div class="right-block">
+					<h5 itemprop="name">
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-cleda/886-formatge-d-ovella-gran-madurat.html" title="Formatge d&#039;Ovella gran Madurat" itemprop="url" >
+							Formatge d&#039;Ovella gran Madurat
+						</a>
+					</h5>
+					
+					<p class="product-desc" itemprop="description">
+						
+					</p>
+										<div class="button-container">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/ca/la-cleda/886-formatge-d-ovella-gran-madurat.html" title="Veure">
+							<span>M&eacute;s</span>
+						</a>
+					</div>
+										<div class="product-flags">
+																	</div>
+									</div>
+							</div><!-- .product-container> -->
+		</li>
+		</ul>
+
+
+
+
+
 <?php }} ?>

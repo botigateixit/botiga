@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '158650117057c957d9725495-03009428',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_588bb0f73ad907_69092586',
+  'unifunc' => 'content_590f821162da70_23840390',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_588bb0f73ad907_69092586')) {function content_588bb0f73ad907_69092586($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_590f821162da70_23840390')) {function content_590f821162da70_23840390($_smarty_tpl) {?>
 <!-- Block stores module -->
 <div id="stores_block_left" class="block">
 	<p class="title_block">

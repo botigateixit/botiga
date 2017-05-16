@@ -2,7 +2,7 @@
 <module>
 	<name>statsbestproducts</name>
 	<displayName><![CDATA[Millors productes]]></displayName>
-	<version><![CDATA[1.4.1]]></version>
+	<version><![CDATA[1.5.1]]></version>
 	<description><![CDATA[Afegeix una llista dels productes m&eacute;s venuts al tauler d&#039;estad&iacute;stica.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

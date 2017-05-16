@@ -11,26 +11,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '177232709757c755d46b7883-70209642',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58849321531f09_56944059',
+  'unifunc' => 'content_59192a3f8247f8_28898808',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58849321531f09_56944059')) {function content_58849321531f09_56944059($_smarty_tpl) {?><!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_59192a3f8247f8_28898808')) {function content_59192a3f8247f8_28898808($_smarty_tpl) {?><!-- Module HomeSlider -->
     		<div id="homepage-slider">
-						<ul id="homeslider" style="max-height:990px;">
+						<ul id="homeslider" style="max-height:2480px;">
 															<li class="homeslider-container">
-							<a href="http://picvalles.communia.info" title="IV fira agroecològica del Vallès">
-								<img src="http://botiga-teixitdelaterra.rhcloud.com/modules/homeslider/images/a364008279a53a45800d4cff6cce5234f298394c_cartell_definitiu_2.jpg" width="700" height="990" alt="IV fira agroecol&ograve;gica del Vall&egrave;s" />
-							</a>
-													</li>
-																				<li class="homeslider-container">
-							<a href="http://picvalles.communia.info" title="Setmana Agroecologia">
-								<img src="http://botiga-teixitdelaterra.rhcloud.com/modules/homeslider/images/4890f9247e1bc80a136eec59c1ad07aa52e2579a_web_penjar.jpg" width="700" height="990" alt="Setmana Agroecologia" />
-							</a>
-													</li>
-																				<li class="homeslider-container">
-							<a href="http://www.heura-cet.cat/" title="Combatre l&#039;estres a través de l&#039;alimentació">
-								<img src="http://botiga-teixitdelaterra.rhcloud.com/modules/homeslider/images/2502621cfd5f4ba2f1caca6a5b3461e131ce752c_heura.jpg" width="779" height="293" alt="Combatre l&#039;estres a trav&eacute;s de l&#039;alimentaci&oacute;" />
+							<a href="http://botiga-teixitdelaterra.rhcloud.com/ca/" title="2a Fira d&#039;Economia Social i Solidària">
+								<img src="http://botiga-teixitdelaterra.rhcloud.com/modules/homeslider/images/fdbb51af9690757c27c465a215915236d9b49ec5_cartell Fira ESS Sbd 2017.jpg" width="1772" height="2480" alt="2a Fira d&#039;Economia Social i Solid&agrave;ria" />
 							</a>
 													</li>
 												</ul>

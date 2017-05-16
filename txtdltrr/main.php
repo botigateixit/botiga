@@ -193,6 +193,8 @@ if ($rprov->num_rows > 0) {
 		$Destinatari = $rowsupplier['email'];
 		$Destinatari_rebre = "sastrej@gmail.com";
 		$Tipus_email = $rowsupplier['tipus_email'];
+		if ($provrow['id_supplier'] = 25) { 					// Codi 25 corresponent a La Catxaruda
+			$Destinatari_rebre = "gerard@lacatxaruda.cat"; } 	// amb aquest canvi enviem els dos tipus de mail a La Catxaruda
 	} else {
 		// sino hi ha proveidor a la taula tx_supplier
 		$dadeslog = "No hi ha el proveidor: ".$provrow['id_supplier']." en la taula tx_supplier".PHP_EOL;
@@ -365,7 +367,7 @@ if ($rprov->num_rows > 0) {
 			// Enviem la comanda al grup de rebre
 			echo "Enviem correu electronic grup rebre\r\n";
 			echo "Codi Proveidor: ".$provrow["id_supplier"]."\r\nNom: ".$provrow["name"]."\r\n";
-			$Subject = "Comanda proveidor: ".$provrow["name"]." ".$avui;
+			$Subject = "Comanda proveidor: ".$provrow["name"]." ".$lgrouprow[name]." ".$avui;
 			$res = EnviaCorreu ($fprovrebre,$Destinatari_rebre,$Subject);
 			if ($res != 0) { echo $res;
 			} else { echo "Correu enviat correctament \r\n";

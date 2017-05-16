@@ -2,7 +2,7 @@
 <module>
 	<name>homefeatured</name>
 	<displayName><![CDATA[Productes destacats a la p&agrave;gina d&#039;inici]]></displayName>
-	<version><![CDATA[1.6.4]]></version>
+	<version><![CDATA[1.8.1]]></version>
 	<description><![CDATA[Mostra els productes destacats a la columna central de la p&agrave;gina d&#039;inici.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

@@ -1,0 +1,780 @@
+Product ID*;Attribute (Name:Type:Position)*;Value (Value:Position)*;Quantity;Minimal quantity;Default (0 = No, 1 = Yes)
+950;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+950;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+950;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+894;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+894;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+902;Manat:select:0;1/2:0;999999999;1;0
+902;Manat:select:0;1:0;999999999;1;1
+902;Manat:select:0;1.5:0;999999999;1;0
+902;Manat:select:0;2:0;999999999;1;0
+902;Manat:select:0;3:0;999999999;1;0
+910;Manat:select:0;1/2:0;999999999;1;0
+910;Manat:select:0;1:0;999999999;1;1
+910;Manat:select:0;1.5:0;999999999;1;0
+910;Manat:select:0;2:0;999999999;1;0
+910;Manat:select:0;3:0;999999999;1;0
+918;Pes:select:0;100 grs:0;999999999;1;0
+918;Pes:select:0;1/4 KG:0;999999999;1;1
+918;Pes:select:0;1/2 KG:0;999999999;1;0
+918;Pes:select:0;3/4 KG:0;999999999;1;0
+918;Pes:select:0;1 KG:0;999999999;1;0
+918;Pes:select:0;1.5 KG:0;999999999;1;0
+918;Pes:select:0;2 KG:0;999999999;1;0
+918;Pes:select:0;3 KG:0;999999999;1;0
+918;Pes:select:0;4 KG:0;999999999;1;0
+918;Pes:select:0;5 KG:0;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+926;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+926;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+889;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+889;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+953;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+953;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+921;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+921;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+929;Pes:select:0;100 grs:0;999999999;1;0
+929;Pes:select:0;1/4 KG:0;999999999;1;1
+929;Pes:select:0;1/2 KG:0;999999999;1;0
+929;Pes:select:0;3/4 KG:0;999999999;1;0
+929;Pes:select:0;1 KG:0;999999999;1;0
+929;Pes:select:0;1.5 KG:0;999999999;1;0
+929;Pes:select:0;2 KG:0;999999999;1;0
+929;Pes:select:0;3 KG:0;999999999;1;0
+929;Pes:select:0;4 KG:0;999999999;1;0
+929;Pes:select:0;5 KG:0;999999999;1;0
+937;Pes:select:0;100 grs:0;999999999;1;0
+937;Pes:select:0;1/4 KG:0;999999999;1;1
+937;Pes:select:0;1/2 KG:0;999999999;1;0
+937;Pes:select:0;3/4 KG:0;999999999;1;0
+937;Pes:select:0;1 KG:0;999999999;1;0
+937;Pes:select:0;1.5 KG:0;999999999;1;0
+937;Pes:select:0;2 KG:0;999999999;1;0
+937;Pes:select:0;3 KG:0;999999999;1;0
+937;Pes:select:0;4 KG:0;999999999;1;0
+937;Pes:select:0;5 KG:0;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+945;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+945;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+948;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+948;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+892;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+892;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+900;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+900;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+916;Manat:select:0;1/2:0;999999999;1;0
+916;Manat:select:0;1:0;999999999;1;1
+916;Manat:select:0;1.5:0;999999999;1;0
+916;Manat:select:0;2:0;999999999;1;0
+916;Manat:select:0;3:0;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+951;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+951;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+895;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+895;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+903;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+903;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+911;Manat:select:0;1/2:0;999999999;1;0
+911;Manat:select:0;1:0;999999999;1;1
+911;Manat:select:0;1.5:0;999999999;1;0
+911;Manat:select:0;2:0;999999999;1;0
+911;Manat:select:0;3:0;999999999;1;0
+919;Pes:select:0;100 grs:0;999999999;1;0
+919;Pes:select:0;1/4 KG:0;999999999;1;1
+919;Pes:select:0;1/2 KG:0;999999999;1;0
+919;Pes:select:0;3/4 KG:0;999999999;1;0
+919;Pes:select:0;1 KG:0;999999999;1;0
+919;Pes:select:0;1.5 KG:0;999999999;1;0
+919;Pes:select:0;2 KG:0;999999999;1;0
+919;Pes:select:0;3 KG:0;999999999;1;0
+919;Pes:select:0;4 KG:0;999999999;1;0
+919;Pes:select:0;5 KG:0;999999999;1;0
+927;Pes:select:0;100 grs:0;999999999;1;0
+927;Pes:select:0;1/4 KG:0;999999999;1;1
+927;Pes:select:0;1/2 KG:0;999999999;1;0
+927;Pes:select:0;3/4 KG:0;999999999;1;0
+927;Pes:select:0;1 KG:0;999999999;1;0
+927;Pes:select:0;1.5 KG:0;999999999;1;0
+927;Pes:select:0;2 KG:0;999999999;1;0
+927;Pes:select:0;3 KG:0;999999999;1;0
+927;Pes:select:0;4 KG:0;999999999;1;0
+927;Pes:select:0;5 KG:0;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+935;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+935;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+943;Pes:select:0;100 grs:0;999999999;1;0
+943;Pes:select:0;1/4 KG:0;999999999;1;1
+943;Pes:select:0;1/2 KG:0;999999999;1;0
+943;Pes:select:0;3/4 KG:0;999999999;1;0
+943;Pes:select:0;1 KG:0;999999999;1;0
+943;Pes:select:0;1.5 KG:0;999999999;1;0
+943;Pes:select:0;2 KG:0;999999999;1;0
+943;Pes:select:0;3 KG:0;999999999;1;0
+943;Pes:select:0;4 KG:0;999999999;1;0
+943;Pes:select:0;5 KG:0;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+887;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+887;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+890;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+890;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+954;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+954;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+914;Manat:select:0;1/2:0;999999999;1;0
+914;Manat:select:0;1:0;999999999;1;1
+914;Manat:select:0;1.5:0;999999999;1;0
+914;Manat:select:0;2:0;999999999;1;0
+914;Manat:select:0;3:0;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+922;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+922;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+930;Pes:select:0;100 grs:0;999999999;1;0
+930;Pes:select:0;1/4 KG:0;999999999;1;1
+930;Pes:select:0;1/2 KG:0;999999999;1;0
+930;Pes:select:0;3/4 KG:0;999999999;1;0
+930;Pes:select:0;1 KG:0;999999999;1;0
+930;Pes:select:0;1.5 KG:0;999999999;1;0
+930;Pes:select:0;2 KG:0;999999999;1;0
+930;Pes:select:0;3 KG:0;999999999;1;0
+930;Pes:select:0;4 KG:0;999999999;1;0
+930;Pes:select:0;5 KG:0;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+946;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+946;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+949;Pes:select:0;100 grs:0;999999999;1;0
+949;Pes:select:0;1/4 KG:0;999999999;1;1
+949;Pes:select:0;1/2 KG:0;999999999;1;0
+949;Pes:select:0;3/4 KG:0;999999999;1;0
+949;Pes:select:0;1 KG:0;999999999;1;0
+949;Pes:select:0;1.5 KG:0;999999999;1;0
+949;Pes:select:0;2 KG:0;999999999;1;0
+949;Pes:select:0;3 KG:0;999999999;1;0
+949;Pes:select:0;4 KG:0;999999999;1;0
+949;Pes:select:0;5 KG:0;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+893;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+893;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+901;Pes:select:0;100 grs:0;999999999;1;0
+901;Pes:select:0;1/4 KG:0;999999999;1;1
+901;Pes:select:0;1/2 KG:0;999999999;1;0
+901;Pes:select:0;3/4 KG:0;999999999;1;0
+901;Pes:select:0;1 KG:0;999999999;1;0
+901;Pes:select:0;1.5 KG:0;999999999;1;0
+901;Pes:select:0;2 KG:0;999999999;1;0
+901;Pes:select:0;3 KG:0;999999999;1;0
+901;Pes:select:0;4 KG:0;999999999;1;0
+901;Pes:select:0;5 KG:0;999999999;1;0
+917;Manat:select:0;1/2:0;999999999;1;0
+917;Manat:select:0;1:0;999999999;1;1
+917;Manat:select:0;1.5:0;999999999;1;0
+917;Manat:select:0;2:0;999999999;1;0
+917;Manat:select:0;3:0;999999999;1;0
+925;Manat:select:0;1/2:0;999999999;1;0
+925;Manat:select:0;1:0;999999999;1;1
+925;Manat:select:0;1.5:0;999999999;1;0
+925;Manat:select:0;2:0;999999999;1;0
+925;Manat:select:0;3:0;999999999;1;0
+941;Manat:select:0;1/2:0;999999999;1;0
+941;Manat:select:0;1:0;999999999;1;1
+941;Manat:select:0;1.5:0;999999999;1;0
+941;Manat:select:0;2:0;999999999;1;0
+941;Manat:select:0;3:0;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+952;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+952;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+896;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+896;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+912;Pes:select:0;100 grs:0;999999999;1;0
+912;Pes:select:0;1/4 KG:0;999999999;1;1
+912;Pes:select:0;1/2 KG:0;999999999;1;0
+912;Pes:select:0;3/4 KG:0;999999999;1;0
+912;Pes:select:0;1 KG:0;999999999;1;0
+912;Pes:select:0;1.5 KG:0;999999999;1;0
+912;Pes:select:0;2 KG:0;999999999;1;0
+912;Pes:select:0;3 KG:0;999999999;1;0
+912;Pes:select:0;4 KG:0;999999999;1;0
+912;Pes:select:0;5 KG:0;999999999;1;0
+920;Manat:select:0;1/2:0;999999999;1;0
+920;Manat:select:0;1:0;999999999;1;1
+920;Manat:select:0;1.5:0;999999999;1;0
+920;Manat:select:0;2:0;999999999;1;0
+920;Manat:select:0;3:0;999999999;1;0
+928;Pes:select:0;100 grs:0;999999999;1;0
+928;Pes:select:0;1/4 KG:0;999999999;1;1
+928;Pes:select:0;1/2 KG:0;999999999;1;0
+928;Pes:select:0;3/4 KG:0;999999999;1;0
+928;Pes:select:0;1 KG:0;999999999;1;0
+928;Pes:select:0;1.5 KG:0;999999999;1;0
+928;Pes:select:0;2 KG:0;999999999;1;0
+928;Pes:select:0;3 KG:0;999999999;1;0
+928;Pes:select:0;4 KG:0;999999999;1;0
+928;Pes:select:0;5 KG:0;999999999;1;0
+936;Pes:select:0;100 grs:0;999999999;1;0
+936;Pes:select:0;1/4 KG:0;999999999;1;1
+936;Pes:select:0;1/2 KG:0;999999999;1;0
+936;Pes:select:0;3/4 KG:0;999999999;1;0
+936;Pes:select:0;1 KG:0;999999999;1;0
+936;Pes:select:0;1.5 KG:0;999999999;1;0
+936;Pes:select:0;2 KG:0;999999999;1;0
+936;Pes:select:0;3 KG:0;999999999;1;0
+936;Pes:select:0;4 KG:0;999999999;1;0
+936;Pes:select:0;5 KG:0;999999999;1;0
+944;Manat:select:0;1/2:0;999999999;1;0
+944;Manat:select:0;1:0;999999999;1;1
+944;Manat:select:0;1.5:0;999999999;1;0
+944;Manat:select:0;2:0;999999999;1;0
+944;Manat:select:0;3:0;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+888;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+888;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+891;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+891;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+955;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+955;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+899;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+899;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+915;Manat:select:0;1/2:0;999999999;1;0
+915;Manat:select:0;1:0;999999999;1;1
+915;Manat:select:0;1.5:0;999999999;1;0
+915;Manat:select:0;2:0;999999999;1;0
+915;Manat:select:0;3:0;999999999;1;0
+923;Pes:select:0;100 grs:0;999999999;1;0
+923;Pes:select:0;1/4 KG:0;999999999;1;1
+923;Pes:select:0;1/2 KG:0;999999999;1;0
+923;Pes:select:0;3/4 KG:0;999999999;1;0
+923;Pes:select:0;1 KG:0;999999999;1;0
+923;Pes:select:0;1.5 KG:0;999999999;1;0
+923;Pes:select:0;2 KG:0;999999999;1;0
+923;Pes:select:0;3 KG:0;999999999;1;0
+923;Pes:select:0;4 KG:0;999999999;1;0
+923;Pes:select:0;5 KG:0;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 100 grs:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 1/4 KG:1;999999999;1;1
+947;Unitats:select:0, Pes:select:1;-:0, 1/2 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 3/4 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 1 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 1.5 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 2 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 3 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 4 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;-:0, 5 KG:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;1:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;2:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;3:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;4:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;5:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;6:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;7:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;8:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;9:0, -:1;999999999;1;0
+947;Unitats:select:0, Pes:select:1;10:0, -:1;999999999;1;0
+939;Pes:select:0;100 grs:0;999999999;1;0
+939;Pes:select:0;1/4 KG:0;999999999;1;1
+939;Pes:select:0;1/2 KG:0;999999999;1;0
+939;Pes:select:0;3/4 KG:0;999999999;1;0
+939;Pes:select:0;1 KG:0;999999999;1;0
+939;Pes:select:0;1.5 KG:0;999999999;1;0
+939;Pes:select:0;2 KG:0;999999999;1;0
+939;Pes:select:0;3 KG:0;999999999;1;0
+939;Pes:select:0;4 KG:0;999999999;1;0
+939;Pes:select:0;5 KG:0;999999999;1;0
+938;Pes:select:0;100 grs:0;999999999;1;0
+938;Pes:select:0;1/4 KG:0;999999999;1;1
+938;Pes:select:0;1/2 KG:0;999999999;1;0
+938;Pes:select:0;3/4 KG:0;999999999;1;0
+938;Pes:select:0;1 KG:0;999999999;1;0
+938;Pes:select:0;1.5 KG:0;999999999;1;0
+938;Pes:select:0;2 KG:0;999999999;1;0
+938;Pes:select:0;3 KG:0;999999999;1;0
+938;Pes:select:0;4 KG:0;999999999;1;0
+938;Pes:select:0;5 KG:0;999999999;1;0
+942;Unitats:select:0;1:0;999999999;1;0
+942;Unitats:select:0;2:0;999999999;1;0
+942;Unitats:select:0;3:0;999999999;1;0
+942;Unitats:select:0;4:0;999999999;1;0
+942;Unitats:select:0;5:0;999999999;1;0
+942;Unitats:select:0;6:0;999999999;1;0
+942;Unitats:select:0;7:0;999999999;1;0
+942;Unitats:select:0;8:0;999999999;1;0
+942;Unitats:select:0;9:0;999999999;1;0
+942;Unitats:select:0;10:0;999999999;1;0
+942;Unitats:select:0;1/2:0;999999999;1;0
+942;Unitats:select:0;1/4:0;999999999;1;0
+940;Unitats:select:0;1:0;999999999;1;0
+940;Unitats:select:0;2:0;999999999;1;0
+940;Unitats:select:0;3:0;999999999;1;0
+940;Unitats:select:0;4:0;999999999;1;0
+940;Unitats:select:0;5:0;999999999;1;0
+940;Unitats:select:0;6:0;999999999;1;0
+940;Unitats:select:0;7:0;999999999;1;0
+940;Unitats:select:0;8:0;999999999;1;0
+940;Unitats:select:0;9:0;999999999;1;0
+940;Unitats:select:0;10:0;999999999;1;0
+940;Unitats:select:0;1/2:0;999999999;1;0
+940;Unitats:select:0;1/4:0;999999999;1;0
+913;Pes:select:0;100 grs:0;999999999;1;0
+913;Pes:select:0;1/4 KG:0;999999999;1;1
+913;Pes:select:0;1/2 KG:0;999999999;1;0
+913;Pes:select:0;3/4 KG:0;999999999;1;0
+913;Pes:select:0;1 KG:0;999999999;1;0
+913;Pes:select:0;1.5 KG:0;999999999;1;0
+913;Pes:select:0;2 KG:0;999999999;1;0
+913;Pes:select:0;3 KG:0;999999999;1;0
+913;Pes:select:0;4 KG:0;999999999;1;0
+913;Pes:select:0;5 KG:0;999999999;1;0

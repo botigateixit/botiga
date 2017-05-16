@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '183097167657c753dc22a654-64338142',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58a9fdfe950e18_10778588',
+  'unifunc' => 'content_590b4c92c31b77_69825112',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58a9fdfe950e18_10778588')) {function content_58a9fdfe950e18_10778588($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_590b4c92c31b77_69825112')) {function content_590b4c92c31b77_69825112($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://botiga-teixitdelaterra.rhcloud.com/es/mi-cuenta" title="Administrar mi cuenta de cliente" rel="nofollow">Mi cuenta</a></h4>

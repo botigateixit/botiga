@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '5366655257c35ff9e0de08-96533018',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58c4342053d747_18439624',
+  'unifunc' => 'content_5918cc93236c89_30602572',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58c4342053d747_18439624')) {function content_58c4342053d747_18439624($_smarty_tpl) {?>		
+<?php if ($_valid && !is_callable('content_5918cc93236c89_30602572')) {function content_5918cc93236c89_30602572($_smarty_tpl) {?>		
 									
 		
 	
@@ -31,47 +31,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		
 		
 								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-tablet-line first-item-of-mobile-line">
-			<div class="product-container" itemscope itemtype="https://schema.org/Product">
-				<div class="left-block">
-					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" title="Mandonguilles" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/472-home_default/mandonguilles.jpg" alt="Mandonguilles" title="Mandonguilles"  width="250" height="250" itemprop="image" />
-						</a>
-													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html">
-								<i class="icon-eye-open"></i>
-							</a>
-						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html">
-							<span>Vista r&aacute;pida</span>
-						</a>
-																													</div>
-										
-				</div>
-				<div class="right-block">
-					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" title="Mandonguilles" itemprop="url" >
-							Mandonguilles
-						</a>
-					</h5>
-					
-					<p class="product-desc" itemprop="description">
-						
-					</p>
-										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" title="Ver">
-							<span>M&aacute;s</span>
-						</a>
-					</div>
-										<div class="product-flags">
-																	</div>
-									</div>
-							</div><!-- .product-container> -->
-		</li>
-			
-		
-		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
@@ -112,19 +71,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			
 		
 		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line">
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/69-platan.html" title="Plàtan" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/127-home_default/platan.jpg" alt="Plàtan" title="Plàtan"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" title="Mandonguilles" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/472-home_default/mandonguilles.jpg" alt="Mandonguilles" title="Mandonguilles"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/69-platan.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/69-platan.html">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/69-platan.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/69-platan.html">
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																													</div>
@@ -132,8 +91,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/69-platan.html" title="Plàtan" itemprop="url" >
-							Plàtan
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" title="Mandonguilles" itemprop="url" >
+							Mandonguilles
 						</a>
 					</h5>
 					
@@ -141,7 +100,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 					</p>
 										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/69-platan.html" title="Ver">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/368-mandonguilles.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>
@@ -153,7 +112,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			
 		
 		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
@@ -194,19 +153,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			
 		
 		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-mobile-line">
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-in-line first-item-of-tablet-line last-item-of-mobile-line">
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/144-ous.html" title="Ous" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/207-home_default/ous.jpg" alt="Ous" title="Ous"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/583-croquetes.html" title="Croquetes" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/669-home_default/croquetes.jpg" alt="Croquetes" title="Croquetes"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/144-ous.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/144-ous.html">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/583-croquetes.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/583-croquetes.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/144-ous.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/144-ous.html">
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/583-croquetes.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/583-croquetes.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																													</div>
@@ -214,8 +173,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/144-ous.html" title="Ous" itemprop="url" >
-							Ous
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/583-croquetes.html" title="Croquetes" itemprop="url" >
+							Croquetes
 						</a>
 					</h5>
 					
@@ -223,7 +182,48 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 					</p>
 										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/144-ous.html" title="Ver">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/583-croquetes.html" title="Ver">
+							<span>M&aacute;s</span>
+						</a>
+					</div>
+										<div class="product-flags">
+																	</div>
+									</div>
+							</div><!-- .product-container> -->
+		</li>
+			
+		
+		
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 first-in-line first-item-of-mobile-line">
+			<div class="product-container" itemscope itemtype="https://schema.org/Product">
+				<div class="left-block">
+					<div class="product-image-container">
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/366-hamburguesa-all-julivert-i-pebre.html" title="Hamburguesa all, julivert i pebre" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/440-home_default/hamburguesa-all-julivert-i-pebre.jpg" alt="Hamburguesa all, julivert i pebre" title="Hamburguesa all, julivert i pebre"  width="250" height="250" itemprop="image" />
+						</a>
+													<div class="quick-view-wrapper-mobile">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/366-hamburguesa-all-julivert-i-pebre.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/366-hamburguesa-all-julivert-i-pebre.html">
+								<i class="icon-eye-open"></i>
+							</a>
+						</div>
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/366-hamburguesa-all-julivert-i-pebre.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/366-hamburguesa-all-julivert-i-pebre.html">
+							<span>Vista r&aacute;pida</span>
+						</a>
+																													</div>
+										
+				</div>
+				<div class="right-block">
+					<h5 itemprop="name">
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/366-hamburguesa-all-julivert-i-pebre.html" title="Hamburguesa all, julivert i pebre" itemprop="url" >
+							Hamburguesa all, julivert i pebre
+						</a>
+					</h5>
+					
+					<p class="product-desc" itemprop="description">
+						
+					</p>
+										<div class="button-container">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/366-hamburguesa-all-julivert-i-pebre.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>
@@ -239,15 +239,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/68-pera.html" title="Pera" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/125-home_default/pera.jpg" alt="Pera" title="Pera"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/367-hamburguesa-formemental-ceba-sofregida-i-orenga.html" title="Hamburguesa form.emental, ceba sofregida i orenga" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/471-home_default/hamburguesa-formemental-ceba-sofregida-i-orenga.jpg" alt="Hamburguesa form.emental, ceba sofregida i orenga" title="Hamburguesa form.emental, ceba sofregida i orenga"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/68-pera.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/68-pera.html">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/367-hamburguesa-formemental-ceba-sofregida-i-orenga.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/367-hamburguesa-formemental-ceba-sofregida-i-orenga.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/68-pera.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/68-pera.html">
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/367-hamburguesa-formemental-ceba-sofregida-i-orenga.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/367-hamburguesa-formemental-ceba-sofregida-i-orenga.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																													</div>
@@ -255,8 +255,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/68-pera.html" title="Pera" itemprop="url" >
-							Pera
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/367-hamburguesa-formemental-ceba-sofregida-i-orenga.html" title="Hamburguesa form.emental, ceba sofregida i orenga" itemprop="url" >
+							Hamburguesa form.emental, ceba sofregida i...
 						</a>
 					</h5>
 					
@@ -264,7 +264,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 					</p>
 										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/68-pera.html" title="Ver">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/367-hamburguesa-formemental-ceba-sofregida-i-orenga.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>
@@ -280,15 +280,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/135-ceba-seca.html" title="Ceba seca" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/198-home_default/ceba-seca.jpg" alt="Ceba seca" title="Ceba seca"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/397-total-carn.html" title="Total Carn" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/476-home_default/total-carn.jpg" alt="Total Carn" title="Total Carn"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/135-ceba-seca.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/135-ceba-seca.html">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/397-total-carn.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/397-total-carn.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/135-ceba-seca.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/135-ceba-seca.html">
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/397-total-carn.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/397-total-carn.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																													</div>
@@ -296,8 +296,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/135-ceba-seca.html" title="Ceba seca" itemprop="url" >
-							Ceba seca
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/397-total-carn.html" title="Total Carn" itemprop="url" >
+							Total Carn
 						</a>
 					</h5>
 					
@@ -305,7 +305,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 					</p>
 										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/135-ceba-seca.html" title="Ver">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/carns-bayo/397-total-carn.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>
@@ -321,15 +321,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/146-patata.html" title="Patata" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/209-home_default/patata.jpg" alt="Patata" title="Patata"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/268-l-6-iogurt-125-llimona-pac-2-ut.html" title="L 6 - Iogurt 125 llimona - pac 2 ut" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/334-home_default/l-6-iogurt-125-llimona-pac-2-ut.jpg" alt="L 6 - Iogurt 125 llimona - pac 2 ut" title="L 6 - Iogurt 125 llimona - pac 2 ut"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/146-patata.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/146-patata.html">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/268-l-6-iogurt-125-llimona-pac-2-ut.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/268-l-6-iogurt-125-llimona-pac-2-ut.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/146-patata.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/146-patata.html">
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/268-l-6-iogurt-125-llimona-pac-2-ut.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/268-l-6-iogurt-125-llimona-pac-2-ut.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																													</div>
@@ -337,8 +337,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/146-patata.html" title="Patata" itemprop="url" >
-							Patata
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/268-l-6-iogurt-125-llimona-pac-2-ut.html" title="L 6 - Iogurt 125 llimona - pac 2 ut" itemprop="url" >
+							L 6 - Iogurt 125 llimona - pac 2 ut
 						</a>
 					</h5>
 					
@@ -346,7 +346,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 					</p>
 										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/146-patata.html" title="Ver">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/268-l-6-iogurt-125-llimona-pac-2-ut.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>
@@ -362,15 +362,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/145-pastanaga.html" title="Pastanaga" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/208-home_default/pastanaga.jpg" alt="Pastanaga" title="Pastanaga"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/267-l-5-iogurt-125-maduixa-pac-2-ut.html" title="L 5 - Iogurt 125 maduixa - pac 2 ut" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/333-home_default/l-5-iogurt-125-maduixa-pac-2-ut.jpg" alt="L 5 - Iogurt 125 maduixa - pac 2 ut" title="L 5 - Iogurt 125 maduixa - pac 2 ut"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/145-pastanaga.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/145-pastanaga.html">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/267-l-5-iogurt-125-maduixa-pac-2-ut.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/267-l-5-iogurt-125-maduixa-pac-2-ut.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/145-pastanaga.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/145-pastanaga.html">
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/267-l-5-iogurt-125-maduixa-pac-2-ut.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/267-l-5-iogurt-125-maduixa-pac-2-ut.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																													</div>
@@ -378,8 +378,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/145-pastanaga.html" title="Pastanaga" itemprop="url" >
-							Pastanaga
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/267-l-5-iogurt-125-maduixa-pac-2-ut.html" title="L 5 - Iogurt 125 maduixa - pac 2 ut" itemprop="url" >
+							L 5 - Iogurt 125 maduixa - pac 2 ut
 						</a>
 					</h5>
 					
@@ -387,7 +387,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 					</p>
 										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/145-pastanaga.html" title="Ver">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/vivo/267-l-5-iogurt-125-maduixa-pac-2-ut.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>
@@ -403,15 +403,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/134-carxofa.html" title="Carxofa" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/197-home_default/carxofa.jpg" alt="Carxofa" title="Carxofa"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link" href="http://botiga-teixitdelaterra.rhcloud.com/es/prat-manel/305-llet-ampolla-descre15-l.html" title="Llet ampolla descre.1,5 L" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://botiga-teixitdelaterra.rhcloud.com/374-home_default/llet-ampolla-descre15-l.jpg" alt="Llet ampolla descre.1,5 L" title="Llet ampolla descre.1,5 L"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/134-carxofa.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/134-carxofa.html">
+							<a class="quick-view-mobile" href="http://botiga-teixitdelaterra.rhcloud.com/es/prat-manel/305-llet-ampolla-descre15-l.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/prat-manel/305-llet-ampolla-descre15-l.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/134-carxofa.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/134-carxofa.html">
+						<a class="quick-view" href="http://botiga-teixitdelaterra.rhcloud.com/es/prat-manel/305-llet-ampolla-descre15-l.html" rel="http://botiga-teixitdelaterra.rhcloud.com/es/prat-manel/305-llet-ampolla-descre15-l.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																													</div>
@@ -419,8 +419,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/134-carxofa.html" title="Carxofa" itemprop="url" >
-							Carxofa
+												<a class="product-name" href="http://botiga-teixitdelaterra.rhcloud.com/es/prat-manel/305-llet-ampolla-descre15-l.html" title="Llet ampolla descre.1,5 L" itemprop="url" >
+							Llet ampolla descre.1,5 L
 						</a>
 					</h5>
 					
@@ -428,7 +428,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						
 					</p>
 										<div class="button-container">
-												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/la-feixa-verda/134-carxofa.html" title="Ver">
+												<a class="button lnk_view btn btn-default" href="http://botiga-teixitdelaterra.rhcloud.com/es/prat-manel/305-llet-ampolla-descre15-l.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>

@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '206736389257c36425bd8024-34019727',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58c76d2db0fbe6_34031529',
+  'unifunc' => 'content_5913d6235b8cb5_67929234',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58c76d2db0fbe6_34031529')) {function content_58c76d2db0fbe6_34031529($_smarty_tpl) {?>	<!-- Menu -->
+<?php if ($_valid && !is_callable('content_5913d6235b8cb5_67929234')) {function content_5913d6235b8cb5_67929234($_smarty_tpl) {?>	<!-- Menu -->
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
 		<div class="cat-title">Menú</div>
 		<ul class="sf-menu clearfix menu-content">
-			<li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/6__la-feixa-verda" title="La Feixa Verda">La Feixa Verda</a></li>
+			<li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/25__la-catxaruda" title="La Catxaruda">La Catxaruda</a></li>
 <li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/3__vivo" title="Vivo">Vivo</a></li>
 <li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/2__prat-manel" title="Prat-Manel">Prat-Manel</a></li>
 <li><a href="http://botiga-teixitdelaterra.rhcloud.com/ca/1__roca" title="Roca">Roca</a></li>
