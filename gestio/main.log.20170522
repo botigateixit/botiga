@@ -1,0 +1,185 @@
+Dia execucio Tractament comandes: 2017-05-22 00:00:00
+
+Comandes que es tractaran
+id_order  	reference 	current_state  	date_add            
+
+===================================================================
+
+939       	KARLBCADZ 	2              	2017-05-21 17:47:46 
+
+934       	RNCEWLVDQ 	3              	2017-05-18 23:08:07 
+
+935       	NTVJLZLLT 	3              	2017-05-19 09:28:51 
+
+936       	VXFFVJEFH 	3              	2017-05-19 12:23:35 
+
+937       	RCWSCWXJL 	3              	2017-05-19 20:16:22 
+
+938       	ZDKZOHFQA 	3              	2017-05-19 20:58:06 
+
+940       	IWDCQBDVL 	3              	2017-05-21 19:09:47 
+
+941       	ASBFNBGOX 	3              	2017-05-21 19:14:49 
+
+942       	ZOZRZXTFZ 	3              	2017-05-21 19:57:59 
+
+943       	PKNVKWJZX 	3              	2017-05-21 21:37:49 
+
+944       	UIJKDRFSE 	3              	2017-05-21 21:50:51 
+
+945       	KWAHBDBYF 	3              	2017-05-21 22:52:16 
+
+946       	AOVYYQHJQ 	3              	2017-05-21 23:06:12 
+
+947       	UAFHWYMZB 	3              	2017-05-21 23:20:46 
+
+948       	FDXNKRAHO 	3              	2017-05-21 23:26:00 
+
+949       	HBCGNGIYI 	3              	2017-05-21 23:31:07 
+
+950       	PSLUPYOTB 	3              	2017-05-21 23:35:52 
+
+951       	PGROHCVAB 	3              	2017-05-21 23:48:22 
+
+952       	XBNGNHGSC 	3              	2017-05-21 23:53:40 
+
+Proveidor: 25   	Roca           	flecaroca@gremipa.com	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 24
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 18
+Proveidor: 25   	Prat-Manel     	manel.lacera@yahoo.es	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 24
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 18
+Proveidor: 25   	Vivo           	j06vivo@yahoo.es    	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 24
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 18
+Proveidor: 25   	Stock          	sastrej@gmail.com   	2    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 71
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 51
+Proveidor: 25   	Moli de Bonsfills	gemma.raset@gmail.com	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 24
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 18
+Proveidor: 25   	La Cleda       	david@redcluster.com	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 24
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 18
+Proveidor: 25   	Carns Bayo     	rosabayo@yahoo.com  	2    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 71
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 51
+Proveidor: 25   	Toni P.        	toniporcar@gmail.com	2    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 71
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 51
+Proveidor: 25   	Cal Mateu      	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Proveidor: 25   	BioBio         	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Proveidor: 25   	Varis          	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Proveidor: 25   	Puigcerver     	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Proveidor: 25   	Cal Marti      	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Proveidor: 25   	Teixit de la Terra	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Proveidor: 25   	Massaxuxes     	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Proveidor: 25   	La Catxaruda   	gerard@lacatxaruda.cat	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 24
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 18
+Proveidor: 25   	La Veganeria   	sastrej@gmail.com   	4    
+
+Botiga/grup: 4    	La Quartera    
+
+Botiga/grup: 5    	Creu Alta      
+
+Tancament de comandes
+Comanda numero: 939 tancada
+Comanda numero: 934 tancada
+Comanda numero: 935 tancada
+Comanda numero: 936 tancada
+Comanda numero: 937 tancada
+Comanda numero: 938 tancada
+Comanda numero: 940 tancada
+Comanda numero: 941 tancada
+Comanda numero: 942 tancada
+Comanda numero: 943 tancada
+Comanda numero: 944 tancada
+Comanda numero: 945 tancada
+Comanda numero: 946 tancada
+Comanda numero: 947 tancada
+Comanda numero: 948 tancada
+Comanda numero: 949 tancada
+Comanda numero: 950 tancada
+Comanda numero: 951 tancada
+Comanda numero: 952 tancada

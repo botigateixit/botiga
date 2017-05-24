@@ -1,57 +1,61 @@
-Dia execucio Tractament comandes: 2017-05-15 00:00:00
+Dia execucio Tractament comandes: 2017-05-22 00:00:00
 
 Comandes que es tractaran
 id_order  	reference 	current_state  	date_add            
 
 ===================================================================
 
-920       	ZEMPWKNLR 	2              	2017-05-14 17:36:46 
+934       	RNCEWLVDQ 	14             	2017-05-18 23:08:07 
 
-911       	UNEKOBVEX 	3              	2017-05-10 14:56:32 
+935       	NTVJLZLLT 	14             	2017-05-19 09:28:51 
 
-914       	SKDIXSDLH 	3              	2017-05-11 10:59:29 
+936       	VXFFVJEFH 	14             	2017-05-19 12:23:35 
 
-915       	FLRWTFUFW 	3              	2017-05-11 21:57:34 
+937       	RCWSCWXJL 	14             	2017-05-19 20:16:22 
 
-916       	JENKXRFQO 	3              	2017-05-13 13:08:41 
+938       	ZDKZOHFQA 	14             	2017-05-19 20:58:06 
 
-917       	QJTWWMQPC 	3              	2017-05-13 16:44:01 
+939       	KARLBCADZ 	14             	2017-05-21 17:47:46 
 
-918       	MKMSRAPBE 	3              	2017-05-14 00:18:00 
+940       	IWDCQBDVL 	14             	2017-05-21 19:09:47 
 
-919       	WWCIZUOTW 	3              	2017-05-14 12:28:04 
+941       	ASBFNBGOX 	14             	2017-05-21 19:14:49 
 
-921       	PRDDCDABJ 	3              	2017-05-14 18:42:07 
+942       	ZOZRZXTFZ 	14             	2017-05-21 19:57:59 
 
-922       	PLFEFKHFC 	3              	2017-05-14 18:44:24 
+943       	PKNVKWJZX 	14             	2017-05-21 21:37:49 
 
-923       	WFWCSMDZY 	3              	2017-05-14 20:01:21 
+944       	UIJKDRFSE 	14             	2017-05-21 21:50:51 
 
-924       	JHDTCMOZV 	3              	2017-05-14 20:46:04 
+945       	KWAHBDBYF 	14             	2017-05-21 22:52:16 
 
-925       	TOAOGRIYQ 	3              	2017-05-14 21:00:47 
+946       	AOVYYQHJQ 	14             	2017-05-21 23:06:12 
 
-926       	BZBSBTQFI 	3              	2017-05-14 22:50:44 
+947       	UAFHWYMZB 	14             	2017-05-21 23:20:46 
 
-927       	GWBAZIACA 	3              	2017-05-14 22:59:10 
+948       	FDXNKRAHO 	14             	2017-05-21 23:26:00 
 
-928       	MCDZRCGDG 	3              	2017-05-14 23:45:12 
+949       	HBCGNGIYI 	14             	2017-05-21 23:31:07 
 
-929       	EGSHEHWJH 	3              	2017-05-14 23:47:24 
+950       	PSLUPYOTB 	14             	2017-05-21 23:35:52 
+
+951       	PGROHCVAB 	14             	2017-05-21 23:48:22 
+
+952       	XBNGNHGSC 	14             	2017-05-21 23:53:40 
 
 Proveidor: 1    	Roca           	flecaroca@gremipa.com	1    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 8
+Productes: 3
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 8
+Productes: 10
 Proveidor: 2    	Prat-Manel     	manel.lacera@yahoo.es	1    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 5
+Productes: 6
 Botiga/grup: 5    	Creu Alta      
 
 No hi ha productes
@@ -59,10 +63,10 @@ Proveidor: 3    	Vivo           	j06vivo@yahoo.es    	1
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 9
+Productes: 14
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 6
+Productes: 10
 Proveidor: 4    	Stock          	sastrej@gmail.com   	2    
 
 Botiga/grup: 4    	La Quartera    
@@ -83,23 +87,23 @@ Proveidor: 7    	La Cleda       	david@redcluster.com	1
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 5
+Productes: 8
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 4
+Productes: 10
 Proveidor: 9    	Carns Bayo     	rosabayo@yahoo.com  	2    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 8
+Productes: 5
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 1
+Productes: 4
 Proveidor: 10   	Toni P.        	toniporcar@gmail.com	2    
 
 Botiga/grup: 4    	La Quartera    
 
-No hi ha productes
+Productes: 1
 Botiga/grup: 5    	Creu Alta      
 
 No hi ha productes
@@ -149,7 +153,7 @@ Proveidor: 25   	La Catxaruda   	gerard@lacatxaruda.cat	1
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 23
+Productes: 24
 Botiga/grup: 5    	Creu Alta      
 
 Productes: 18
@@ -159,21 +163,4 @@ Botiga/grup: 4    	La Quartera
 
 Botiga/grup: 5    	Creu Alta      
 
-Tancament de comandes
-Comanda numero: 920 tancada
-Comanda numero: 911 tancada
-Comanda numero: 914 tancada
-Comanda numero: 915 tancada
-Comanda numero: 916 tancada
-Comanda numero: 917 tancada
-Comanda numero: 918 tancada
-Comanda numero: 919 tancada
-Comanda numero: 921 tancada
-Comanda numero: 922 tancada
-Comanda numero: 923 tancada
-Comanda numero: 924 tancada
-Comanda numero: 925 tancada
-Comanda numero: 926 tancada
-Comanda numero: 927 tancada
-Comanda numero: 928 tancada
-Comanda numero: 929 tancada
+No hi ha comandes a tractar: 0 results

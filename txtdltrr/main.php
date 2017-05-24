@@ -193,7 +193,7 @@ if ($rprov->num_rows > 0) {
 		$Destinatari = $rowsupplier['email'];
 		$Destinatari_rebre = "sastrej@gmail.com";
 		$Tipus_email = $rowsupplier['tipus_email'];
-		if ($provrow['id_supplier'] = 25) { 					// Codi 25 corresponent a La Catxaruda
+		if ($provrow['id_supplier'] == 25) { 					// Codi 25 corresponent a La Catxaruda
 			$Destinatari_rebre = "gerard@lacatxaruda.cat"; } 	// amb aquest canvi enviem els dos tipus de mail a La Catxaruda
 	} else {
 		// sino hi ha proveidor a la taula tx_supplier
