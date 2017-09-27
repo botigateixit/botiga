@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-05-21 23:35:50
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-26 17:19:48
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/blocktopmenu/views/templates/admin/_configure/helpers/form/form.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:131327014457fd64386941f6-66218861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,19 +7,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '21befb137959e6845c34782a35abca51dea0e3b7' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/modules/blocktopmenu/views/templates/admin/_configure/helpers/form/form.tpl',
-      1 => 1494952430,
+      1 => 1495645445,
       2 => 'file',
     ),
     'bce125f339e541ba102943331102350ff30f2ba6' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/form/form.tpl',
-      1 => 1494952430,
+      1 => 1495645445,
       2 => 'file',
     ),
     '6cddf83a41fcca2cac68ee08fb57e24685cedc10' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/form/form_group.tpl',
-      1 => 1494952430,
+      1 => 1495645445,
       2 => 'file',
     ),
   ),
@@ -1165,7 +1165,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 									<?php /*  Call merged included template "helpers/form/form_group.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '131327014457fd64386941f6-66218861');
-content_59220837c73e08_91510285($_smarty_tpl);
+content_59284795363569_14663266($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "helpers/form/form_group.tpl" */?>
 								<?php } elseif ($_smarty_tpl->tpl_vars['input']->value['type']=='shop') {?>
@@ -1615,9 +1615,9 @@ function move(up)
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2017-05-21 23:35:51
+<?php /* Smarty version Smarty-3.1.19, created on 2017-05-26 17:19:49
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/form/form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_59220837c73e08_91510285')) {function content_59220837c73e08_91510285($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59284795363569_14663266')) {function content_59284795363569_14663266($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">

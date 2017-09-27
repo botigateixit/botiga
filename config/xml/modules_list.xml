@@ -114,11 +114,11 @@
 		<module name="watermark"/>
 	</modules>
 	<modules type="partner">
+		<module name="adroll"/>
 		<module name="alipay"/>
 		<module name="amzpayments"/>
 		<module name="apiway"/>
 		<module name="authorizenet"/>
-		<module name="avalaratax"/>
 		<module name="bablic"/>
 		<module name="bluesnap"/>
 		<module name="bpostshm"/>
@@ -127,10 +127,10 @@
 		<module name="ccbill"/>
 		<module name="chargeback"/>
 		<module name="chronopost"/>
+		<module name="cloudswipe"/>
 		<module name="comnpay"/>
 		<module name="correos"/>
 		<module name="cubyn"/>
-		<module name="desjardins"/>
 		<module name="digitaleo"/>
 		<module name="dotpay"/>
 		<module name="dpdfrance"/>
@@ -141,10 +141,12 @@
 		<module name="envoimoinscher"/>
 		<module name="eo_wing"/>
 		<module name="etranslation"/>
+		<module name="ewayrapid"/>
+		<module name="fcpayone"/>
+		<module name="feedbiz"/>
 		<module name="fianetfraud"/>
 		<module name="fianetsceau"/>
 		<module name="g2apay"/>
-		<module name="googleshopping"/>
 		<module name="heidelpay"/>
 		<module name="hipay_professional"/>
 		<module name="hipay"/>
@@ -155,6 +157,7 @@
 		<module name="lecabflash"/>
 		<module name="lowcostexpress"/>
 		<module name="magnalister"/>
+		<module name="mailchimpintegration"/>
 		<module name="mercadopagobr"/>
 		<module name="miwo"/>
 		<module name="mobfirst"/>
@@ -162,6 +165,7 @@
 		<module name="moneybookers"/>
 		<module name="nimblepayment"/>
 		<module name="nostotagging"/>
+		<module name="oct8ne"/>
 		<module name="ogone"/>
 		<module name="onehopsmsservice"/>
 		<module name="openpayprestashop"/>
@@ -182,7 +186,6 @@
 		<module name="pudo"/>
 		<module name="realexredirect"/>
 		<module name="rees46"/>
-		<module name="reforestaction"/>
 		<module name="salesmanago"/>
 		<module name="selldorado"/>
 		<module name="sendcloud"/>
@@ -190,7 +193,6 @@
 		<module name="seur"/>
 		<module name="shoppingfluxexport"/>
 		<module name="simplifycommerce"/>
-		<module name="skebby"/>
 		<module name="skrill"/>
 		<module name="smartsupp"/>
 		<module name="socolissimo"/>
@@ -199,10 +201,13 @@
 		<module name="steerfox"/>
 		<module name="stripe_official"/>
 		<module name="themoneytizer"/>
+		<module name="triggmine"/>
 		<module name="trustedshops"/>
 		<module name="trustedshopsintegration"/>
 		<module name="twenga"/>
+		<module name="upela"/>
 		<module name="wirecardceecheckoutseamless"/>
+		<module name="worldcoo"/>
 		<module name="worldpay"/>
 	</modules>
 </modules_list>

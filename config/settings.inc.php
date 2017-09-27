@@ -1,5 +1,5 @@
 <?php
-define('_DB_SERVER_', getenv('OPENSHIFT_MYSQL_DB_HOST').":".getenv('OPENSHIFT_MYSQL_DB_PORT'));
+define('_DB_SERVER_', getenv('MYSQL_SERVICE_HOST').":".getenv('MYSQL_SERVICE_PORT'));
 define('_DB_NAME_', 'botiga');
 define('_DB_USER_', 'webbotiga');
 define('_DB_PASSWD_', 'wbbtg15');

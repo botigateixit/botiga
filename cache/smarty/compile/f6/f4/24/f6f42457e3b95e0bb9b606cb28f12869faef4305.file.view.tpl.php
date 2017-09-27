@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-26 23:18:35
+<?php /* Smarty version Smarty-3.1.19, created on 2017-06-20 11:37:52
          compiled from "/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/stats/helpers/view/view.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:659926274583a0a3b5e4196-11023842%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f6f42457e3b95e0bb9b606cb28f12869faef4305' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/controllers/stats/helpers/view/view.tpl',
-      1 => 1475601738,
+      1 => 1495645445,
       2 => 'file',
     ),
     'dae05d83be7bd6d145fce0acd7646fe0b2b28164' => 
     array (
       0 => '/var/lib/openshift/55e615f62d5271473f000022/app-root/runtime/repo/admin292kwuviq/themes/default/template/helpers/view/view.tpl',
-      1 => 1475601738,
+      1 => 1495645445,
       2 => 'file',
     ),
   ),
@@ -21,14 +21,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_583a0a3b690132_50120715',
   'variables' => 
   array (
     'name_controller' => 0,
     'hookName' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_583a0a3b690132_50120715',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_583a0a3b690132_50120715')) {function content_583a0a3b690132_50120715($_smarty_tpl) {?>
 

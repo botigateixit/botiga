@@ -1,61 +1,53 @@
-Dia execucio Tractament comandes: 2017-05-22 00:00:00
+Dia execucio Tractament comandes: 2017-09-25 00:00:00
 
 Comandes que es tractaran
 id_order  	reference 	current_state  	date_add            
 
 ===================================================================
 
-934       	RNCEWLVDQ 	14             	2017-05-18 23:08:07 
+1159      	JPHCSZBWH 	2              	2017-09-23 19:38:50 
 
-935       	NTVJLZLLT 	14             	2017-05-19 09:28:51 
+1156      	DEDSVAXPL 	3              	2017-09-21 08:08:23 
 
-936       	VXFFVJEFH 	14             	2017-05-19 12:23:35 
+1157      	MQKKVQLHA 	3              	2017-09-23 12:44:01 
 
-937       	RCWSCWXJL 	14             	2017-05-19 20:16:22 
+1158      	VPSKLPFCZ 	3              	2017-09-23 15:39:06 
 
-938       	ZDKZOHFQA 	14             	2017-05-19 20:58:06 
+1160      	TMUPCZRZU 	3              	2017-09-24 09:39:47 
 
-939       	KARLBCADZ 	14             	2017-05-21 17:47:46 
+1161      	DFHMUAPQN 	3              	2017-09-24 14:19:29 
 
-940       	IWDCQBDVL 	14             	2017-05-21 19:09:47 
+1162      	GKXRTSCUV 	3              	2017-09-24 16:31:38 
 
-941       	ASBFNBGOX 	14             	2017-05-21 19:14:49 
+1163      	PLDWXHYOB 	3              	2017-09-24 20:13:28 
 
-942       	ZOZRZXTFZ 	14             	2017-05-21 19:57:59 
+1164      	JVNTEZSRX 	3              	2017-09-24 21:03:15 
 
-943       	PKNVKWJZX 	14             	2017-05-21 21:37:49 
+1165      	NUMSMVLOJ 	3              	2017-09-24 21:09:16 
 
-944       	UIJKDRFSE 	14             	2017-05-21 21:50:51 
+1166      	EJLUNZXJC 	3              	2017-09-24 21:33:46 
 
-945       	KWAHBDBYF 	14             	2017-05-21 22:52:16 
+1167      	GIUTJMBLX 	3              	2017-09-24 21:37:41 
 
-946       	AOVYYQHJQ 	14             	2017-05-21 23:06:12 
+1168      	CMZZUPGTX 	3              	2017-09-24 21:52:14 
 
-947       	UAFHWYMZB 	14             	2017-05-21 23:20:46 
+1169      	LURQWZMCW 	3              	2017-09-24 23:48:40 
 
-948       	FDXNKRAHO 	14             	2017-05-21 23:26:00 
-
-949       	HBCGNGIYI 	14             	2017-05-21 23:31:07 
-
-950       	PSLUPYOTB 	14             	2017-05-21 23:35:52 
-
-951       	PGROHCVAB 	14             	2017-05-21 23:48:22 
-
-952       	XBNGNHGSC 	14             	2017-05-21 23:53:40 
+1170      	GXRDRFIPK 	3              	2017-09-24 23:56:44 
 
 Proveidor: 1    	Roca           	flecaroca@gremipa.com	1    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 3
+Productes: 4
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 10
+Productes: 8
 Proveidor: 2    	Prat-Manel     	manel.lacera@yahoo.es	1    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 6
+Productes: 5
 Botiga/grup: 5    	Creu Alta      
 
 No hi ha productes
@@ -63,10 +55,10 @@ Proveidor: 3    	Vivo           	j06vivo@yahoo.es    	1
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 14
+Productes: 7
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 10
+Productes: 1
 Proveidor: 4    	Stock          	sastrej@gmail.com   	2    
 
 Botiga/grup: 4    	La Quartera    
@@ -87,23 +79,23 @@ Proveidor: 7    	La Cleda       	david@redcluster.com	1
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 8
+Productes: 6
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 10
+Productes: 15
 Proveidor: 9    	Carns Bayo     	rosabayo@yahoo.com  	2    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 5
+Productes: 4
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 4
+Productes: 1
 Proveidor: 10   	Toni P.        	toniporcar@gmail.com	2    
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 1
+No hi ha productes
 Botiga/grup: 5    	Creu Alta      
 
 No hi ha productes
@@ -153,14 +145,37 @@ Proveidor: 25   	La Catxaruda   	gerard@lacatxaruda.cat	1
 
 Botiga/grup: 4    	La Quartera    
 
-Productes: 24
+Productes: 28
 Botiga/grup: 5    	Creu Alta      
 
-Productes: 18
-Proveidor: 26   	La Veganeria   	sastrej@gmail.com   	4    
+Productes: 21
+Proveidor: 26   	La Veganeria   	laveganeria@gmail.com	1    
+
+Botiga/grup: 4    	La Quartera    
+
+Productes: 6
+Botiga/grup: 5    	Creu Alta      
+
+Productes: 11
+Proveidor: 27   	Fem arrels     	sastrej@gmail.com   	4    
 
 Botiga/grup: 4    	La Quartera    
 
 Botiga/grup: 5    	Creu Alta      
 
-No hi ha comandes a tractar: 0 results
+Tancament de comandes
+Comanda numero: 1159 tancada
+Comanda numero: 1156 tancada
+Comanda numero: 1157 tancada
+Comanda numero: 1158 tancada
+Comanda numero: 1160 tancada
+Comanda numero: 1161 tancada
+Comanda numero: 1162 tancada
+Comanda numero: 1163 tancada
+Comanda numero: 1164 tancada
+Comanda numero: 1165 tancada
+Comanda numero: 1166 tancada
+Comanda numero: 1167 tancada
+Comanda numero: 1168 tancada
+Comanda numero: 1169 tancada
+Comanda numero: 1170 tancada
