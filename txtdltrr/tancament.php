@@ -16,11 +16,11 @@ $dadeslog = "Dia execucio Tancament comandes: ".$ara.PHP_EOL.PHP_EOL;
 file_put_contents ($log, $dadeslog, FILE_APPEND);
 
 // Dades de la BBDD
-$servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
+$servername = getenv('MYSQL_SERVICE_HOST');
 $username = "webbotiga";
 $password = "wbbtg15";
 $dbname = "botiga";
-$dbport = getenv('OPENSHIFT_MYSQL_DB_PORT');
+$dbport = getenv('MYSQL_SERVICE_PORT');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname, $dbport);

@@ -1,4 +1,4 @@
-AuthUserFile /var/lib/openshift/55e615f62d5271473f000022/app-root/repo/txtdltrr/.gestio4_admin
+AuthUserFile /opt/app-root/src/txtdltrr/.gestio4_admin
 AuthName "Administracio La Quartera"
 AuthType Basic
 Require valid-user
